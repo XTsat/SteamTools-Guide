@@ -39,6 +39,8 @@ Steam++ 点击`令牌管理`-`新增`选择`Steam++ 导入`
 
 ![Steam++ 导入](/Photo/Steam%20token/import-steam++-token-dark.png)
 
+---
+
 ### 通过 **有效的2FA(二步验证)应用** 导入
 
 #### WinAuth：导出的.txt文件，通常默认命名为“winauth-日期.txt”
@@ -60,6 +62,8 @@ Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 根据软件说明，复制/导出令牌，并找到以下所需内容并依照图片输入
 
 ![其他导入](/Photo/Steam%20token/import-phone-token-dark.png)
+
+---
 
 ### 通过 安卓手机Steam 导入
 
@@ -102,6 +106,8 @@ Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 
 [安卓手机利用 ADB 免 root 导出令牌（避免暂挂）](https://keylol.com/t757408-1-1) [(其乐 Keylol)@sffxzzp](https://keylol.com/suid-218128)
 
+---
+
 ### 通过 苹果手机Steam 导入
 
 #### 通过 **苹果手机Steam 导入**（已越狱）
@@ -132,6 +138,8 @@ iOS的令牌导出可参考：
 4. `提取ipa`并使用`爱思助手等工具`安装
 5. 绑定令牌并备份数据
 
+---
+
 ### 通过 **登录Steam账号** 导入
 
 此方案最为简单，如下图直接通过Steam账号登录即可，但请**注意**：**本方案将解除手机端令牌并导致15天的市场交易暂挂**
@@ -158,6 +166,14 @@ iOS的令牌导出可参考：
 
     ![导出](/Photo/Steam%20token/export-dark.png)
 
+---
+
 ### 通过 **手机Steam** 导入
 
 请参阅 [通过 **有效的2FA(二步验证)应用** 导入](#通过-有效的2fa二步验证应用-导入) / [通过 安卓手机Steam 导入](#通过-安卓手机steam-导入) / [通过 苹果手机Steam 导入](#通过-苹果手机steam-导入) 章节
+
+---
+
+[返回目录](#如何导入-steam-令牌)
+
+[返回 Steam++ 指南](/README.md)

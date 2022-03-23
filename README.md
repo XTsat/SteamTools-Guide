@@ -1,6 +1,6 @@
 # Steam++ 指南
 
-**注意**：此教程具有一定的时效性，截止最后一次更新时间为`2022年3月23日`，steam++ 版本为`Steam++ x64 v2.6.9 for windows`
+**注意**：此教程具有一定的时效性，截止最后一次更新时间为`2022年3月23日`，steam++ 版本为 `Steam++ x64 v2.6.9 for windows`
 
 目录
 
@@ -168,3 +168,9 @@ Steam 游戏成就解锁：使用开源项目[SteamAchievementManager](https://g
 [如何导入steam令牌](/Docs/How%20to%20import%20Steam%20token.md)
 
 [steam++令牌导入教程](https://keylol.com/t710508-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278)
+
+[steam++令牌导入教程](https://www.bilibili.com/read/cv10145839) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
+
+---
+
+[回到目录](#steam-指南)
