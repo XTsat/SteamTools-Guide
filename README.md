@@ -47,7 +47,7 @@
 - 还能解除 **Steam 商店**的**访问限制**，包括但不限于：`您所在的地区目前不提供此物品` `此游戏标记为“仅限成人”。您看到此游戏是因为您   已将偏好设置为允许此类内容。`
 
   <details>
-  <summary>常见问题</summary>
+  <summary><b>常见问题</b></summary>
 
   > Q: hosts 正在由另一进程使用，因此该进程无法访问此文件？
   >
@@ -77,7 +77,7 @@
   ![账户切换](/Photo/Home/Account-switching-dark.png#gh-dark-mode-only)
 
   <details>
-  <summary>常见问题</summary>
+  <summary><b>常见问题</b></summary>
 
   > Q: 账号切换之后还是需要输入密码和令牌？为什么有时候可以一键切换有时候不行？
   >
@@ -106,7 +106,7 @@
   ![自动挂游戏时长](/Photo/Home/Auto-Gametime-dark.png#gh-dark-mode-only)
 
   <details>
-  <summary>Steam 游戏成就解锁：</summary>
+  <summary><b>Steam 游戏成就解锁：</b></summary>
 
   Steam 游戏成就解锁使用开源项目 [SteamAchievementManager](https://github.com/gibbed/SteamAchievementManager)
 
