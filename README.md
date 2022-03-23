@@ -72,84 +72,81 @@
   
 ### [账号切换 (Windows / Linux / macOS Only)](#账号切换)
 
-通过 Steam **默认保存**的**凭证信息**一键切换已在当前 PC 上登录过的 Steam 账号，并且可以一键离线登录，还能管理家庭共享库排序等功能。
+- 通过 Steam **默认保存**的**凭证信息**一键切换已在当前 PC 上登录过的 Steam 账号，并且可以一键离线登录，还能管理家庭共享库排序等功能。
 
-![账户切换](/Photo/Home/Account-switching.png#gh-light-mode-only)
-![账户切换](/Photo/Home/Account-switching-dark.png#gh-dark-mode-only)
+  ![账户切换](/Photo/Home/Account-switching.png#gh-light-mode-only)
+  ![账户切换](/Photo/Home/Account-switching-dark.png#gh-dark-mode-only)
 
-> Q: 账号切换之后还是需要输入密码和令牌？为什么有时候可以一键切换有时候不行？
->
-> A: Steam++ 的账号切换功能并没有记录你的密码和令牌， 能实现快速切换账号是因为 Steam 本身的记住密码功能， 如果你没有记住密码登陆过账号，或者你的记住登陆状态丢失， 都会导致账号切换之后需要密码和令牌，解决方法是下线所有当前 Steam 登陆的设备， 重新在你的 PC 记住密码登陆一次。
+  > Q: 账号切换之后还是需要输入密码和令牌？为什么有时候可以一键切换有时候不行？
+  >
+  > A: Steam++ 的账号切换功能并没有记录你的密码和令牌， 能实现快速切换账号是因为 Steam 本身的记住密码功能， 如果你没有记住密码登陆  过账号，或者你的记住登陆状态丢失， 都会导致账号切换之后需要密码和令牌，解决方法是下线所有当前 Steam 登陆的设备， 重新在你的 PC 记 住密码登陆一次。
 
-[家庭库共享](https://help.steampowered.com/zh-cn/faqs/view/57A7-503C-991F-E9A8)(Steam 客服)
+  [家庭库共享](https://help.steampowered.com/zh-cn/faqs/view/57A7-503C-991F-E9A8)(Steam 客服)
 
-调整当前设备上共享的 Steam 账号优先级顺序，用于解决想玩账号B的共享却一直使用的是账号A的共享这种问题，从上到下的排序为共享库使用的优先级顺序，也可以选择暂时禁用或启用指定账号的共享。调整后保存重启 Steam 生效！
-![家庭共享](/Photo/Home/Family-Library-Sharing.png#gh-light-mode-only)
-![家庭共享](/Photo/Home/Family-Library-Sharing-dark.png#gh-dark-mode-only)
+  调整当前设备上共享的 Steam 账号优先级顺序，用于解决想玩账号B的共享却一直使用的是账号A的共享这种问题，从上到下的排序为共享库使用的优 先级顺序，也可以选择暂时禁用或启用指定账号的共享。调整后保存重启 Steam 生效！
+  ![家庭共享](/Photo/Home/Family-Library-Sharing.png#gh-light-mode-only)
+  ![家庭共享](/Photo/Home/Family-Library-Sharing-dark.png#gh-dark-mode-only)
 
 ### [库存管理 (Windows / Linux / macOS Only)](#库存管理)
 
-让您直接管理到 Steam 游戏库存，不仅能够下载老版本的 Steam 游戏，也能够对 Steam 游戏成就进行直接管理，支持解锁成就以及反解锁成就。
+- 让您直接管理到 Steam 游戏库存，不仅能够下载老版本的 Steam 游戏，也能够对 Steam 游戏成就进行直接管理，支持解锁成就以及反解锁成就。
 
-可以使用 Steam 下载完成定时关机使无人下载完成后能减少不必要的耗电(比如晚上睡觉自动下载完成后自动关机)
+- 可以使用 Steam 下载完成定时关机使无人下载完成后能减少不必要的耗电(比如晚上睡觉自动下载完成后自动关机)
 
-![自动关机](/Photo/Home/Auto-shutdown.png#gh-light-mode-only)
-![自动关机](/Photo/Home/Auto-shutdown-dark.png#gh-dark-mode-only)
+  ![自动关机](/Photo/Home/Auto-shutdown.png#gh-light-mode-only)
+  ![自动关机](/Photo/Home/Auto-shutdown-dark.png#gh-dark-mode-only)
 
-还可以自定义启动 Steam++ 后挂游戏时长的功能
+- 还可以自定义启动 Steam++ 后挂游戏时长的功能
 
-![自动挂游戏时长](/Photo/Home/Auto-Gametime.png#gh-light-mode-only)
-![自动挂游戏时长](/Photo/Home/Auto-Gametime-dark.png#gh-dark-mode-only)
+  ![自动挂游戏时长](/Photo/Home/Auto-Gametime.png#gh-light-mode-only)
+  ![自动挂游戏时长](/Photo/Home/Auto-Gametime-dark.png#gh-dark-mode-only)
 
-Steam 游戏成就解锁：使用开源项目 [SteamAchievementManager](https://github.com/gibbed/SteamAchievementManager)
+- Steam 游戏成就解锁：使用开源项目 [SteamAchievementManager](https://github.com/gibbed/SteamAchievementManager)
 
-> 该功能带有一定(低)风险，理论上不会被 VAC，但如果滥用可能被游戏厂商拉黑，建议在不启动游戏的情况下使用，截至目前为止还未有负面影响。
-解锁成就功能并不是外挂程序，原理上仅与 Steam 进行通信，和游戏本身并无关系，像 VAC 之类的反作弊系统是在多人游戏中发挥作用。
-如果游戏与其他平台绑定，解锁成就不会同步到其他平台上，如果重新完成成就，其他平台上也可能不会更新，例如 Sea of Thieves 与 Xbox 绑定。
+  > 该功能带有一定(低)风险，理论上不会被 VAC，但如果滥用可能被游戏厂商拉黑，建议在不启动游戏的情况下使用，截至目前为止还未有负面影  响。
+  解锁成就功能并不是外挂程序，原理上仅与 Steam 进行通信，和游戏本身并无关系，像 VAC 之类的反作弊系统是在多人游戏中发挥作用。
+  如果游戏与其他平台绑定，解锁成就不会同步到其他平台上，如果重新完成成就，其他平台上也可能不会更新，例如 Sea of Thieves 与 Xbox 绑  定。
 
-![Sam](/Photo/Home/Sam.png#gh-light-mode-only)
-![Sam](/Photo/Home/Sam-dark.png#gh-dark-mode-only)
+  ![Sam](/Photo/Home/Sam.png#gh-light-mode-only)
+  ![Sam](/Photo/Home/Sam-dark.png#gh-dark-mode-only)
 
-通过勾选成就并保存成就更改(**注意**：最好不要对有 `VAC` 的游戏进行成就更改，以免造成不必要的损失，下图就是一个有 `VAC` 的游戏)
+  通过勾选成就并保存成就更改(**注意**：最好不要对有 `VAC` 的游戏进行成就更改，以免造成不必要的损失，下图就是一个有 `VAC` 的游戏)
 
-![Sam2](/Photo/Home/Sam2.png#gh-light-mode-only)
-![Sam2](/Photo/Home/Sam2-dark.png#gh-dark-mode-only)
+  ![Sam2](/Photo/Home/Sam2.png#gh-light-mode-only)
+  ![Sam2](/Photo/Home/Sam2-dark.png#gh-dark-mode-only)
   
 ### [本地令牌 (Support Windows / Linux / macOS / Android)](#本地令牌)
 
->让您的手机令牌统一保存在电脑中，目前仅支持 Steam 令牌，后续会开发支持更多的令牌种类与云同步令牌。
+- 让您的手机令牌统一保存在电脑中，目前仅支持 Steam 令牌，后续会开发支持更多的令牌种类与云同步令牌。
 
-类似于 `WinAuth` (可以通过导出的方式将 `WinAuth 2步验证` 导入 `Steam++`，使用[开源项目Winauth](https://github.com/winauth/winauth))
+- 类似于 `WinAuth` (可以通过导出的方式将 `WinAuth 2步验证` 导入 `Steam++`，使用[开源项目Winauth](https://github.com/winauth/  winauth))
 
-[如何导入steam令牌](/Docs/How%20to%20import%20Steam%20token.md)
+  [如何导入steam令牌](/Docs/How%20to%20import%20Steam%20token.md)
 
-[steam++令牌导入教程](https://keylol.com/t710508-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278)
+  [steam++令牌导入教程](https://keylol.com/t710508-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278)
 
-[steam++令牌导入教程](https://www.bilibili.com/read/cv10145839) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
-
+  [steam++令牌导入教程](https://www.bilibili.com/read/cv10145839) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
 
 ### [自动挂卡 (Support Windows / Linux / macOS / Android)](#自动挂卡)
 
-集成开源项目 [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) 在应用内提供挂机掉落 `Steam 集换式卡牌` 等功能。
+- 集成开源项目 [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) 在应用内提供挂机掉落 `Steam 集换式卡牌` 等功  能。
 
-[最简单的ASF食用手册](https://keylol.com/t770760-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278)
+- [最简单的ASF食用手册](https://keylol.com/t770760-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278)
 
 ### [游戏工具 (Windows Only)](#游戏工具)
 
->强制游戏窗口使用无边框窗口化
+- 可以强制游戏窗口使用无边框窗口化或是全屏，也可以将游戏画面置于桌面壁纸上(与动态壁纸软件冲突)
 
-可以强制游戏无边框或是全屏，也可以将游戏画面置于桌面壁纸上(与动态壁纸软件冲突)
-
-![游戏工具](Photo/Home/Game-Setting.png#gh-light-mode-only)
-![游戏工具](Photo/Home/Game-Setting-dark.png#gh-dark-mode-only)
+  ![游戏工具](Photo/Home/Game-Setting.png#gh-light-mode-only)
+  ![游戏工具](Photo/Home/Game-Setting-dark.png#gh-dark-mode-only)
 
 ## [如何导入steam令牌](/Docs/How%20to%20import%20Steam%20token.md)
 
-[如何导入steam令牌](/Docs/How%20to%20import%20Steam%20token.md)
+- [如何导入steam令牌](/Docs/How%20to%20import%20Steam%20token.md)
 
-[steam++令牌导入教程](https://keylol.com/t710508-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278)
+- [steam++令牌导入教程](https://keylol.com/t710508-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278)
 
-[steam++令牌导入教程](https://www.bilibili.com/read/cv10145839) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
+- [steam++令牌导入教程](https://www.bilibili.com/read/cv10145839) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
 
 ---
 
