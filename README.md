@@ -87,7 +87,8 @@
 
   [家庭库共享](https://help.steampowered.com/zh-cn/faqs/view/57A7-503C-991F-E9A8)(Steam 客服)
 
-  调整当前设备上共享的 Steam 账号优先级顺序，用于解决想玩账号B的共享却一直使用的是账号A的共享这种问题，从上到下的排序为共享库使用的优 先级顺序，也可以选择暂时禁用或启用指定账号的共享。调整后保存重启 Steam 生效！
+  调整当前设备上共享的 Steam 账号优先级顺序，用于解决想玩账号B的共享却一直使用的是账号A的共享这种问题，从上到下的排序为共享库使用的优先级顺序，也可以选择暂时禁用或启用指定账号的共享。调整后保存重启 Steam 生效！
+
   ![家庭共享](/Photo/Home/Family-Library-Sharing.png#gh-light-mode-only)
   ![家庭共享](/Photo/Home/Family-Library-Sharing-dark.png#gh-dark-mode-only)
 
