@@ -2,7 +2,7 @@
 
 **注意**：此教程具有一定的时效性，截止最后一次更新时间为`2022年3月23日`，~~steam++ 版本为`Steam++ x64 v2.6.9 for windows`~~
 
-文章来源[steam++令牌导入教程](https://keylol.com/t710508-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278)`本帖当前对应Steam++版本为：2.4.11`
+文章来源 [steam++令牌导入教程](https://keylol.com/t710508-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278) `本帖当前对应Steam++版本为：2.4.11`
 
 已授权转载及修改，本文仅做部分修改(部分少见步骤的本文省略，在原本的基础上优化常用的步骤)
 
