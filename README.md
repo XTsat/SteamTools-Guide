@@ -16,6 +16,10 @@
     - [自动挂卡 (Support Windows / Linux / macOS / Android)](#自动挂卡-support-windows--linux--macos--android)
     - [游戏工具 (Windows Only)](#游戏工具-windows-only)
   - [如何导入steam令牌](#如何导入steam令牌)
+  - [常见问题解决办法](#常见问题解决办法)
+    - [host](#host)
+      - [host 文件为只读，修改失败](#host-文件为只读修改失败)
+      - [程序崩溃后无法连接网络](#程序崩溃后无法连接网络)
 
 ## 什么是 Steam++？
 
@@ -36,7 +40,7 @@
 
 ## Steam++ 有什么功能
 
-### [网络加速 (Support Windows / Linux / macOS / Android)](#网络加速)
+### 网络加速 (Support Windows / Linux / macOS / Android)
 
 - 实现对 `Steam` `Discord` `Twitch` `Origin` `Uplay` `GitHub` `Microsoft Store` `谷歌验证码` `Pixiv` 等国内难以访问的网页正常访问，防止网络被干扰
 
@@ -63,13 +67,13 @@
 
   </details>
 
-### [脚本配置 (Windows / Linux / macOS Only)](#脚本配置)
+### 脚本配置 (Windows / Linux / macOS Only)
 
 - 通过加速服务拦截网络请求将一些 JS 脚本注入在网页中(Steam内置浏览器)，提供类似网页插件的功能。使 Steam 内置的浏览器可以使用部分脚本
 
 - 比如 `Steam历史最低价格查询` `Steam Economy Enhancer(Steam 市场增强)` `CSGO Market Tool(CSGO市场查询枪支磨损值)`
   
-### [账号切换 (Windows / Linux / macOS Only)](#账号切换)
+### 账号切换 (Windows / Linux / macOS Only)
 
 - 通过 Steam **默认保存**的**凭证信息**一键切换已在当前 PC 上登录过的 Steam 账号，并且可以一键离线登录，还能管理家庭共享库排序等功能。
 
@@ -92,7 +96,7 @@
   ![家庭共享](/Photo/Home/Family-Library-Sharing.png#gh-light-mode-only)
   ![家庭共享](/Photo/Home/Family-Library-Sharing-dark.png#gh-dark-mode-only)
 
-### [库存管理 (Windows / Linux / macOS Only)](#库存管理)
+### 库存管理 (Windows / Linux / macOS Only)
 
 - 让您直接管理到 Steam 游戏库存，不仅能够下载老版本的 Steam 游戏，也能够对 Steam 游戏成就进行直接管理，支持解锁成就以及反解锁成就。
 
@@ -123,7 +127,7 @@
 
   </details>
 
-### [本地令牌 (Support Windows / Linux / macOS / Android)](#本地令牌)
+### 本地令牌 (Support Windows / Linux / macOS / Android)
 
 - 让您的手机令牌统一保存在电脑中，目前仅支持 Steam 令牌，后续会开发支持更多的令牌种类与云同步令牌。
 
@@ -135,13 +139,13 @@
 
   [steam++令牌导入教程](https://www.bilibili.com/read/cv10145839) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
 
-### [自动挂卡 (Support Windows / Linux / macOS / Android)](#自动挂卡)
+### 自动挂卡 (Support Windows / Linux / macOS / Android)
 
 - 集成开源项目 [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) 在应用内提供挂机掉落 `Steam 集换式卡牌` 等功能。
 
 - [最简单的ASF食用手册](https://keylol.com/t770760-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278)
 
-### [游戏工具 (Windows Only)](#游戏工具)
+### 游戏工具 (Windows Only)
 
 - 可以强制游戏窗口使用无边框窗口化或是全屏，也可以将游戏画面置于桌面壁纸上(与动态壁纸软件冲突)
 
@@ -155,6 +159,24 @@
 - [steam++令牌导入教程](https://keylol.com/t710508-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278)
 
 - [steam++令牌导入教程](https://www.bilibili.com/read/cv10145839) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
+
+## 常见问题解决办法
+
+### host
+
+#### host 文件为只读，修改失败
+
+请前往 `C:\Windows\System32\drivers\etc` ，右击`host`文件，打开 `属性` ，取消下面的 `只读` 选项。
+
+只读也可能是被其他软件占用，或者因杀毒软件拦截导致的，如果 `hosts` 文件没有自定义的内容，可以先删除该文件后再启动，或者使用 系统代理模式，文件位于 `C:\Windows\System32\drivers\etc\hosts`
+
+#### 程序崩溃后无法连接网络
+
+程序加速过程中崩溃后，社区/游戏服务器无法连接是因为崩溃后写入的 `127.0.0.1` 未被正常消除，可以取消加速后重新打开，也可以手动清理掉 `host` 文件
+
+>崩溃后无网络的问题，是因为加速和停止加速本来有正常的逻辑要执行，因为在加速中将程序强退了，所以停止加速的逻辑没执行，也就没还原加速所修改的配置导致的。
+>
+>遇到这个问题可以尝试还原hosts文件，关闭windows系统代理，重置网络服务
 
 ---
 
