@@ -1,5 +1,8 @@
 # Steam++ 指南
 
+![](https://img.shields.io/badge/-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80-brightgreen)
+![](https://img.shields.io/badge/-%E7%BD%91%E9%A1%B5%E5%9C%B0%E5%9D%80-brightgreen)
+
 **注意**：此教程具有一定的时效性，截止最后一次更新时间为`2022年3月29日`，steam++ 版本为 `Steam++ x64 v2.6.9 for windows`
 
 <!-- 目录
