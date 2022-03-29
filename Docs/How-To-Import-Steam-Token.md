@@ -6,7 +6,6 @@
 
 已授权转载及修改，本文基于原文优化
 
-<!-- 
 目录
 
 - [如何导入 Steam 令牌](#如何导入-steam-令牌)
@@ -27,7 +26,6 @@
   - [Android 端 Steam++](#android-端-steam)
     - [通过 新版Steam++ 导入](#通过-新版steam-导入)
     - [通过 手机Steam 导入](#通过-手机steam-导入)
- -->
 
 ## PC 端 Steam++
 
@@ -39,15 +37,8 @@
 
 Steam++ 点击`令牌管理`-`新增`选择`Steam++ 导入`
 
-<!-- 
 ![Steam++ 导入](./Photo/../../Photo/Steam%20token/import-steam++-token.png#gh-light-mode-only)
 ![Steam++ 导入](./Photo/../../Photo/Steam%20token/import-steam++-token-dark.png#gh-dark-mode-only)
--->
-
-<picture>
-<source srcset="./Photo/../../Photo/Steam%20token/import-steam++-token-dark.png" media="(prefers-color-scheme: dark)">
-<img src="./Photo/../../Photo/Steam%20token/import-steam++-token.png" alt="">
-</picture>
 
 ---
 
@@ -67,15 +58,8 @@ Steam++ 点击`令牌管理`-`新增`选择`Steam++ 导入`
 
 Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 
-<!-- 
 ![软件导入](./Photo/../../Photo/Steam%20token/import-other-token.png#gh-light-mode-only)
 ![软件导入](./Photo/../../Photo/Steam%20token/import-other-token-dark.png#gh-dark-mode-only)
- -->
-
-<picture>
-<source srcset="./Photo/../../Photo/Steam%20token/import-other-token-dark.png" media="(prefers-color-scheme: dark)">
-<img src="./Photo/../../Photo/Steam%20token/import-other-token.png" alt="">
-</picture>
 
 [steam++令牌导入教程-从Steam Desktop Authenticator导入](https://www.bilibili.com/read/cv10145788) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
 
@@ -83,15 +67,8 @@ Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 
 根据软件说明，复制/导出令牌，并找到以下所需内容并依照图片输入
 
-<!-- 
 ![其他导入](./Photo/../../Photo/Steam%20token/import-phone-token.png#gh-light-mode-only)
 ![其他导入](./Photo/../../Photo/Steam%20token/import-phone-token-dark.png#gh-dark-mode-only)
- -->
-
-<picture>
-<source srcset="./Photo/../../Photo/Steam%20token/import-phone-token-dark.png" media="(prefers-color-scheme: dark)">
-<img src="./Photo/../../Photo/Steam%20token/import-phone-token.png" alt="">
-</picture>
 
 ---
 
@@ -174,15 +151,8 @@ iOS的令牌导出可参考：
 
 此方案最为简单，如下图直接通过Steam账号登录即可，但请**注意**：`本方案将解除手机端令牌并导致15天的市场交易暂挂`
 
-<!-- 
 ![Steam 账号登入](./Photo/../../Photo/Steam%20token/Sign-token.png#gh-light-mode-only)
 ![Steam 账号登入](./Photo/../../Photo/Steam%20token/Sign-token-dark.png#gh-dark-mode-only)
--->
-
-<picture>
-<source srcset="(./Photo/../../Photo/Steam%20token/Sign-token-dark.png" media="(prefers-color-scheme: dark)">
-<img src="./Photo/../../Photo/Steam%20token/Sign-token.png" alt="">
-</picture>
 
 - 你的 Steam 账号和密码，此操作会解除原有令牌，导致账号进入暂挂状态（15天内无法市场交易）
 
@@ -195,29 +165,16 @@ iOS的令牌导出可参考：
 1. 通过 扫码 导入
 
     在PC端点击如图所示`导出为二维码`按钮，在手机端点击 `右上角加号`-->`新增` 进行扫码
-<!-- 
+
     ![扫码](./Photo/../../Photo/Steam%20token/QR-Code.png#gh-light-mode-only)
     ![扫码](./Photo/../../Photo/Steam%20token/QR-Code-dark.png#gh-dark-mode-only)
--->
 
-<picture>
-<source srcset="./Photo/../../Photo/Steam%20token/QR-Code-dark.png" media="(prefers-color-scheme: dark)">
-<img src="./Photo/../../Photo/Steam%20token/QR-Code.png" alt="">
-</picture>
-
-1. 通过 文件 导入
+2. 通过 文件 导入
 
     在PC端点击如图所示`导出`按钮并`确认导出`，将导出的文件发送至手机，在手机端点击 `右上角加号`-->`新增` 进行导入
 
-<!-- 
     ![导出](./Photo/../../Photo/Steam%20token/export.png#gh-light-mode-only)
     ![导出](./Photo/../../Photo/Steam%20token/export-dark.png#gh-dark-mode-only)
--->
-
-<picture>
-<source srcset="./Photo/../../Photo/Steam%20token/export-dark.png" media="(prefers-color-scheme: dark)">
-<img src="./Photo/../../Photo/Steam%20token/export.png" alt="">
-</picture>
 
 ---
 
