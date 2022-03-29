@@ -1,6 +1,6 @@
 # Steam++ 指南
 
-**注意**：此教程具有一定的时效性，截止最后一次更新时间为`2022年3月23日`，steam++ 版本为 `Steam++ x64 v2.6.9 for windows`
+**注意**：此教程具有一定的时效性，截止最后一次更新时间为`2022年3月29日`，steam++ 版本为 `Steam++ x64 v2.6.9 for windows`
 
 目录
 
@@ -161,6 +161,13 @@
 - [steam++令牌导入教程](https://www.bilibili.com/read/cv10145839) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
 
 ## 常见问题解决办法
+
+遇到问题可以先尝试更新到最新版本，可能新版本已经修复了问题
+
+点 `关于` `检查更新` 即可
+
+![检查更新](Photo/Home/Setting-Update.png#gh-light-mode-only)
+![检查更新](Photo/Home/Setting-Update-dark.png#gh-dark-mode-only)
 
 ### host
 
