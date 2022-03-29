@@ -1,29 +1,9 @@
 # Steam++ 指南
 
-![仓库地址](https://img.shields.io/badge/-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80-brightgreen)
-![网页地址](https://img.shields.io/badge/-%E7%BD%91%E9%A1%B5%E5%9C%B0%E5%9D%80-brightgreen)
+[![仓库地址](https://img.shields.io/badge/-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80-brightgreen)](https://github.com/XTsat/SteamTools-Guide)
+[![网页地址](https://img.shields.io/badge/-%E7%BD%91%E9%A1%B5%E5%9C%B0%E5%9D%80-brightgreen)](https://xtsat.github.io/SteamTools-Guide/)
 
 **注意**：此教程具有一定的时效性，截止最后一次更新时间为`2022年3月29日`，steam++ 版本为 `Steam++ x64 v2.6.9 for windows`
-
-<!-- 目录
-
-- [Steam++ 指南](#steam-指南)
-  - [什么是 Steam++？](#什么是-steam)
-  - [怎么下载 Steam++](#怎么下载-steam)
-  - [Steam++ 有什么功能](#steam-有什么功能)
-    - [网络加速 (Support Windows / Linux / macOS / Android)](#网络加速-support-windows--linux--macos--android)
-    - [脚本配置 (Windows / Linux / macOS Only)](#脚本配置-windows--linux--macos-only)
-    - [账号切换 (Windows / Linux / macOS Only)](#账号切换-windows--linux--macos-only)
-    - [库存管理 (Windows / Linux / macOS Only)](#库存管理-windows--linux--macos-only)
-    - [本地令牌 (Support Windows / Linux / macOS / Android)](#本地令牌-support-windows--linux--macos--android)
-    - [自动挂卡 (Support Windows / Linux / macOS / Android)](#自动挂卡-support-windows--linux--macos--android)
-    - [游戏工具 (Windows Only)](#游戏工具-windows-only)
-  - [如何导入steam令牌](#如何导入steam令牌)
-  - [常见问题解决办法](#常见问题解决办法)
-    - [host](#host)
-      - [host 文件为只读，修改失败](#host-文件为只读修改失败)
-      - [程序崩溃后无法连接网络](#程序崩溃后无法连接网络)
--->
 
 ## 什么是 Steam++？
 
@@ -81,11 +61,6 @@
 
 - 通过 Steam **默认保存**的**凭证信息**一键切换已在当前 PC 上登录过的 Steam 账号，并且可以一键离线登录，还能管理家庭共享库排序等功能。
 
-<!-- 
-![账户切换](./Photo/Home/Account-switching.png#gh-light-mode-only)
-![账户切换](./Photo/Home/Account-switching-dark.png#gh-dark-mode-only)
--->
-
 <picture>
 <source srcset="./Photo/Home/Account-switching-dark.png" media="(prefers-color-scheme: dark)">
 <img src="./Photo/Home/Account-switching.png" alt="">
@@ -104,11 +79,6 @@
 
 调整当前设备上共享的 Steam 账号优先级顺序，用于解决想玩账号B的共享却一直使用的是账号A的共享这种问题，从上到下的排序为共享库使用的优先级顺序，也可以选择暂时禁用或启用指定账号的共享。调整后保存重启 Steam 生效！
 
-<!-- 
-![家庭共享](./Photo/Home/Family-Library-Sharing.png#gh-light-mode-only)
-![家庭共享](./Photo/Home/Family-Library-Sharing-dark.png#gh-dark-mode-only)
--->
-
 <picture>
 <source srcset="./Photo/Home/Family-Library-Sharing-dark.png" media="(prefers-color-scheme: dark)">
 <img src="./Photo/Home/Family-Library-Sharing.png" alt="">
@@ -120,22 +90,12 @@
 
 - 可以使用 Steam 下载完成定时关机使无人下载完成后能减少不必要的耗电(比如晚上睡觉自动下载完成后自动关机)
 
-<!-- 
-  ![自动关机](./Photo/Home/Auto-shutdown.png#gh-light-mode-only)
-  ![自动关机](./Photo/Home/Auto-shutdown-dark.png#gh-dark-mode-only)
- -->
-
 <picture>
 <source srcset="./Photo/Home/Auto-shutdown-dark.png" media="(prefers-color-scheme: dark)">
 <img src="./Photo/Home/Auto-shutdown.png" alt="">
 </picture>
 
 - 还可以自定义启动 Steam++ 后挂游戏时长的功能
-
-<!-- 
-![自动挂游戏时长](./Photo/Home/Auto-Gametime.png#gh-light-mode-only)
-![自动挂游戏时长](./Photo/Home/Auto-Gametime-dark.png#gh-dark-mode-only)
- -->
 
 <picture>
 <source srcset="./Photo/Home/Auto-Gametime-dark.png" media="(prefers-color-scheme: dark)">
@@ -149,22 +109,12 @@ Steam 游戏成就解锁使用开源项目 [SteamAchievementManager](https://git
 
 >该功能带有一定(低)风险，理论上不会被 VAC，但如果滥用可能被游戏厂商拉黑，建议在不启动游戏的情况下使用，截至目前为止还未有影响。解锁成就功能并不是外挂程序，原理上仅与 Steam 进行通信，和游戏本身并无关系，像 VAC 之类的反作弊系统是在多人游戏中发挥作用。如果游戏与其他平台绑定，解锁成就不会同步到其他平台上，如果重新完成成就，其他平台上也可能不会更新，例如 Sea of Thieves 与 Xbox 绑定。
 
-<!-- 
-![Sam](./Photo/Home/Sam.png#gh-light-mode-only)
-![Sam](./Photo/Home/Sam-dark.png#gh-dark-mode-only)
- -->
-
 <picture>
 <source srcset="./Photo/Home/Sam-dark.png" media="(prefers-color-scheme: dark)">
 <img src="./Photo/Home/Sam.png" alt="">
 </picture>
 
 通过勾选成就并保存成就更改(**注意**：最好不要对有 `VAC` 的游戏进行成就更改，以免造成不必要的损失，下图就是一个有 `VAC` 的游戏)
-
-<!-- 
-![Sam2](./Photo/Home/Sam2.png#gh-light-mode-only)
-![Sam2](./Photo/Home/Sam2-dark.png#gh-dark-mode-only)
- -->
 
 <picture>
 <source srcset="./Photo/Home/Sam2-dark.png" media="(prefers-color-scheme: dark)">
@@ -195,11 +145,6 @@ Steam 游戏成就解锁使用开源项目 [SteamAchievementManager](https://git
 
 - 可以强制游戏窗口使用无边框窗口化或是全屏，也可以将游戏画面置于桌面壁纸上(与动态壁纸软件冲突)
 
-<!-- 
-![游戏工具](./Photo/Home/Game-Setting.png#gh-light-mode-only)
-![游戏工具](./Photo/Home/Game-Setting-dark.png#gh-dark-mode-only)
- -->
-
 <picture>
 <source srcset="./Photo/Home/Game-Setting-dark.png" media="(prefers-color-scheme: dark)">
 <img src="./Photo/Home/Game-Setting.png" alt="">
@@ -218,11 +163,6 @@ Steam 游戏成就解锁使用开源项目 [SteamAchievementManager](https://git
 遇到问题可以先尝试更新到最新版本，可能新版本已经修复了问题
 
 点 `关于` `检查更新` 即可
-
-<!-- 
-![检查更新](./Photo/Home/Setting-Update.png#gh-light-mode-only)
-![检查更新](./Photo/Home/Setting-Update-dark.png#gh-dark-mode-only)
- -->
 
 <picture>
 <source srcset="./Photo/Home/Setting-Update-dark.png" media="(prefers-color-scheme: dark)">

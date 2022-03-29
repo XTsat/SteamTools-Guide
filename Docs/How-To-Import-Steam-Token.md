@@ -6,29 +6,6 @@
 
 已授权转载及修改，本文基于原文优化
 
-<!-- 
-目录
-
-- [如何导入 Steam 令牌](#如何导入-steam-令牌)
-  - [PC 端 Steam++](#pc-端-steam)
-    - [通过 旧版/新版Steam++ 导入](#通过-旧版新版steam-导入)
-    - [通过 有效的2FA(二步验证)应用 导入](#通过-有效的2fa二步验证应用-导入)
-      - [WinAuth](#winauth)
-      - [Steam Desktop Auth(SDA)](#steam-desktop-authsda)
-      - [其他2FA应用](#其他2fa应用)
-    - [通过 安卓手机Steam 导入](#通过-安卓手机steam-导入)
-      - [有root](#有root)
-      - [无root](#无root)
-      - [无root，可能有暂挂](#无root可能有暂挂)
-    - [通过 苹果手机Steam 导入](#通过-苹果手机steam-导入)
-      - [已越狱](#已越狱)
-      - [未越狱，可能有暂挂](#未越狱可能有暂挂)
-    - [通过 登录Steam账号 导入](#通过-登录steam账号-导入)
-  - [Android 端 Steam++](#android-端-steam)
-    - [通过 新版Steam++ 导入](#通过-新版steam-导入)
-    - [通过 手机Steam 导入](#通过-手机steam-导入)
- -->
-
 ## PC 端 Steam++
 
 ### 通过 旧版/新版Steam++ 导入
@@ -38,11 +15,6 @@
 - 由Steam++V2版本导出的 .mpo 文件，通常默认命名为“Steam++  Authenticators 日期.mpo”
 
 Steam++ 点击`令牌管理`-`新增`选择`Steam++ 导入`
-
-<!-- 
-![Steam++ 导入](./Photo/../../Photo/Steam%20token/import-steam++-token.png#gh-light-mode-only)
-![Steam++ 导入](./Photo/../../Photo/Steam%20token/import-steam++-token-dark.png#gh-dark-mode-only)
--->
 
 <picture>
 <source srcset="./Photo/../../Photo/Steam%20token/import-steam++-token-dark.png" media="(prefers-color-scheme: dark)">
@@ -67,11 +39,6 @@ Steam++ 点击`令牌管理`-`新增`选择`Steam++ 导入`
 
 Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 
-<!-- 
-![软件导入](./Photo/../../Photo/Steam%20token/import-other-token.png#gh-light-mode-only)
-![软件导入](./Photo/../../Photo/Steam%20token/import-other-token-dark.png#gh-dark-mode-only)
- -->
-
 <picture>
 <source srcset="./Photo/../../Photo/Steam%20token/import-other-token-dark.png" media="(prefers-color-scheme: dark)">
 <img src="./Photo/../../Photo/Steam%20token/import-other-token.png" alt="">
@@ -82,11 +49,6 @@ Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 #### 其他2FA应用
 
 根据软件说明，复制/导出令牌，并找到以下所需内容并依照图片输入
-
-<!-- 
-![其他导入](./Photo/../../Photo/Steam%20token/import-phone-token.png#gh-light-mode-only)
-![其他导入](./Photo/../../Photo/Steam%20token/import-phone-token-dark.png#gh-dark-mode-only)
- -->
 
 <picture>
 <source srcset="./Photo/../../Photo/Steam%20token/import-phone-token-dark.png" media="(prefers-color-scheme: dark)">
@@ -174,11 +136,6 @@ iOS的令牌导出可参考：
 
 此方案最为简单，如下图直接通过Steam账号登录即可，但请**注意**：`本方案将解除手机端令牌并导致15天的市场交易暂挂`
 
-<!-- 
-![Steam 账号登入](./Photo/../../Photo/Steam%20token/Sign-token.png#gh-light-mode-only)
-![Steam 账号登入](./Photo/../../Photo/Steam%20token/Sign-token-dark.png#gh-dark-mode-only)
--->
-
 <picture>
 <source srcset="(./Photo/../../Photo/Steam%20token/Sign-token-dark.png" media="(prefers-color-scheme: dark)">
 <img src="./Photo/../../Photo/Steam%20token/Sign-token.png" alt="">
@@ -195,10 +152,6 @@ iOS的令牌导出可参考：
 1. 通过 扫码 导入
 
     在PC端点击如图所示`导出为二维码`按钮，在手机端点击 `右上角加号`-->`新增` 进行扫码
-<!-- 
-    ![扫码](./Photo/../../Photo/Steam%20token/QR-Code.png#gh-light-mode-only)
-    ![扫码](./Photo/../../Photo/Steam%20token/QR-Code-dark.png#gh-dark-mode-only)
--->
 
 <picture>
 <source srcset="./Photo/../../Photo/Steam%20token/QR-Code-dark.png" media="(prefers-color-scheme: dark)">
@@ -208,11 +161,6 @@ iOS的令牌导出可参考：
 1. 通过 文件 导入
 
     在PC端点击如图所示`导出`按钮并`确认导出`，将导出的文件发送至手机，在手机端点击 `右上角加号`-->`新增` 进行导入
-
-<!-- 
-    ![导出](./Photo/../../Photo/Steam%20token/export.png#gh-light-mode-only)
-    ![导出](./Photo/../../Photo/Steam%20token/export-dark.png#gh-dark-mode-only)
--->
 
 <picture>
 <source srcset="./Photo/../../Photo/Steam%20token/export-dark.png" media="(prefers-color-scheme: dark)">
