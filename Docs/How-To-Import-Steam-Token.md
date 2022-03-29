@@ -1,35 +1,37 @@
 # 如何导入 Steam 令牌
 
-**注意**：此教程具有一定的时效性，截止最后一次更新时间为`2022年3月23日`，~~steam++ 版本为`Steam++ x64 v2.6.9 for windows`~~
+**注意**：此教程具有一定的时效性，截止最后一次更新时间为`2022年3月29日`，~~steam++ 版本为`Steam++ x64 v2.6.9 for windows`~~
 
 文章来源 [steam++令牌导入教程](https://keylol.com/t710508-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278) `本帖当前对应Steam++版本为：2.4.11`
 
-已授权转载及修改，本文仅做部分修改(部分少见步骤的本文省略，在原本的基础上优化常用的步骤)
+已授权转载及修改，本文基于原文优化
 
+<!-- 
 目录
 
 - [如何导入 Steam 令牌](#如何导入-steam-令牌)
-  - [**PC 端 Steam++**](#pc-端-steam)
-    - [通过 **旧版/新版Steam++** 导入](#通过-旧版新版steam-导入)
-    - [通过 **有效的2FA(二步验证)应用** 导入](#通过-有效的2fa二步验证应用-导入)
-      - [WinAuth：导出的.txt文件，通常默认命名为“winauth-日期.txt”](#winauth导出的txt文件通常默认命名为winauth-日期txt)
-      - [Steam Desktop Auth(SDA)：导出的.maFile文件，通常默认命名为“一串数字.maFile”](#steam-desktop-authsda导出的mafile文件通常默认命名为一串数字mafile)
+  - [PC 端 Steam++](#pc-端-steam)
+    - [通过 旧版/新版Steam++ 导入](#通过-旧版新版steam-导入)
+    - [通过 有效的2FA(二步验证)应用 导入](#通过-有效的2fa二步验证应用-导入)
+      - [WinAuth](#winauth)
+      - [Steam Desktop Auth(SDA)](#steam-desktop-authsda)
       - [其他2FA应用](#其他2fa应用)
     - [通过 安卓手机Steam 导入](#通过-安卓手机steam-导入)
-      - [通过 **安卓手机Steam 导入**（有root）](#通过-安卓手机steam-导入有root)
-      - [通过 **安卓手机Steam 导入**（无root）](#通过-安卓手机steam-导入无root)
-      - [通过 **安卓手机Steam 导入**（无root，可能有暂挂）](#通过-安卓手机steam-导入无root可能有暂挂)
+      - [有root](#有root)
+      - [无root](#无root)
+      - [无root，可能有暂挂](#无root可能有暂挂)
     - [通过 苹果手机Steam 导入](#通过-苹果手机steam-导入)
-      - [通过 **苹果手机Steam 导入**（已越狱）](#通过-苹果手机steam-导入已越狱)
-      - [通过 **苹果手机Steam 导入**（未越狱，可能有暂挂）](#通过-苹果手机steam-导入未越狱可能有暂挂)
-    - [通过 **登录Steam账号** 导入](#通过-登录steam账号-导入)
+      - [已越狱](#已越狱)
+      - [未越狱，可能有暂挂](#未越狱可能有暂挂)
+    - [通过 登录Steam账号 导入](#通过-登录steam账号-导入)
   - [Android 端 Steam++](#android-端-steam)
-    - [通过 **新版Steam++** 导入](#通过-新版steam-导入)
-    - [通过 **手机Steam** 导入](#通过-手机steam-导入)
+    - [通过 新版Steam++ 导入](#通过-新版steam-导入)
+    - [通过 手机Steam 导入](#通过-手机steam-导入)
+ -->
 
-## **PC 端 Steam++**
+## PC 端 Steam++
 
-### 通过 **旧版/新版Steam++** 导入
+### 通过 旧版/新版Steam++ 导入
 
 - 由Steam++V1版本导出的 .dat 文件，通常默认命名为“Steam++ Authenticator 日期.dat”
 
@@ -37,25 +39,43 @@
 
 Steam++ 点击`令牌管理`-`新增`选择`Steam++ 导入`
 
+<!-- 
 ![Steam++ 导入](./Photo/../../Photo/Steam%20token/import-steam++-token.png#gh-light-mode-only)
 ![Steam++ 导入](./Photo/../../Photo/Steam%20token/import-steam++-token-dark.png#gh-dark-mode-only)
+-->
+
+<picture>
+<source srcset="./Photo/../../Photo/Steam%20token/import-steam++-token-dark.png" media="(prefers-color-scheme: dark)">
+<img src="./Photo/../../Photo/Steam%20token/import-steam++-token.png" alt="">
+</picture>
 
 ---
 
-### 通过 **有效的2FA(二步验证)应用** 导入
+### 通过 有效的2FA(二步验证)应用 导入
 
-#### WinAuth：导出的.txt文件，通常默认命名为“winauth-日期.txt”
+#### WinAuth
+
+导出的.txt文件，通常默认命名为“winauth-日期.txt”
 
 [steam++令牌导入教程-从WinAuth导入](https://www.bilibili.com/read/cv10145591)  [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
 
-#### Steam Desktop Auth(SDA)：导出的.maFile文件，通常默认命名为“一串数字.maFile”
+#### Steam Desktop Auth(SDA)
+
+导出的.maFile文件，通常默认命名为“一串数字.maFile”
 
 - SDA会自动在应用目录下的maFile文件夹生成账号的.maFile文件
 
 Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 
+<!-- 
 ![软件导入](./Photo/../../Photo/Steam%20token/import-other-token.png#gh-light-mode-only)
 ![软件导入](./Photo/../../Photo/Steam%20token/import-other-token-dark.png#gh-dark-mode-only)
+ -->
+
+<picture>
+<source srcset="./Photo/../../Photo/Steam%20token/import-other-token-dark.png" media="(prefers-color-scheme: dark)">
+<img src="./Photo/../../Photo/Steam%20token/import-other-token.png" alt="">
+</picture>
 
 [steam++令牌导入教程-从Steam Desktop Authenticator导入](https://www.bilibili.com/read/cv10145788) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
 
@@ -63,8 +83,15 @@ Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 
 根据软件说明，复制/导出令牌，并找到以下所需内容并依照图片输入
 
+<!-- 
 ![其他导入](./Photo/../../Photo/Steam%20token/import-phone-token.png#gh-light-mode-only)
 ![其他导入](./Photo/../../Photo/Steam%20token/import-phone-token-dark.png#gh-dark-mode-only)
+ -->
+
+<picture>
+<source srcset="./Photo/../../Photo/Steam%20token/import-phone-token-dark.png" media="(prefers-color-scheme: dark)">
+<img src="./Photo/../../Photo/Steam%20token/import-phone-token.png" alt="">
+</picture>
 
 ---
 
@@ -75,13 +102,13 @@ Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 部分安卓手机厂商，有自家备份软件，且备份文件无加密/加密可破解
 手机无root，且无法备份对应数据/无法解密备份数据的，此方法由于是重新绑定，所以可能有暂挂
 
-#### 通过 **安卓手机Steam 导入**（有root）
+#### 有root
 
 [steam++令牌导入教程-从Android App导入-须root的方式](https://www.bilibili.com/read/cv10142098?from=articleDetail) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
 
 - 一台绑定了目标账号令牌，并且已经被root的手机
 
-#### 通过 **安卓手机Steam 导入**（无root）
+#### 无root
 
 >需要一台绑定了目标账号令牌的手机，根据手机品牌不同，还需要不同的软件，这一方案并非全品牌适用
 
@@ -105,7 +132,7 @@ Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 
 更多品牌手机可参考以上教程自行研究
 
-#### 通过 **安卓手机Steam 导入**（无root，可能有暂挂）
+#### 无root，可能有暂挂
 
 [安卓手机利用 ADB 免 root 导出令牌（避免暂挂）](https://keylol.com/t757408-1-1) [(其乐 Keylol)@sffxzzp](https://keylol.com/suid-218128)
 
@@ -113,7 +140,7 @@ Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 
 ### 通过 苹果手机Steam 导入
 
-#### 通过 **苹果手机Steam 导入**（已越狱）
+#### 已越狱
 
 此方案引用并修改自[Steam++ issues #95](https://github.com/SteamTools-Team/SteamTools/issues/95)
 
@@ -121,7 +148,7 @@ Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 用文本方式打开`/Documents/Steamguard-xxxxxxxxxxxxxxxx`，到最下面找到 otpauth 那一栏粘贴到 Steam++
 用文本方式打开`/Library/Preferences/com.valvesoftware.Steam`，并找到`<string>/var/mobile/Containers/Data/Application/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/Library/Caches</string>`，复制`XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX`并在最前面添加`android:`并粘贴到 Steam++
 
-#### 通过 **苹果手机Steam 导入**（未越狱，可能有暂挂）
+#### 未越狱，可能有暂挂
 
 iOS的令牌导出可参考：
 
@@ -143,43 +170,63 @@ iOS的令牌导出可参考：
 
 ---
 
-### 通过 **登录Steam账号** 导入
+### 通过 登录Steam账号 导入
 
-此方案最为简单，如下图直接通过Steam账号登录即可，但请**注意**：**本方案将解除手机端令牌并导致15天的市场交易暂挂**
+此方案最为简单，如下图直接通过Steam账号登录即可，但请**注意**：`本方案将解除手机端令牌并导致15天的市场交易暂挂`
 
+<!-- 
 ![Steam 账号登入](./Photo/../../Photo/Steam%20token/Sign-token.png#gh-light-mode-only)
 ![Steam 账号登入](./Photo/../../Photo/Steam%20token/Sign-token-dark.png#gh-dark-mode-only)
+-->
+
+<picture>
+<source srcset="(./Photo/../../Photo/Steam%20token/Sign-token-dark.png" media="(prefers-color-scheme: dark)">
+<img src="./Photo/../../Photo/Steam%20token/Sign-token.png" alt="">
+</picture>
 
 - 你的 Steam 账号和密码，此操作会解除原有令牌，导致账号进入暂挂状态（15天内无法市场交易）
 
 ## Android 端 Steam++
 
-### 通过 **新版Steam++** 导入
+### 通过 新版Steam++ 导入
 
 > PC 端 `Steam++ v2.4.9` 或更高版本
 
-1. 通过 **扫码** 导入
+1. 通过 扫码 导入
 
     在PC端点击如图所示`导出为二维码`按钮，在手机端点击 `右上角加号`-->`新增` 进行扫码
-
+<!-- 
     ![扫码](./Photo/../../Photo/Steam%20token/QR-Code.png#gh-light-mode-only)
     ![扫码](./Photo/../../Photo/Steam%20token/QR-Code-dark.png#gh-dark-mode-only)
+-->
 
-2. 通过 **文件** 导入
+<picture>
+<source srcset="./Photo/../../Photo/Steam%20token/QR-Code-dark.png" media="(prefers-color-scheme: dark)">
+<img src="./Photo/../../Photo/Steam%20token/QR-Code.png" alt="">
+</picture>
+
+1. 通过 文件 导入
 
     在PC端点击如图所示`导出`按钮并`确认导出`，将导出的文件发送至手机，在手机端点击 `右上角加号`-->`新增` 进行导入
 
+<!-- 
     ![导出](./Photo/../../Photo/Steam%20token/export.png#gh-light-mode-only)
     ![导出](./Photo/../../Photo/Steam%20token/export-dark.png#gh-dark-mode-only)
+-->
+
+<picture>
+<source srcset="./Photo/../../Photo/Steam%20token/export-dark.png" media="(prefers-color-scheme: dark)">
+<img src="./Photo/../../Photo/Steam%20token/export.png" alt="">
+</picture>
 
 ---
 
-### 通过 **手机Steam** 导入
+### 通过 手机Steam 导入
 
-请参阅 [通过 **有效的2FA(二步验证)应用** 导入](#通过-有效的2fa二步验证应用-导入) / [通过 安卓手机Steam 导入](#通过-安卓手机steam-导入) / [通过 苹果手机Steam 导入](#通过-苹果手机steam-导入) 章节
+请参阅 [通过 有效的2FA(二步验证)应用 导入](#通过-有效的2fa二步验证应用-导入) / [通过 安卓手机Steam 导入](#通过-安卓手机steam-导入) / [通过 苹果手机Steam 导入](#通过-苹果手机steam-导入) 章节
 
 ---
 
-[返回目录](#如何导入-steam-令牌)
+[返回目录](#如何导入%20Steam%20令牌)
 
 [返回 Steam++ 指南](/README.md)
