@@ -11,13 +11,17 @@
 		<link rel="icon" type="image/x-icon" href="/SteamTools-Guide/Photo/Steam++ico.svg">
 		<link rel="stylesheet" href="https://cdn.staticfile.org/docsify/4.12.1/themes/vue.css" />
 		<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css" title="docsify-darklight-theme" type="text/css" />
-		<style  type="text/css">a {text-decoration:none}
-		::-webkit-scrollbar {width: 0px;height: 0px}
-		.markdown-section blockquote p {font-weight: normal;margin-left: 0;}
-		.markdown-section hr {border-bottom-color: var(--hrColor, #EEEEEE);}
-		article > img, p > img {opacity: var(--imgOpacity, 1);}
-		.markdown-section td, .markdown-section th {border-color: var(--tdthBorderColor, #DDDDDD);}
-		.sidebar {background-color: var(--sidebarBackground, #FFFFFF);}</style>
+		<style  type="text/css">@media screen and (prefers-color-scheme: dark) {
+			body {
+			 color: #333; /* 在 light mode 时，页面中的文字颜色 */
+		   }
+		   @media screen and (prefers-color-scheme: dark) {
+			 body {
+			   color: #fff; /* 如果系统切换到 dark mode 时，页面中的文字颜色改变 */
+			 }
+		   }
+		 
+		   }  a:hover{text-decoration:underline;}</style>
 		<script>if(location.href == "" && window.navigator.language.slice(0, 2) == "zh") {location.href=location.href + "#/zh"}</script>
 	</head>
 	<body>

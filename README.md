@@ -2,7 +2,7 @@
 
 **注意**：此教程具有一定的时效性，截止最后一次更新时间为`2022年3月29日`，steam++ 版本为 `Steam++ x64 v2.6.9 for windows`
 
-目录
+<!-- 目录
 
 - [Steam++ 指南](#steam-指南)
   - [什么是 Steam++？](#什么是-steam)
@@ -20,6 +20,7 @@
     - [host](#host)
       - [host 文件为只读，修改失败](#host-文件为只读修改失败)
       - [程序崩溃后无法连接网络](#程序崩溃后无法连接网络)
+-->
 
 ## 什么是 Steam++？
 
@@ -65,7 +66,7 @@
   >
   > A: 一般是系统相关文件丢失导致，可以尝试手动安装程序目录 `AppData` 文件夹下的 `SteamTools.Certificate.pfx` 证书文件，安装到受  信任  的根证书区域，区域一定要选择正确，不然安装成功也无效，密码留空不填直接确定即可。
 
-  </details>
+</details>
 
 ### 脚本配置 (Windows / Linux / macOS Only)
 
@@ -77,8 +78,15 @@
 
 - 通过 Steam **默认保存**的**凭证信息**一键切换已在当前 PC 上登录过的 Steam 账号，并且可以一键离线登录，还能管理家庭共享库排序等功能。
 
+<!-- 
   ![账户切换](./Photo/Home/Account-switching.png#gh-light-mode-only)
   ![账户切换](./Photo/Home/Account-switching-dark.png#gh-dark-mode-only)
+-->
+
+<picture>
+  <img src="./Photo/Home/Account-switching.png" alt="">
+  <source srcset="./Photo/Home/Account-switching-dark.png" media="(prefers-color-scheme: dark)">
+</picture>
 
   <details>
   <summary><b>常见问题</b></summary>
