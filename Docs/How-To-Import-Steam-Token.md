@@ -1,10 +1,6 @@
 # 如何导入 Steam 令牌
 
-**注意**：此教程具有一定的时效性，截止最后一次更新时间为`2022年3月29日`，~~steam++ 版本为`Steam++ x64 v2.6.9 for windows`~~
-
-文章来源 [steam++令牌导入教程](https://keylol.com/t710508-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278) `本帖当前对应Steam++版本为：2.4.11`
-
-已授权转载及修改，本文基于原文优化
+**注意**：此教程具有一定的时效性，截止最后一次更新时间为`2022年3月30日`，~~steam++ 版本为`Steam++ x64 v2.6.9 for windows`~~
 
 ## PC 端 Steam++
 
@@ -178,3 +174,9 @@ iOS的令牌导出可参考：
 [返回目录](#如何导入%20Steam%20令牌)
 
 [返回 Steam++ 指南](/README.md)
+
+## 写在最后
+
+文章参考：
+
+[steam++令牌导入教程](https://keylol.com/t710508-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278) `本帖当前对应Steam++版本为：2.4.11`已授权转载及修改，本文基于原文优化
