@@ -21,8 +21,8 @@
     - [游戏工具 (Windows Only)](#游戏工具-windows-only)
   - [如何导入steam令牌](#如何导入steam令牌)
   - [常见问题解决办法](#常见问题解决办法)
-    - [host](#host)
-      - [host 文件为只读，修改失败](#host-文件为只读修改失败)
+    - [网络问题](#网络问题)
+      - [host 文件相关(只读，拒绝访问，没有权限)](#host-文件相关只读拒绝访问没有权限)
       - [程序崩溃后无法连接网络](#程序崩溃后无法连接网络)
 
 ## 什么是 Steam++？
@@ -173,13 +173,15 @@ Steam 游戏成就解锁使用开源项目 [SteamAchievementManager](https://git
 ![检查更新](./Photo/Home/Setting-Update.png#gh-light-mode-only)
 ![检查更新](./Photo/Home/Setting-Update-dark.png#gh-dark-mode-only)
 
-### host
+### 网络问题
 
-#### host 文件为只读，修改失败
+#### host 文件相关(只读，拒绝访问，没有权限)
 
-请前往 `C:\Windows\System32\drivers\etc` ，右击`host`文件，打开 `属性` ，取消下面的 `只读` 选项。
+- 请前往 `C:\Windows\System32\drivers\etc` ，右击`host`文件，打开 `属性` ，取消下面的 `只读` 选项。
 
-只读也可能是被其他软件占用，或者因杀毒软件拦截导致的，如果 `hosts` 文件没有自定义的内容，可以先删除该文件后再启动，或者使用 系统代理模式，文件位于 `C:\Windows\System32\drivers\etc\hosts`
+- 只读也可能是被其他软件占用，或者因杀毒软件拦截导致的，如果 `hosts` 文件没有自定义的内容，可以先删除该文件后再启动，或者使用 系统代理模式，文件位于 `C:\Windows\System32\drivers\etc\hosts`
+
+- 或者通过一键修复host程序，如 `360断网急救箱` `火绒断网修复`
 
 #### 程序崩溃后无法连接网络
 
