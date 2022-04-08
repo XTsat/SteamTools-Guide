@@ -1,1 +1,4 @@
 /.history
+.cache
+.temp
+node_modules
