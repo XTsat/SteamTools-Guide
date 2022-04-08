@@ -8,6 +8,7 @@ module.exports = {
   // theme and its config
   theme: '@vuepress/theme-default',
   themeConfig: {
+    displayAllHeaders: true,
     logo: '/logo/Steam++ico.svg',
     navbar: [
       {
