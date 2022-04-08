@@ -21,11 +21,7 @@ module.exports = {
       },
       {
         text: "Steam++",
-        link: '/documents/How-To-Import-Steam-Token'
-      },
-      {
-        text: 'Group',
-        children: ['/group/foo.md', '/group/bar.md'],
+        link: '/How-To-Import-Steam-Token'
       },
       {
         text: '更新日志',
