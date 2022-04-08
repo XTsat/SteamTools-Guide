@@ -1,0 +1,110 @@
+import {defineUserConfig} from 'vuepress'
+import type {DefaultThemeOptions} from 'vuepress'
+
+export default defineUserConfig<DefaultThemeOptions>({
+  base: '/SteamTools-Guide/',
+  // 站点配置
+  head: [
+    ["link", {rel: "icon", href: "/logo/favicon.ico" }],
+    ["script", { src: "https://cdn.jsdelivr.net/npm/cfga@1.0.3", async: true }],
+    ["script", {}, `
+      window.ga_tid = "UA-222060450-1";
+      window.ga_api = "https://da.snapgenshin.cn";
+    `]
+  ],
+  lang: 'zh-CN',
+  title: 'Snap Genshin',
+  description: '原神启动器',
+
+
+  // 主题和它的配置
+  theme: '@vuepress/theme-default',
+  themeConfig: {
+    logo: '/logo/SGLogo.png',
+    navbar: [
+      {
+        text: '主页',
+        link: '/'
+      },
+      {
+        text: "帮助文档",
+        link: '/documents'
+      },
+      {
+        text: '开发',
+        children: [
+          {
+            text: '统一可交换祈愿记录标准',
+            link: '/development/StandardFormat.md'
+          }
+        ]
+      },
+      {
+        text: '交流',
+        children: [
+          {
+            text: '问题反馈-主群',
+            children: [
+              {
+                text: '910780153',
+                link: 'https://jq.qq.com/?_wv=1027&k=MHLNhhYJ'
+              }
+            ]
+          }
+        ]
+      },
+      {
+        text: '下载',
+        children: [
+          {
+            text: '国内用户',
+            children: [
+              {
+                text: '资源中心',
+                link: 'https://resource.snapgenshin.com/Publish.zip'
+              }
+            ]
+          }
+        ],
+      },
+      {
+        text: '赞助项目',
+        link: '/documents/statement/sponsor.md'
+      },
+    ],
+    repo: 'DGP-Studio/Snap.Genshin',
+    editLink: true,
+    editLinkText: '编辑此页',
+    docsRepo: 'DGP-Studio/Snap.Genshin.Docs',
+    docsBranch: 'main',
+    docsDir: 'docs',
+    contributors: false,
+    lastUpdated: false,
+    contributorsText: '贡献者',
+    lastUpdatedText: '上次更新',
+    tip: '提示',
+    warning: '警告',
+    danger: '危险',
+    notFound: ["找不到该页面"],
+    backToHome: '返回首页',
+  },
+  plugins: [
+    [
+      '@vuepress/plugin-search',
+      {
+        locales: {
+          '/': {
+            placeholder: '搜索文档',
+            hotKeys: ['/']
+          }
+        }
+      }
+    ],
+    [
+      "vuepress-plugin-clipboard",
+      {
+        align: "top"
+      }
+    ]
+  ]
+})
