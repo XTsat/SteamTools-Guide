@@ -19,6 +19,10 @@ module.exports = {
         link: '/documents'
       },
       {
+        text: "Steam++",
+        link: '/documents/How-To-Import-Steam-Token'
+      },
+      {
         text: 'Group',
         children: ['/group/foo.md', '/group/bar.md'],
       },
@@ -31,6 +35,20 @@ module.exports = {
         link: 'https://github.com/XTsat/SteamTools-Guide'
       },
     ],
+    editLink: true,
+    editLinkText: '编辑此页',
+    docsRepo: 'XTsat/SteamTools-Guide',
+    docsBranch: 'Guide',
+    docsDir: 'vuepress-starter/docs',
+    contributors: false,
+    lastUpdated: false,
+    contributorsText: '贡献者',
+    lastUpdatedText: '上次更新',
+    tip: '提示',
+    warning: '警告',
+    danger: '危险',
+    notFound: ["找不到该页面"],
+    backToHome: '返回首页',
   plugins: [
     [
       '@vuepress/plugin-search',
