@@ -4,7 +4,7 @@
 
 点 `关于` `检查更新` 即可
 
-![检查更新](./Photo/Home/Setting-Update.png#gh-light-mode-only)
+<!-- ![检查更新](./Photo/Home/Setting-Update.png#gh-light-mode-only) -->
 ![检查更新](./Photo/Home/Setting-Update-dark.png#gh-dark-mode-only)
 
 ## 网络问题
@@ -26,3 +26,5 @@
 >崩溃后无网络的问题，是因为加速和停止加速本来有正常的逻辑要执行，因为在加速中将程序强退了，所以停止加速的逻辑没执行，也就没还原加速所修改的配置导致的。
 >
 >遇到这个问题可以尝试还原hosts文件，关闭windows系统代理，重置网络服务
+
+![重置 host 文件](./Photo/Home/reset-host-dark.png)
