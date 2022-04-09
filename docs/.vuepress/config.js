@@ -8,6 +8,8 @@ module.exports = {
   base: '/SteamTools-Guide/',
   description: '',
 
+  open: true,
+
   // theme and its config
   theme: '@vuepress/theme-default',
   themeConfig: {

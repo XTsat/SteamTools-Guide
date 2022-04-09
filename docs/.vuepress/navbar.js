@@ -53,6 +53,15 @@ const navbar = [
         ]
       },
       {
+        text: '下载 UWP 版',
+        children: [
+          {
+            text: '微软商店直接安装',
+            link: 'https://www.microsoft.com/store/productId/9MTCFHS560NG'
+          },
+        ]
+      },
+      {
         text: '下载 macOS 版',
         children: [
           {
