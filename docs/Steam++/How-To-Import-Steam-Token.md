@@ -15,8 +15,6 @@ Steam++ 点击`令牌管理`-`新增`选择`Steam++ 导入`
 <!-- ![Steam++ 导入](./Photo/Steam-token/import-steam++-token.png#gh-light-mode-only) -->
 ![Steam++ 导入](./Photo/Steam-token/import-steam++-token-dark.png#gh-dark-mode-only)
 
----
-
 ### 通过 有效的2FA(二步验证)应用 导入
 
 #### WinAuth
@@ -44,8 +42,6 @@ Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 
 <!-- ![其他导入](./Photo/Steam-token/import-phone-token.png#gh-light-mode-only) -->
 ![其他导入](./Photo/Steam-token/import-phone-token-dark.png#gh-dark-mode-only)
-
----
 
 ### 通过 安卓手机Steam 导入
 
@@ -88,8 +84,6 @@ Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 
 [安卓手机利用 ADB 免 root 导出令牌（避免暂挂）](https://keylol.com/t757408-1-1) [(其乐 Keylol)@sffxzzp](https://keylol.com/suid-218128)
 
----
-
 ### 通过 苹果手机Steam 导入
 
 #### 已越狱
@@ -120,8 +114,6 @@ iOS的令牌导出可参考：
 4. `提取ipa`并使用`爱思助手等工具`安装
 5. 绑定令牌并备份数据
 
----
-
 ### 通过 登录Steam账号 导入
 
 此方案最为简单，如下图直接通过Steam账号登录即可，但请**注意**：`本方案将解除手机端令牌并导致15天的市场交易暂挂`
@@ -151,17 +143,9 @@ iOS的令牌导出可参考：
     <!-- ![导出](./Photo/Steam-token/export.png#gh-light-mode-only) -->
     ![导出](./Photo/Steam-token/export-dark.png#gh-dark-mode-only)
 
----
-
 ### 通过 手机Steam 导入
 
-请参阅 [通过 有效的2FA(二步验证)应用 导入](#通过-有效的2fa二步验证应用-导入) / [通过 安卓手机Steam 导入](#通过-安卓手机steam-导入) / [通过 苹果手机Steam 导入](#通过-苹果手机steam-导入) 章节
-
----
-
-[返回目录](#如何导入%20Steam%20令牌)
-
-[返回 Steam++ 指南](/README.md)
+请参阅 [通过 有效的2FA(二步验证)应用 导入](#通过-有效的2fa-二步验证-应用-导入) / [通过 安卓手机Steam 导入](#通过-安卓手机steam-导入) / [通过 苹果手机Steam 导入](#通过-苹果手机steam-导入) 章节
 
 ## 参考文档
 
