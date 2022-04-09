@@ -81,8 +81,8 @@
 
 - 通过 Steam **默认保存**的**凭证信息**一键切换已在当前 PC 上登录过的 Steam 账号，并且可以一键离线登录，还能管理家庭共享库排序等功能。
 
-![账户切换](./Photo/Home/Account-switching.png#gh-light-mode-only)
-![账户切换](./Photo/Home/Account-switching-dark.png#gh-dark-mode-only)
+![账户切换](./Photo/Home/Account-switching.png)
+![账户切换](./Photo/Home/Account-switching-dark.png)
 
 <details>
 <summary><b>[点击展开]-常见问题</b></summary>
@@ -97,8 +97,8 @@
 
 调整当前设备上共享的 Steam 账号优先级顺序，用于解决想玩账号B的共享却一直使用的是账号A的共享这种问题，从上到下的排序为共享库使用的优先级顺序，也可以选择暂时禁用或启用指定账号的共享。调整后保存重启 Steam 生效！
 
-![家庭共享](./Photo/Home/Family-Library-Sharing.png#gh-light-mode-only)
-![家庭共享](./Photo/Home/Family-Library-Sharing-dark.png#gh-dark-mode-only)
+![家庭共享](./Photo/Home/Family-Library-Sharing.png)
+![家庭共享](./Photo/Home/Family-Library-Sharing-dark.png)
 
 ### 库存管理 (Windows / Linux / macOS Only)
 
@@ -106,13 +106,13 @@
 
 - 可以使用 Steam 下载完成定时关机使无人下载完成后能减少不必要的耗电(比如晚上睡觉自动下载完成后自动关机)
 
-  ![自动关机](./Photo/Home/Auto-shutdown.png#gh-light-mode-only)
-  ![自动关机](./Photo/Home/Auto-shutdown-dark.png#gh-dark-mode-only)
+  ![自动关机](./Photo/Home/Auto-shutdown.png)
+  ![自动关机](./Photo/Home/Auto-shutdown-dark.png)
 
 - 还可以自定义启动 Steam++ 后挂游戏时长的功能
 
-![自动挂游戏时长](./Photo/Home/Auto-Gametime.png#gh-light-mode-only)
-![自动挂游戏时长](./Photo/Home/Auto-Gametime-dark.png#gh-dark-mode-only)
+![自动挂游戏时长](./Photo/Home/Auto-Gametime.png)
+![自动挂游戏时长](./Photo/Home/Auto-Gametime-dark.png)
 
 <details>
 <summary><b>[点击展开]-Steam 游戏成就解锁：</b></summary>
@@ -121,13 +121,13 @@ Steam 游戏成就解锁使用开源项目 [SteamAchievementManager](https://git
 
 >该功能带有一定(低)风险，理论上不会被 VAC，但如果滥用可能被游戏厂商拉黑，建议在不启动游戏的情况下使用，截至目前为止还未有影响。解锁成就功能并不是外挂程序，原理上仅与 Steam 进行通信，和游戏本身并无关系，像 VAC 之类的反作弊系统是在多人游戏中发挥作用。如果游戏与其他平台绑定，解锁成就不会同步到其他平台上，如果重新完成成就，其他平台上也可能不会更新，例如 Sea of Thieves 与 Xbox 绑定。
 
-![Sam](./Photo/Home/Sam.png#gh-light-mode-only)
-![Sam](./Photo/Home/Sam-dark.png#gh-dark-mode-only)
+![Sam](./Photo/Home/Sam.png)
+![Sam](./Photo/Home/Sam-dark.png)
 
 通过勾选成就并保存成就更改(**注意**：最好不要对有 `VAC` 的游戏进行成就更改，以免造成不必要的损失，下图就是一个有 `VAC` 的游戏)
 
-![Sam2](./Photo/Home/Sam2.png#gh-light-mode-only)
-![Sam2](./Photo/Home/Sam2-dark.png#gh-dark-mode-only)
+![Sam2](./Photo/Home/Sam2.png)
+![Sam2](./Photo/Home/Sam2-dark.png)
 
 </details>
 
@@ -153,8 +153,8 @@ Steam 游戏成就解锁使用开源项目 [SteamAchievementManager](https://git
 
 - 可以强制游戏窗口使用无边框窗口化或是全屏，也可以将游戏画面置于桌面壁纸上(与动态壁纸软件冲突)
 
-![游戏工具](./Photo/Home/Game-Setting.png#gh-light-mode-only)
-![游戏工具](./Photo/Home/Game-Setting-dark.png#gh-dark-mode-only)
+![游戏工具](./Photo/Home/Game-Setting.png)
+![游戏工具](./Photo/Home/Game-Setting-dark.png)
 
 ## [如何导入steam令牌](Docs/How-To-Import-Steam-Token.md)
 
@@ -170,8 +170,8 @@ Steam 游戏成就解锁使用开源项目 [SteamAchievementManager](https://git
 
 点 `关于` `检查更新` 即可
 
-![检查更新](./Photo/Home/Setting-Update.png#gh-light-mode-only)
-![检查更新](./Photo/Home/Setting-Update-dark.png#gh-dark-mode-only)
+![检查更新](./Photo/Home/Setting-Update.png)
+![检查更新](./Photo/Home/Setting-Update-dark.png)
 
 ### 网络问题
 
