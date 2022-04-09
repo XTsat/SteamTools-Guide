@@ -5,6 +5,7 @@ module.exports = {
   base: '/SteamTools-Guide/',
   description: '',
 
+
   // theme and its config
   theme: '@vuepress/theme-default',
   themeConfig: {
@@ -27,11 +28,9 @@ module.exports = {
         text: '更新日志',
         link: 'https://github.com/BeyondDimension/SteamTools/releases'
       },
-      {
-        text: 'Github',
-        link: 'https://github.com/XTsat/SteamTools-Guide'
-      },
     ],
+    sidebar: 'auto',
+    repo: 'XTsat/SteamTools-Guide',
     editLink: true,
     editLinkText: '编辑此页',
     docsRepo: 'XTsat/SteamTools-Guide',

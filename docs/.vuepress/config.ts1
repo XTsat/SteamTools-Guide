@@ -13,14 +13,15 @@ export default defineUserConfig<DefaultThemeOptions>({
     `]
   ],
   lang: 'zh-CN',
-  title: 'Snap Genshin',
-  description: '原神启动器',
+  title: 'Steam ++ 指南',
+  description: '指南',
 
 
   // 主题和它的配置
   theme: '@vuepress/theme-default',
   themeConfig: {
-    logo: '/logo/SGLogo.png',
+    displayAllHeaders: true,
+    logo: '/logo/Steam++ico.svg',
     navbar: [
       {
         text: '主页',
@@ -31,45 +32,16 @@ export default defineUserConfig<DefaultThemeOptions>({
         link: '/documents'
       },
       {
-        text: '开发',
-        children: [
-          {
-            text: '统一可交换祈愿记录标准',
-            link: '/development/StandardFormat.md'
-          }
-        ]
+        text: "Steam++",
+        link: '/How-To-Import-Steam-Token'
       },
       {
-        text: '交流',
-        children: [
-          {
-            text: '问题反馈-主群',
-            children: [
-              {
-                text: '910780153',
-                link: 'https://jq.qq.com/?_wv=1027&k=MHLNhhYJ'
-              }
-            ]
-          }
-        ]
+        text: '更新日志',
+        link: 'https://github.com/BeyondDimension/SteamTools/releases'
       },
       {
-        text: '下载',
-        children: [
-          {
-            text: '国内用户',
-            children: [
-              {
-                text: '资源中心',
-                link: 'https://resource.snapgenshin.com/Publish.zip'
-              }
-            ]
-          }
-        ],
-      },
-      {
-        text: '赞助项目',
-        link: '/documents/statement/sponsor.md'
+        text: 'Github',
+        link: 'https://github.com/XTsat/SteamTools-Guide'
       },
     ],
     repo: 'DGP-Studio/Snap.Genshin',
