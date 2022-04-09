@@ -1,3 +1,7 @@
+---
+autoSort: 1
+---
+
 # Steam++ 指南
 
 [仓库地址 `https://github.com/XTsat/SteamTools-Guide`](https://github.com/XTsat/SteamTools-Guide)

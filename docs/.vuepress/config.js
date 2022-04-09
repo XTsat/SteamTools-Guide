@@ -20,15 +20,21 @@ module.exports = {
     sidebar: sidebarConf,
 
     repo: 'XTsat/SteamTools-Guide',
+    repoLabel: 'Github文档',
+
     editLink: true,
     editLinkText: '编辑此页',
+
     docsRepo: 'XTsat/SteamTools-Guide',
     docsBranch: 'VuePress',
-    docsDir: 'XTsat/SteamTools-Guide',
+    docsDir: 'docs',
+
+    lastUpdated: true,
+    lastUpdatedText: '最后更新时间',
     contributors: true,
-    lastUpdated: 'Last Updated',
-    contributorsText: '贡献者',
-    lastUpdatedText: '上次更新',
+    contributorsText: '编辑人',
+
+    // 自定义容器 的默认标题
     tip: '提示',
     warning: '警告',
     danger: '危险',

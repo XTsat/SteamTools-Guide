@@ -142,6 +142,72 @@ const navbar = [
     text: 'Steam++ Github',
     link: 'https://github.com/BeyondDimension/SteamTools'
   },
+  {text: '交流',
+  children: [
+    {
+      text: '作者',
+      children: [
+        {
+          text: '软妹币玩家',
+          link: 'https://space.bilibili.com/797215'
+        },
+        {
+          text: 'Cliencer克总',
+          link: 'https://space.bilibili.com/30031316'
+        },
+        {
+          text: 'Github反馈',
+          link: 'https://github.com/BeyondDimension/SteamTools/issues'
+        },
+        {
+          text: 'Steam 组',
+          link: 'https://steamcommunity.com/groups/steamtool'
+        },
+      ]
+    },
+    {
+      text: 'QQ群',
+      children: [
+        {
+          text: 'QQ 一群 (53617681)',
+          link: 'https://qm.qq.com/cgi-bin/qm/qr?k=EvP8VZ-ByGjMlbLvrj4x4YJ8C_bhTisG&authKey=toKraTwFoTlJKXSuBv7A87W0qKb0vSRrozVLXW0dVcvOmEP98T/t+MZK9qFi26fb&noverify=0'
+        }, 
+        {
+          text: 'QQ 二群 (479036439)',
+          link: 'https://qm.qq.com/cgi-bin/qm/qr?k=gcFoBFtXoWAd1JUMgdaJ3w8eP7Cpg50J&authKey=Z3Jc%2BhxKoku1n895f2HsS%2FRbsI7FQIeljQnWpnpBhK48U%2BTVrRUT3GJ7oWFAFNHY&noverify=0&group_code=479036439'
+        }, 
+        {
+          text: 'QQ 三群 (101075312)',
+          link: 'https://qm.qq.com/cgi-bin/qm/qr?k=vhZ4jXXCQDPmQrewjUMIaLSuQsx-Kig5&authKey=UkKWlFSpHRRL%2F6C7KE73zj%2FJUUY7PKu%2FD0XBA2xUGR9oeCXH1wyAAamIGfqbHOaQ&noverify=0&group_code=101075312'
+        }, 
+        {
+          text: 'QQ 四群 (960746023)',
+          link: 'https://qm.qq.com/cgi-bin/qm/qr?k=TeMwmsvPZgdU2RKK9cDQV-4kGvyDwQ1h&authKey=Zt0OTXgCdrwJInjcrqA0VF%2FCX2%2F3PFqRayo%2BCLXPmIFe2OmFCRtKrkc3u5%2FaqdJt&noverify=0&group_code=960746023'
+        },
+      ]
+    },
+  ],
+},
+  {text: '关于我',
+  children: [
+        {
+          text: 'BiliBili 📺',
+          link: 'https://space.bilibili.com/53283118'
+        },
+        {
+          text: 'Steam 🎮',
+          link: 'https://steamcommunity.com/id/XTxiaotong'
+        },
+        {
+          text: 'Playlist 🎵',
+          link: 'https://music.163.com/#/user/home?id=283588276'
+        },
+        {
+          text: 'GitHub',
+          link: 'https://github.com/XTsat'
+        },
+  ]
+  },
 ]
 
 module.exports = navbar
