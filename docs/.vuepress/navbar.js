@@ -4,17 +4,8 @@ const navbar = [
     link: '/'
   },
   {
-    text: 'Steam++',
-    children: [
-      {
-        text: '功能',
-        link: '/Steam++/Functions/'
-      },
-      {
-        text: '导入令牌',
-        link: '/Steam++/How-To-Import-Steam-Token/PC-Steam++/'
-      },
-    ]
+    text: 'Steam++ 指南',
+    link: '/Steam++/',
   },
   {
     text: '下载',
