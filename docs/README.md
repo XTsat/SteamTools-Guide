@@ -5,11 +5,11 @@ heroImage: /logo/Steam++LOGO1.png
 heroText: Steam++ 指南
 tagline: null
 actions:
-  - text: 官网下载
+  - text: 官网
     link: https://steampp.net/
     type: secondary
-  - text: 帮助文档
-    link: /documents/
+  - text: 指南
+    link: /Steam++/
     type: primary
 features:
   - title: 本地加速 🚀

@@ -1,3 +1,6 @@
+const navbar = require('./navbar')
+const sidebarConf = require('./sidebar')
+
 module.exports = {
   // site config
   lang: 'zh-CN',
@@ -5,31 +8,17 @@ module.exports = {
   base: '/SteamTools-Guide/',
   description: '',
 
-
   // theme and its config
   theme: '@vuepress/theme-default',
   themeConfig: {
     displayAllHeaders: true,
     logo: '/logo/Steam++ico.svg',
-    navbar: [
-      {
-        text: '主页',
-        link: '/'
-      },
-      {
-        text: "帮助文档",
-        link: '/documents'
-      },
-      {
-        text: "Steam++",
-        link: '/How-To-Import-Steam-Token'
-      },
-      {
-        text: '更新日志',
-        link: 'https://github.com/BeyondDimension/SteamTools/releases'
-      },
-    ],
+    navbar,
+    
+    // sidebar: require('./sidebar'),
     sidebar: 'auto',
+    sidebar: sidebarConf,
+
     repo: 'XTsat/SteamTools-Guide',
     editLink: true,
     editLinkText: '编辑此页',
@@ -45,6 +34,8 @@ module.exports = {
     danger: '危险',
     notFound: ["找不到该页面"],
     backToHome: '返回首页',
+},
+
   plugins: [
     [
       '@vuepress/plugin-search',
@@ -58,11 +49,16 @@ module.exports = {
       }
     ],
     [
-      "vuepress-plugin-clipboard",
+      "vuepress-plugin-auto-sidebar",
       {
-        align: "top"
+        title: {
+        // 更多选项: 
+        // `default`、`lowercase`、`uppercase`、`capitalize`、`camelcase`、`kebabcase`、`titlecase`
+        mode: "titlecase"
+        },
+        removeEmptyGroup: true,
       }
-    ]
-  ]
-},
+    ],
+  ],
+  
 }
