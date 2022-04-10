@@ -12,8 +12,7 @@
 
 Steam++ 点击`令牌管理`-`新增`选择`Steam++ 导入`
 
-<!-- ![Steam++ 导入](./Photo/Steam-token/import-steam++-token.png#gh-light-mode-only) -->
-![Steam++ 导入](./Photo/Steam-token/import-steam++-token-dark.png#gh-dark-mode-only)
+![Steam++ 导入](./Photo/Steam-token/import-steam++-token-dark.png)
 
 ### 通过 有效的2FA(二步验证)应用 导入
 
@@ -31,8 +30,7 @@ Steam++ 点击`令牌管理`-`新增`选择`Steam++ 导入`
 
 Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 
-<!-- ![软件导入](./Photo/Steam-token/import-other-token.png#gh-light-mode-only) -->
-![软件导入](./Photo/Steam-token/import-other-token-dark.png#gh-dark-mode-only)
+![软件导入](./Photo/Steam-token/import-other-token-dark.png)
 
 [steam++令牌导入教程-从Steam Desktop Authenticator导入](https://www.bilibili.com/read/cv10145788) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
 
@@ -40,8 +38,7 @@ Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 
 根据软件说明，复制/导出令牌，并找到以下所需内容并依照图片输入
 
-<!-- ![其他导入](./Photo/Steam-token/import-phone-token.png#gh-light-mode-only) -->
-![其他导入](./Photo/Steam-token/import-phone-token-dark.png#gh-dark-mode-only)
+![其他导入](./Photo/Steam-token/import-phone-token-dark.png)
 
 ### 通过 安卓手机Steam 导入
 
@@ -118,8 +115,7 @@ iOS的令牌导出可参考：
 
 此方案最为简单，如下图直接通过Steam账号登录即可，但请**注意**：`本方案将解除手机端令牌并导致15天的市场交易暂挂`
 
-<!-- ![Steam 账号登入](./Photo/Steam-token/Sign-token.png#gh-light-mode-only) -->
-![Steam 账号登入](./Photo/Steam-token/Sign-token-dark.png#gh-dark-mode-only)
+![Steam 账号登入](./Photo/Steam-token/Sign-token-dark.png)
 
 - 你的 Steam 账号和密码，此操作会解除原有令牌，导致账号进入暂挂状态（15天内无法市场交易）
 
@@ -133,15 +129,13 @@ iOS的令牌导出可参考：
 
     在PC端点击如图所示`导出为二维码`按钮，在手机端点击 `右上角加号`-->`新增` 进行扫码
 
-    <!-- ![扫码](./Photo/Steam-token/QR-Code.png#gh-light-mode-only) -->
-    ![扫码](./Photo/Steam-token/QR-Code-dark.png#gh-dark-mode-only)
+    ![扫码](./Photo/Steam-token/QR-Code-dark.png)
 
 2. 通过 文件 导入
 
     在PC端点击如图所示`导出`按钮并`确认导出`，将导出的文件发送至手机，在手机端点击 `右上角加号`-->`新增` 进行导入
 
-    <!-- ![导出](./Photo/Steam-token/export.png#gh-light-mode-only) -->
-    ![导出](./Photo/Steam-token/export-dark.png#gh-dark-mode-only)
+    ![导出](./Photo/Steam-token/export-dark.png)
 
 ### 通过 手机Steam 导入
 
