@@ -8,7 +8,7 @@ module.exports = {
       "children": [
         "README.md",
         "Functions.md",
-        "FQA.md",
+        "FAQ.md",
         "How-To-Import-Steam-Token.md"
       ]
     }
