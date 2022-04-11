@@ -9,7 +9,7 @@ actions:
     link: https://steampp.net/
     type: secondary
   - text: GitHub
-    link: https://github.com/BeyondDimension/SteamTools/
+    link: https://steampp.net/
     type: secondary
   - text: 指南
     link: /Steam++/

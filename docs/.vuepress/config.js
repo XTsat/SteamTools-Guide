@@ -4,10 +4,22 @@ const sidebarConf = require('./config/sidebar')
 // import { navbar, sidebar } from './configs'
 
 module.exports = {
+  locales: {
+    // site config
+    // 键名是该语言所属的子路径
+    // 作为特例，默认语言可以使用 '/' 作为其路径。
+    '/': {
+      lang: 'zh-CN',
+      title: 'Steam ++ 指南!',
+      description: '',
+    },
+    '/en/': {
+      lang: 'en-US',
+      title: 'Steam ++ Guide!',
+      description: '',
+    },
+  },
 
-  lang: 'zh-CN',
-  title: 'Steam ++ 指南!',
-  description: '',
   base: '/XTsat/SteamTools-Guide/',
 
   head: [
@@ -48,6 +60,23 @@ module.exports = {
     danger: '危险',
     notFound: ["找不到该页面"],
     backToHome: '返回首页',
+    
+    // selectLanguageText: '选择语言',
+    locales: {
+      '/': {
+        selectLanguageName: '简体中文',
+        selectLanguageText: 'Language',
+
+        
+      },
+      '/en/': {
+        selectLanguageName: 'English',
+        selectLanguageText: '选择语言',
+        navbar: navbar.en,
+        repo: 'XTsat/SteamTools-Guide',
+        repoLabel: 'GitHub Docs',
+      },
+    },
   },
 
 
