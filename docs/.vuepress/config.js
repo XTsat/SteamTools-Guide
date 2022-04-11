@@ -11,16 +11,16 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: 'Steam ++ 指南!',
-      base: '/SteamTools-Guide/',
       description: '',
     },
     '/en/': {
       lang: 'en-US',
       title: 'Steam ++ Guide!',
-      base: '/SteamTools-Guide/en/',
       description: '',
     },
   },
+
+  base: '/XTsat/SteamTools-Guide/',
 
   head: [
     ["link", { rel: "icon", href: "/logo/Steam++Logo_1024.png" }],
