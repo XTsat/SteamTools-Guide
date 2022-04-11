@@ -39,35 +39,33 @@ module.exports = {
     sidebar: 'auto',
     sidebar: sidebarConf,
 
-    repo: 'XTsat/SteamTools-Guide',
-    repoLabel: 'GitHub文档',
-
-    editLink: true,
-    editLinkText: '编辑此页',
-
-    docsRepo: 'XTsat/SteamTools-Guide',
-    docsBranch: 'VuePress',
-    docsDir: 'docs',
-
-    lastUpdated: true,
-    lastUpdatedText: '最后更新时间',
-    contributors: true,
-    contributorsText: '编辑人',
-
-    // 自定义容器 的默认标题
-    tip: '提示',
-    warning: '警告',
-    danger: '危险',
-    notFound: ["找不到该页面"],
-    backToHome: '返回首页',
-    
     // selectLanguageText: '选择语言',
     locales: {
       '/': {
         selectLanguageName: '简体中文',
         selectLanguageText: 'Language',
 
-        
+        repo: 'XTsat/SteamTools-Guide',
+        repoLabel: 'GitHub文档',
+
+        editLink: true,
+        editLinkText: '编辑此页',
+
+        docsRepo: 'XTsat/SteamTools-Guide',
+        docsBranch: 'VuePress',
+        docsDir: 'docs',
+
+        lastUpdated: true,
+        lastUpdatedText: '最后更新时间',
+        contributors: true,
+        contributorsText: '编辑人',
+
+        // 自定义容器 的默认标题
+        tip: '提示',
+        warning: '警告',
+        danger: '危险',
+        notFound: ["找不到该页面"],
+        backToHome: '返回首页',
       },
       '/en/': {
         selectLanguageName: 'English',
