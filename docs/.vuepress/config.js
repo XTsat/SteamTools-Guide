@@ -9,7 +9,7 @@ module.exports = {
   description: '',
 
   head: [
-    ["link", {rel: "icon", href: "/logo/Steam++Logo_1024.png" }],
+    ["link", {rel: "icon", href: "/logo/favicon.ico" }],
   ],
 
   // open: true,
