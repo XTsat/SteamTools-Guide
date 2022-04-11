@@ -7,6 +7,9 @@ module.exports = {
   title: 'Steam ++ 指南!',
   base: '/SteamTools-Guide/',
   description: '',
+  head: [
+    ["link", {rel: "icon", href: "/logo/Steam++Logo_1024.png" }],
+  ],
 
   open: true,
 
