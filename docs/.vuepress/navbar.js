@@ -14,8 +14,20 @@ const navbar = [
         text: '所有下载',
         children: [
           {
-            text: 'Github 发行版',
+            text: 'GitHub 发行版',
             link: 'https://github.com/BeyondDimension/SteamTools/releases'
+          },
+          {
+            text: 'Gitee 发行版',
+            link: 'https://gitee.com/rmbgame/SteamTools/releases'
+          },
+          {
+            text: 'Official WebSite',
+            link: 'https://steampp.net'
+          },
+          {
+            text: 'Arch Linux Package',
+            link: 'https://aur.archlinux.org/packages/steam%2B%2B-bin'
           },
         ]
       },
@@ -143,16 +155,29 @@ const navbar = [
       },
     ],
   },
-  {
-    text: '更新日志',
-    link: 'https://github.com/BeyondDimension/SteamTools/releases'
-  },
-  {
-    text: 'Steam++ Github',
-    link: 'https://github.com/BeyondDimension/SteamTools'
-  },
-  {text: '交流',
+  {text: '官方',
   children: [
+    {
+      text: '官方链接',
+      children: [
+        {
+          text: '官网',
+          link: 'https://steampp.net'
+        },
+        {
+          text: 'GitHub',
+          link: 'https://github.com/BeyondDimension/SteamTools'
+        },
+        {
+          text: '更新日志',
+          link: 'https://steampp.net/changelog'
+        },
+        {
+          text: '发行日志',
+          link: 'https://github.com/BeyondDimension/SteamTools/releases'
+        },
+      ]
+    },
     {
       text: '作者',
       children: [
@@ -164,8 +189,13 @@ const navbar = [
           text: 'Cliencer克总',
           link: 'https://space.bilibili.com/30031316'
         },
+      ]
+    },
+    {
+      text: '交流',
+      children: [
         {
-          text: 'Github反馈',
+          text: 'GitHub反馈',
           link: 'https://github.com/BeyondDimension/SteamTools/issues'
         },
         {

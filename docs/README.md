@@ -8,6 +8,9 @@ actions:
   - text: 官网
     link: https://steampp.net/
     type: secondary
+  - text: GitHub
+    link: https://steampp.net/
+    type: secondary
   - text: 指南
     link: /Steam++/
     type: primary
