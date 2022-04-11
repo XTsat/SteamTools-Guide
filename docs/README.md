@@ -11,6 +11,9 @@ actions:
   - text: 指南
     link: /Steam++/
     type: primary
+  - text: 下载
+    link: /Steam++/Download/
+    type: secondary
 features:
   - title: 本地加速 🚀
     details: 使 Steam 社区、 Github 、谷歌验证码等国内难以访问的网页正常访问。功能类似 steamcommunit302 ，使用 Titanium-Web-Proxy 开源项目进行本地反代。
