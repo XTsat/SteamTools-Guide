@@ -15,11 +15,9 @@ module.exports = {
     '/en/': {
       lang: 'en-US',
       title: 'Steam ++ Guide!',
-      base: '/SteamTools-Guide/en/',
       description: '',
     },
   },
-
   head: [
     ["link", {rel: "icon", href: "/logo/Steam++Logo_1024.png" }],
   ],
@@ -52,15 +50,13 @@ module.exports = {
     contributors: true,
     contributorsText: '编辑人',
 
-    // selectLanguageText: '选择语言',
+    selectLanguageText: '选择语言',
     locales: {
       '/': {
         selectLanguageName: '简体中文',
-        selectLanguageText: 'Language',
       },
       '/en/': {
         selectLanguageName: 'English',
-        selectLanguageText: '选择语言',
       },
     },
 

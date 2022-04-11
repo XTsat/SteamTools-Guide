@@ -13,16 +13,5 @@ module.exports = {
         "How-To-Import-Steam-Token.md"
       ]
     }
-  ],
-  "/en/": [
-    {
-      "text": "En",
-      "title": "En",
-      "collapsable": false,
-      "sidebarDepth": 1,
-      "children": [
-        "README.md"
-      ]
-    }
   ]
 };
