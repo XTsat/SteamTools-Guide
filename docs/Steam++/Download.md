@@ -5,7 +5,7 @@ autoSort: 3
 # 下载 Steam++
 
 [![GitHub Releases](https://img.shields.io/badge/Github-%E5%8F%91%E8%A1%8C%E7%89%88-fff)](https://github.com/BeyondDimension/SteamTools/releases)
-[![Gitee Releases](https://img.shields.io/badge/Gitee-%E5%8F%91%E8%A1%8C%E7%89%88-c71d23)](https://gitee.com/rmbgame/SteamTools/releases)
+[![GitHub Releases](https://img.shields.io/badge/Gitee-%E5%8F%91%E8%A1%8C%E7%89%88-c71d23)](https://gitee.com/rmbgame/SteamTools/releases)
 [![Official WebSite](https://img.shields.io/badge/Steam%20++-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-1890ff)](https://steampp.net)
 [![Arch Linux Package](https://img.shields.io/badge/Arch%20Linux%20Package-zhanghua000-1793d1)](https://aur.archlinux.org/packages/steam%2B%2B-bin)
 
