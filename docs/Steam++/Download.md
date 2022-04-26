@@ -9,23 +9,28 @@ autoSort: 3
 [![Official WebSite](https://img.shields.io/badge/Steam%20++-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-1890ff)](https://steampp.net)
 [![Arch Linux Package](https://img.shields.io/badge/Arch%20Linux%20Package-zhanghua000-1793d1)](https://aur.archlinux.org/packages/steam%2B%2B-bin)
 
+以下渠道可能不能即时更新，如版本过旧推荐使用其他下载渠道
+
 ## 下载 Windows 版
 
 Windows 版|下载链接
 :-:|:-
-免安装版直链(Gitee)|<https://gitee.com/rmbgame/SteamTools/attach_files/984964/download/>
-安装版直链(Gitee)|<https://gitee.com/rmbgame/SteamTools/attach_files/984963/download/>
-蓝奏云网盘|<https://cliencer.lanzoux.com/b01v4iz1g> 提取码:1234
 阿里云盘|<https://www.aliyundrive.com/s/KDCFrongF7F>
-奶牛快传|<https://cowtransfer.com/s/94ce5dfa928f45>
 百度网盘|<https://pan.baidu.com/s/1xQ-RJEwd3y1nwUX7YZQ5nQ?pwd=ce4h>
+蓝奏云网盘|<https://cliencer.lanzoux.com/b01v4iz1g> 提取码:1234
+免安装版直链(Gitee)|<https://gitee.com/rmbgame/SteamTools/attach_files/1043375/download/Steam%20%20_win_x64_v2.7.0.7z>
+安装版直链(Gitee)|<https://gitee.com/rmbgame/SteamTools/attach_files/1043376/download/Steam%20%20_win_x64_v2.7.0.exe>
+奶牛快传|<https://cowtransfer.com/s/94ce5dfa928f45>
 Nas 分流|<https://pan.mossimo.net:5212/s/4yiQ>
 
 ## 下载 UWP 版
 
 UWP 版|下载链接
 :-:|:-
-微软商店|<https://www.microsoft.com/store/productId/9MTCFHS560NG>
+微软商店直接安装|<ms-windows-store://pdp/?ProductId=9MTCFHS560NG>
+微软商店|<https://apps.microsoft.com/store/detail/steam/9MTCFHS560NG>
+
+<!-- 微软商店|<https://www.microsoft.com/store/productId/9MTCFHS560NG> -->
 
 ## 下载 macOS 版
 

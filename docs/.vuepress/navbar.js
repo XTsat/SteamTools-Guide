@@ -32,31 +32,35 @@ const navbar = [
         ]
       },
       {
+        text: '有些渠道不能即时更新',
+        link: 'ms-windows-store://pdp/?ProductId=9MTCFHS560NG',
+      },
+      {
         text: '下载 Windows 版',
         children: [
           {
-            text: '免安装版直链下载(Gitee)',
-            link: 'https://gitee.com/rmbgame/SteamTools/attach_files/984964/download/'
+            text: '阿里云盘',
+            link: 'https://www.aliyundrive.com/s/KDCFrongF7F'
           },
           {
-            text: '安装版直链下载(Gitee)',
-            link: 'https://gitee.com/rmbgame/SteamTools/attach_files/984963/download/'
+            text: '百度网盘',
+            link: 'https://pan.baidu.com/s/1xQ-RJEwd3y1nwUX7YZQ5nQ?pwd=ce4h'
           },
           {
             text: '蓝奏云网盘 提取码:1234',
             link: 'https://cliencer.lanzoux.com/b01v4iz1g'
           },
           {
-            text: '阿里云盘',
-            link: 'https://www.aliyundrive.com/s/KDCFrongF7F'
+            text: '免安装版直链下载(Gitee)',
+            link: 'https://gitee.com/rmbgame/SteamTools/attach_files/1043375/download/Steam%20%20_win_x64_v2.7.0.7z'
+          },
+          {
+            text: '安装版直链下载(Gitee)',
+            link: 'https://gitee.com/rmbgame/SteamTools/attach_files/1043376/download/Steam%20%20_win_x64_v2.7.0.exe'
           },
           {
             text: '奶牛快传',
             link: 'https://cowtransfer.com/s/94ce5dfa928f45'
-          },
-          {
-            text: '百度网盘',
-            link: 'https://pan.baidu.com/s/1xQ-RJEwd3y1nwUX7YZQ5nQ?pwd=ce4h'
           },
           {
             text: 'Nas 分流',
@@ -68,9 +72,17 @@ const navbar = [
         text: '下载 UWP 版',
         children: [
           {
-            text: '微软商店直接安装',
-            link: 'https://www.microsoft.com/store/productId/9MTCFHS560NG'
+            text: '微软商店',
+            link: 'https://apps.microsoft.com/store/detail/steam/9MTCFHS560NG'
           },
+          // {
+          //   text: '微软商店直接安装',
+          //   link: 'ms-windows-store://pdp/?ProductId=9MTCFHS560NG&mode=mini&pos=0,0,2560,1392&referrer=storeforweb'
+          // },
+          // {
+          //   text: '微软商店',
+          //   link: 'https://www.microsoft.com/store/productId/9MTCFHS560NG'
+          // },
         ]
       },
       {
