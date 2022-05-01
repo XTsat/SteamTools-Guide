@@ -39,28 +39,28 @@ const navbar = [
         text: '下载 Windows 版',
         children: [
           {
-            text: '阿里云盘',
-            link: 'https://www.aliyundrive.com/s/KDCFrongF7F'
+            text: 'Gitee 下载',
+            link: 'https://gitee.com/rmbgame/SteamTools/releases'
           },
           {
-            text: '百度网盘',
-            link: 'https://pan.baidu.com/s/1xQ-RJEwd3y1nwUX7YZQ5nQ?pwd=ce4h'
+            text: 'Github 下载',
+            link: 'https://github.com/BeyondDimension/SteamTools/releases'
           },
           {
             text: '蓝奏云网盘 提取码:1234',
             link: 'https://cliencer.lanzoux.com/b01v4iz1g'
           },
           {
-            text: '免安装版直链下载(Gitee)',
-            link: 'https://gitee.com/rmbgame/SteamTools/attach_files/1043375/download/Steam%20%20_win_x64_v2.7.0.7z'
-          },
-          {
-            text: '安装版直链下载(Gitee)',
-            link: 'https://gitee.com/rmbgame/SteamTools/attach_files/1043376/download/Steam%20%20_win_x64_v2.7.0.exe'
+            text: '阿里云盘',
+            link: 'https://www.aliyundrive.com/s/KDCFrongF7F'
           },
           {
             text: '奶牛快传',
             link: 'https://cowtransfer.com/s/94ce5dfa928f45'
+          },
+          {
+            text: '百度网盘',
+            link: 'https://pan.baidu.com/s/1xQ-RJEwd3y1nwUX7YZQ5nQ?pwd=ce4h'
           },
           {
             text: 'Nas 分流',

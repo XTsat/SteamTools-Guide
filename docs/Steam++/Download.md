@@ -5,25 +5,61 @@ autoSort: 3
 # 下载 Steam++
 
 [![GitHub Releases](https://img.shields.io/badge/Github-%E5%8F%91%E8%A1%8C%E7%89%88-fff)](https://github.com/BeyondDimension/SteamTools/releases)
-[![GitHub Releases](https://img.shields.io/badge/Gitee-%E5%8F%91%E8%A1%8C%E7%89%88-c71d23)](https://gitee.com/rmbgame/SteamTools/releases)
+[![Gitte Releases](https://img.shields.io/badge/Gitee-%E5%8F%91%E8%A1%8C%E7%89%88-c71d23)](https://gitee.com/rmbgame/SteamTools/releases)
 [![Official WebSite](https://img.shields.io/badge/Steam%20++-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-1890ff)](https://steampp.net)
 [![Arch Linux Package](https://img.shields.io/badge/Arch%20Linux%20Package-zhanghua000-1793d1)](https://aur.archlinux.org/packages/steam%2B%2B-bin)
 
-以下渠道可能不能即时更新，如版本过旧推荐使用其他下载渠道
+## 不知道该下载哪个文件?
 
-## 下载 Windows 版
+- Desktop(桌面端)
+  - Windows
+    - 如果你使用 Intel、AMD 的 x64(x86-64) 芯片的 PC，则下载文件名中带有 **win_x64** 的文件
+    - 如果你 **已安装** 了 [ASP.NET Core 运行时 6.0.4](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) 则下载文件名中带有 **fde(框架依赖)** 的文件
+    - 注意：是 《ASP.NET Core 运行时》 而不是 《.NET 桌面运行时》
+      - [在 Windows 上安装 .NET](https://docs.microsoft.com/zh-cn/dotnet/core/install/windows)
+        - 本程序在 Windows 上不需要 Hosting Bundle 和 IIS support
+        - [下载安装程序并手动安装(aspnetcore-runtime-6.0.4-win-x64.exe)](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-aspnetcore-6.0.4-windows-x64-installer)
+        - [使用 PowerShell 自动化安装](https://docs.microsoft.com/zh-cn/dotnet/core/install/windows?tabs=net60#install-with-powershell-automation)
+  - macOS
+    - 如果你使用 Intel 的 x64(x86-64) 芯片的 Mac，则下载文件名中带有 **macos_x64** 的文件
+    - 如果你使用 ARM64(Apple Silicon) 芯片的 Mac，例如 **Apple M1**，则下载文件名中带有 **macos_arm64** 的文件
+  - Linux
+    - 如果你使用 Intel、AMD 的 x64(x86-64) 芯片的 PC 则下载文件名中带有 **linux_x64** 的文件
+    - 如果你使用 ARM64 芯片的 PC 例如 **Raspberry Pi Model 3+**，则下载文件名中带有 **linux_arm64** 的文件
+
+- Mobile(移动端)
+  - Android
+    - 如果你使用 ARM64 芯片的设备（较为**普遍**）则下载文件名中带有 **android** 的文件
+    <!-- - 如果你使用 ARM64 芯片的设备（较为**普遍**）则下载文件名中带有 **android_arm64_v8a** 的文件 -->
+    <!-- - 如果你使用 ARM32 芯片的设备（较为**稀有**）通常为 **14** 年下半年之前生产的设备，则下载文件名中带有 **android_armeabi_v7a** 的文件 -->
+    <!-- - 如果你使用 Intel、AMD 的 x64 芯片的设备（较为**稀有**）则下载文件名中带有 **android_x64** 的文件 -->
+
+<!--
+- 如果你使用 ARM64 芯片的 PC（极为**稀有**），例如 **Surface Pro X**，则下载文件名中带有 **win_x64** 的文件可通过 Win11 x86 模拟运行
+- **[暂未支持]** ~~如果你使用 ARM64 芯片的 PC（极为**稀有**），例如 **Surface Pro X**，则下载文件名中带有 **win_arm64** 的文件~~
+- **[暂未支持]** ~~如果你使用 ARM64 芯片的 Mac（较为**稀有**），例如 **M1**，则下载文件名中带有 **macos_arm64** 的文件~~
+			- [在 Linux 上安装 .NET](https://docs.microsoft.com/en-us/dotnet/core/install/linux)
+				- 推荐 [通过 Snap 安装 .NET Runtime](https://docs.microsoft.com/zh-cn/dotnet/core/install/linux-snap)
+				- ```sudo snap install dotnet-runtime-60 --classic```
+-->
+
+- 注意：以下网盘分流下载可能更新不及时，如要查看最新版本请前往 [GitHub](https://github.com/BeyondDimension/SteamTools/releases) 和 [Gitte](https://gitee.com/rmbgame/SteamTools/releases) 的发行版
+
+## Desktop(桌面端)
+
+### 下载 Windows 版
 
 Windows 版|下载链接
 :-:|:-
-阿里云盘|<https://www.aliyundrive.com/s/KDCFrongF7F>
-百度网盘|<https://pan.baidu.com/s/1xQ-RJEwd3y1nwUX7YZQ5nQ?pwd=ce4h>
+Gitee 下载|<https://gitee.com/rmbgame/SteamTools/releases>
+Github 下载|<https://github.com/BeyondDimension/SteamTools/releases>
 蓝奏云网盘|<https://cliencer.lanzoux.com/b01v4iz1g> 提取码:1234
-免安装版直链(Gitee)|<https://gitee.com/rmbgame/SteamTools/attach_files/1043375/download/Steam%20%20_win_x64_v2.7.0.7z>
-安装版直链(Gitee)|<https://gitee.com/rmbgame/SteamTools/attach_files/1043376/download/Steam%20%20_win_x64_v2.7.0.exe>
+阿里云盘|<https://www.aliyundrive.com/s/KDCFrongF7F>
 奶牛快传|<https://cowtransfer.com/s/94ce5dfa928f45>
+百度网盘|<https://pan.baidu.com/s/1xQ-RJEwd3y1nwUX7YZQ5nQ?pwd=ce4h>
 Nas 分流|<https://pan.mossimo.net:5212/s/4yiQ>
 
-## 下载 UWP 版
+### 下载 UWP 版
 
 UWP 版|下载链接
 :-:|:-
@@ -32,7 +68,7 @@ UWP 版|下载链接
 
 <!-- 微软商店|<https://www.microsoft.com/store/productId/9MTCFHS560NG> -->
 
-## 下载 macOS 版
+### 下载 macOS 版
 
 macOS 版|下载链接
 :-:|:-
@@ -42,7 +78,7 @@ macOS 版|下载链接
 奶牛快传|<https://cowtransfer.com/s/94ce5dfa928f45>
 Nas 分流|<https://pan.mossimo.net:5212/s/4yiQ>
 
-## 下载 Linux 版
+### 下载 Linux 版
 
 Linux 版|下载链接
 :-:|:-
@@ -52,7 +88,9 @@ Linux 版|下载链接
 奶牛快传|<https://cowtransfer.com/s/94ce5dfa928f45>
 Nas 分流|<https://pan.mossimo.net:5212/s/4yiQ>
 
-## 下载 Android 版
+## Mobile(移动端)
+
+### 下载 Android 版
 
 Android 版|下载链接
 :-:|:-
@@ -70,6 +108,8 @@ Android 版|下载链接
 [🖥 系统要求](https://github.com/BeyondDimension/SteamTools#-%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82)
 
 <details>
+
+<summary>[点击展开]</summary>
 
 #### Windows
 

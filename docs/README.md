@@ -30,6 +30,6 @@ features:
     details: 让您直接管理到 Steam 游戏库存，不仅能够下载老版本的 Steam 游戏，也能够对 Steam 游戏成就进行直接管理，支持解锁成就以及反解锁成就。
   - title: 自动挂卡
     details: 集成 ArchiSteamFarm 在应用内提供 挂机掉落 Steam 集换式卡牌 等功能。
-footer: Made by 晓同
+footer: Made by 晓同 <a href="https://github.com/XTsat/SteamTools-Guide">如果觉得这个指南有用的话可以去点个 Star 吗？</a>
 footerHtml: true
 ---
