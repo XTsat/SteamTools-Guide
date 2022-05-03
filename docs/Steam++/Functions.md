@@ -40,7 +40,7 @@ autoPrev: README
 
 - 通过 Steam **默认保存**的**凭证信息**一键切换已在当前 PC 上登录过的 Steam 账号，并且可以一键离线登录，还能管理家庭共享库排序等功能。
 
-![账户切换](./Photo/Home/Account-switching-dark.png)
+  ![账户切换](./Photo/Home/Account-switching-dark.png)
 
 ::: details [点击展开]-常见问题
 
@@ -66,7 +66,7 @@ autoPrev: README
 
 - 还可以自定义启动 Steam++ 后挂游戏时长的功能
 
-![自动挂游戏时长](./Photo/Home/Auto-Gametime-dark.png)
+  ![自动挂游戏时长](./Photo/Home/Auto-Gametime-dark.png)
 
 :::: details [点击展开]-Steam 游戏成就解锁：
 
@@ -108,4 +108,4 @@ Steam 游戏成就解锁使用开源项目 [SteamAchievementManager](https://git
 
 - 可以强制游戏窗口使用无边框窗口化或是全屏，也可以将游戏画面置于桌面壁纸上(与动态壁纸软件冲突)
 
-![游戏工具](./Photo/Home/Game-Setting-dark.png)
+  ![游戏工具](./Photo/Home/Game-Setting-dark.png)

@@ -1,7 +1,7 @@
 ---
 title: 首页
 home: true
-heroImage: /logo/Steam++LOGO1.png
+heroImage: /logo/Steam++Logo_1024.png
 heroText: Steam++ 指南
 tagline: 「Steam++」是一个开源跨平台的多功能游戏工具箱。
 actions:
