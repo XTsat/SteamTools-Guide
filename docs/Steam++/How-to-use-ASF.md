@@ -1,5 +1,4 @@
 ---
-autoPrev: How-To-Import-Steam-Token
 autoGroup-2: 自动挂卡
 ---
 

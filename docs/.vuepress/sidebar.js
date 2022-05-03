@@ -27,7 +27,7 @@ module.exports = {
       "collapsable": false,
       "sidebarDepth": 1,
       "children": [
-        "How to use ASF.md"
+        "How-to-use-ASF.md"
       ]
     }
   ]
