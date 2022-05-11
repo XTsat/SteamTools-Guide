@@ -4,7 +4,7 @@ const navbar = [
     link: '/'
   },
   {
-    text: 'Steam++ 指南',
+    text: 'Watt Toolkit 指南',
     link: '/Steam++/',
   },
   {

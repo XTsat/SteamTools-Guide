@@ -4,7 +4,7 @@ const sidebarConf = require('./sidebar')
 module.exports = {
   // site config
   lang: 'zh-CN',
-  title: 'Steam ++ 指南!',
+  title: 'Watt Toolkit 指南',
   base: '/SteamTools-Guide/',
   description: '',
 

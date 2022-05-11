@@ -2,8 +2,8 @@
 title: 首页
 home: true
 heroImage: /logo/Steam++Logo_1024.png
-heroText: Steam++ 指南
-tagline: 「Steam++」是一个开源跨平台的多功能游戏工具箱。
+heroText: Watt Toolkit 指南
+tagline: 🛠️「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。
 actions:
   - text: 官网
     link: https://steampp.net/
@@ -33,3 +33,18 @@ features:
 footer: Made by 晓同 <a href="https://github.com/XTsat/SteamTools-Guide">如果觉得这个指南有用的话可以去点个 Star 吗？</a>
 footerHtml: true
 ---
+
+### 更名通知
+
+Steam++ 更名为 Watt Toolkit
+
+指南中可能继续使用原有名字`Steam++`作为教程
+
+上架微软商店不能使用未经授权的商标,即与 Steam 相近的名字，要有v社的授权证明才能上架
+[Microsoft Store 策略](https://docs.microsoft.com/zh-cn/windows/uwp/publish/store-policies#112-content-including-names-logos-original-and-third-party)
+
+现有的其他 Steam 应用可能是协议收紧前上架(不知道具体原因)
+
+Q:为什么改名瓦特工具箱?
+
+A:是因为1776年瓦特改良了蒸汽机，我们借用了这个历史典故，希望能够把Steam改良，更适合国区用户使用!
