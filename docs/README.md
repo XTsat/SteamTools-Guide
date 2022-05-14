@@ -12,10 +12,10 @@ actions:
     link: https://github.com/BeyondDimension/SteamTools/
     type: secondary
   - text: 指南
-    link: /Steam++/
+    link: /document/
     type: primary
   - text: 下载
-    link: /Steam++/Download/
+    link: /document/Download/
     type: secondary
 features:
   - title: 本地加速 🚀
@@ -36,7 +36,7 @@ footerHtml: true
 
 ### 更名通知
 
-Steam++ 更名为 Watt Toolkit
+Steam++ 更名为 Guide
 
 指南中可能继续使用原有名字`Steam++`作为教程
 

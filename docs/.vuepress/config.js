@@ -9,7 +9,7 @@ module.exports = {
   description: '',
 
   head: [
-    ["link", {rel: "icon", href: "/logo/favicon.ico" }],
+    ["link", { rel: "icon", href: "/logo/favicon.ico" }],
   ],
 
   // open: true,
@@ -20,7 +20,7 @@ module.exports = {
     displayAllHeaders: true,
     logo: '/logo/Steam++ico.svg',
     navbar,
-    
+
     // sidebar: require('./sidebar'),
     sidebar: 'auto',
     sidebar: sidebarConf,
@@ -46,7 +46,7 @@ module.exports = {
     danger: '危险',
     notFound: ["找不到该页面"],
     backToHome: '返回首页',
-},
+  },
 
   plugins: [
     [
@@ -60,17 +60,19 @@ module.exports = {
         }
       }
     ],
-    [
-      "vuepress-plugin-auto-sidebar",
-      {
-        title: {
-        // 更多选项: 
-        // `default`、`lowercase`、`uppercase`、`capitalize`、`camelcase`、`kebabcase`、`titlecase`
-        mode: "titlecase"
-        },
-        removeEmptyGroup: true,
-      }
-    ],
+    // [
+    //   "vuepress-plugin-auto-sidebar",
+    //   {
+    //     title: {
+    //       // 更多选项: 
+    //       // `default`、`lowercase`、`uppercase`、`capitalize`、`camelcase`、`kebabcase`、`titlecase`
+    //       mode: "titlecase"
+    //     },
+    //     removeEmptyGroup: true,
+    //   }
+    // ],
+    
+    // ['vuepress-plugin-auto-sidebar', false] // disabled.
   ],
-  
+
 }

@@ -1,15 +1,13 @@
 module.exports = {
-  "/Steam++/": [
+  "/": [
     {
-      "text": "Steam++",
-      "title": "Steam++",
+      "text": "开始使用",
+      "title": "开始使用",
       "collapsable": false,
-      "sidebarDepth": 1,
       "children": [
-        "Download.md",
-        "README.md",
-        "Functions.md",
-        "FAQ.md"
+        "/document/Start/Download.md",
+        "/document/Start/Functions.md",
+        "/document/Start/Supported Operating Systems.md",
       ]
     },
     {
@@ -18,7 +16,7 @@ module.exports = {
       "collapsable": false,
       "sidebarDepth": 1,
       "children": [
-        "How-To-Import-Steam-Token.md"
+        "/document/Steam Guard/How-To-Import-Steam-Token.md",
       ]
     },
     {
@@ -27,7 +25,16 @@ module.exports = {
       "collapsable": false,
       "sidebarDepth": 1,
       "children": [
-        "How-to-use-ASF.md"
+        "/document/ASF/How-to-use-ASF.md",
+      ]
+    },
+    {
+      "text": "常见问题",
+      "title": "常见问题",
+      "collapsable": false,
+      "sidebarDepth": 1,
+      "children": [
+        "/document/FAQ/FAQ.md",
       ]
     }
   ]

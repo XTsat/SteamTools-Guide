@@ -5,7 +5,7 @@ const navbar = [
   },
   {
     text: 'Watt Toolkit 指南',
-    link: '/Steam++/',
+    link: '/document/',
   },
   {
     text: '下载',
@@ -39,14 +39,6 @@ const navbar = [
         text: '下载 Windows 版',
         children: [
           {
-            text: 'Gitee 下载',
-            link: 'https://gitee.com/rmbgame/SteamTools/releases'
-          },
-          {
-            text: 'Github 下载',
-            link: 'https://github.com/BeyondDimension/SteamTools/releases'
-          },
-          {
             text: '蓝奏云网盘 提取码:1234',
             link: 'https://cliencer.lanzoux.com/b01v4iz1g'
           },
@@ -73,7 +65,7 @@ const navbar = [
         children: [
           {
             text: '微软商店',
-            link: 'https://apps.microsoft.com/store/detail/steam/9MTCFHS560NG'
+            link: 'https://apps.microsoft.com/store/detail/watt-toolkit/9MTCFHS560NG'
           },
           // {
           //   text: '微软商店直接安装',

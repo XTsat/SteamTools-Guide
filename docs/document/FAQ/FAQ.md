@@ -4,8 +4,8 @@
 
 点 `关于` `检查更新` 即可
 
-<!-- ![检查更新](./Photo/Home/Setting-Update.png#gh-light-mode-only) -->
-![检查更新](./Photo/Home/Setting-Update-dark.png#gh-dark-mode-only)
+<!-- ![检查更新](../Photo/Home/Setting-Update.png#gh-light-mode-only) -->
+![检查更新](../Photo/Home/Setting-Update-dark.png#gh-dark-mode-only)
 
 ## 网络问题
 
@@ -27,4 +27,4 @@
 >
 >遇到这个问题可以尝试还原hosts文件，关闭windows系统代理，重置网络服务
 
-![重置 host 文件](./Photo/Home/reset-host-dark.png)
+![重置 host 文件](../Photo/Home/reset-host-dark.png)
