@@ -15,7 +15,7 @@ actions:
     link: /document/
     type: primary
   - text: 下载
-    link: /document/Download/
+    link: /document/Download channel/
     type: secondary
 features:
   - title: 本地加速 🚀

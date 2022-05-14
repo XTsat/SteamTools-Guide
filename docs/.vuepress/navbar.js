@@ -11,28 +11,32 @@ const navbar = [
     text: '下载',
     children: [
       {
-        text: '所有下载',
+        text: '多平台下载链接',
         children: [
           {
-            text: 'GitHub 发行版',
-            link: 'https://github.com/BeyondDimension/SteamTools/releases'
-          },
-          {
-            text: 'Gitee 发行版',
+            text: 'Gitee 发行版(即时更新)',
             link: 'https://gitee.com/rmbgame/SteamTools/releases'
           },
           {
-            text: 'Official WebSite',
-            link: 'https://steampp.net'
+            text: 'GitHub 发行版(即时更新)',
+            link: 'https://github.com/BeyondDimension/SteamTools/releases'
           },
           {
-            text: 'Arch Linux Package',
-            link: 'https://aur.archlinux.org/packages/steam%2B%2B-bin'
+            text: '阿里云盘',
+            link: 'https://www.aliyundrive.com/s/KDCFrongF7F'
+          },
+          {
+            text: 'Nas 分流',
+            link: 'https://pan.mossimo.net:5212/s/4yiQ'
+          },
+          {
+            text: '奶牛快传(链接异常)',
+            link: 'https://cowtransfer.com/s/94ce5dfa928f45'
           },
         ]
       },
       {
-        text: '有些渠道不能即时更新',
+        text: '注:有些渠道不能即时更新',
         link: 'ms-windows-store://pdp/?ProductId=9MTCFHS560NG',
       },
       {
@@ -43,20 +47,8 @@ const navbar = [
             link: 'https://cliencer.lanzoux.com/b01v4iz1g'
           },
           {
-            text: '阿里云盘',
-            link: 'https://www.aliyundrive.com/s/KDCFrongF7F'
-          },
-          {
-            text: '奶牛快传',
-            link: 'https://cowtransfer.com/s/94ce5dfa928f45'
-          },
-          {
             text: '百度网盘',
             link: 'https://pan.baidu.com/s/1xQ-RJEwd3y1nwUX7YZQ5nQ?pwd=ce4h'
-          },
-          {
-            text: 'Nas 分流',
-            link: 'https://pan.mossimo.net:5212/s/4yiQ'
           },
         ]
       },
@@ -88,18 +80,6 @@ const navbar = [
             text: '百度网盘',
             link: 'https://pan.baidu.com/s/1UaVrxC1F1GtkLTdC25yK-w?pwd=wg4x'
           },
-          {
-            text: '阿里云盘',
-            link: 'https://www.aliyundrive.com/s/KDCFrongF7F'
-          },
-          {
-            text: '奶牛快传',
-            link: 'https://cowtransfer.com/s/94ce5dfa928f45'
-          },
-          {
-            text: 'Nas 分流',
-            link: 'https://pan.mossimo.net:5212/s/4yiQ'
-          },
         ]
       },
       {
@@ -110,20 +90,8 @@ const navbar = [
             link: 'https://wwe.lanzouy.com/b01v4iz7c'
           },
           {
-            text: '阿里云盘',
-            link: 'https://www.aliyundrive.com/s/KDCFrongF7F'
-          },
-          {
             text: '百度网盘',
             link: 'https://pan.baidu.com/s/1WOQBEg7hl92Lq7mjONlFJg?pwd=7tbn'
-          },
-          {
-            text: '奶牛快传',
-            link: 'https://cowtransfer.com/s/94ce5dfa928f45'
-          },
-          {
-            text: 'Nas 分流',
-            link: 'https://pan.mossimo.net:5212/s/4yiQ'
           },
         ]
       },
@@ -133,14 +101,6 @@ const navbar = [
           {
             text: '蓝奏云网盘 提取码:1234',
             link: 'https://wwe.lanzouy.com/b01v4izfa'
-          },
-          {
-            text: '阿里云盘',
-            link: 'https://www.aliyundrive.com/s/KDCFrongF7F'
-          },
-          {
-            text: '奶牛快传',
-            link: 'https://cowtransfer.com/s/94ce5dfa928f45'
           },
           {
             text: '百度网盘',

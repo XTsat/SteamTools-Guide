@@ -5,7 +5,7 @@ module.exports = {
       "title": "开始使用",
       "collapsable": false,
       "children": [
-        "/document/Start/Download.md",
+        "/document/Start/Download channel.md",
         "/document/Start/Functions.md",
         "/document/Start/Supported Operating Systems.md",
       ]
