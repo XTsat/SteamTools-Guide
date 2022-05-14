@@ -15,12 +15,12 @@ actions:
     link: /document/
     type: primary
   - text: 下载
-    link: /document/Download channel/
+    link: /document/Start/Download channel.md
     type: secondary
 features:
-  - title: 本地加速 🚀
+  - title: 本地加速
     details: 使 Steam 社区、 Github 、谷歌验证码等国内难以访问的网页正常访问。功能类似 steamcommunit302 ，使用 Titanium-Web-Proxy 开源项目进行本地反代。
-  - title: 脚本配置 
+  - title: 脚本配置
     details: 通过加速服务拦截网络请求将一些 JS 脚本注入在网页中，提供类似网页插件的功能。
   - title: 账号切换
     details: 一键切换已在当前 PC 上登录过的 Steam 账号，与管理家庭共享库排序等功能。
@@ -36,7 +36,7 @@ footerHtml: true
 
 ### 更名通知
 
-Steam++ 更名为 Guide
+Steam++ 更名为 Watt Toolkit
 
 指南中可能继续使用原有名字`Steam++`作为教程
 
