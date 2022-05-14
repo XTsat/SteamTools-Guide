@@ -16,7 +16,12 @@ module.exports = {
       "collapsable": false,
       "sidebarDepth": 1,
       "children": [
-        "/document/Steam Guard/How-To-Import-Steam-Token.md",
+        "/document/Steam Guard/2FA to import Guard.md",
+        "/document/Steam Guard/Android to import Guard.md",
+        "/document/Steam Guard/Apple to import Guard.md",
+        "/document/Steam Guard/Login to import Guard.md",
+        "/document/Steam Guard/Steam++ to import Guard.md",
+        "/document/Steam Guard/Reference documents.md",
       ]
     },
     {
@@ -25,7 +30,7 @@ module.exports = {
       "collapsable": false,
       "sidebarDepth": 1,
       "children": [
-        "/document/ASF/How-to-use-ASF.md",
+        "/document/ASF/How to use ASF.md",
       ]
     },
     {
@@ -35,6 +40,7 @@ module.exports = {
       "sidebarDepth": 1,
       "children": [
         "/document/FAQ/FAQ.md",
+        "/document/FAQ/Network problems.md",
       ]
     }
   ]
