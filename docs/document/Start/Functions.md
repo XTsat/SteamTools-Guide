@@ -1,6 +1,6 @@
 # ✨ 功能
 
-## 网络加速 <img src="../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/apple.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/android.svg" width="16" height="16" /> 
+## 网络加速 <img src="../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/apple.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/android.svg" width="16" height="16" />
 
 - 实现对 `Steam` `Discord` `Twitch` `Origin` `Uplay` `GitHub` `Microsoft Store` `谷歌验证码` `Pixiv` 等国内难以访问的网页正常访问，防止网络被干扰
 
@@ -82,7 +82,7 @@ Steam 游戏成就解锁使用开源项目 [SteamAchievementManager](https://git
 
 ::::
 
-## 本地令牌 <img src="../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/apple.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/android.svg" width="16" height="16" /> 
+## 本地令牌 <img src="../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/apple.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/android.svg" width="16" height="16" />
 
 - 让您的手机令牌统一保存在电脑中，目前仅支持 Steam 令牌，后续会开发支持更多的令牌种类与云同步令牌。
 
@@ -94,7 +94,7 @@ Steam 游戏成就解锁使用开源项目 [SteamAchievementManager](https://git
   
   [steam++令牌导入教程](https://www.bilibili.com/read/cv10145839) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
 
-## 自动挂卡 <img src="../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/apple.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/android.svg" width="16" height="16" /> 
+## 自动挂卡 <img src="../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/apple.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/android.svg" width="16" height="16" />
 
 - 集成开源项目 [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) 在应用内提供挂机掉落 `Steam 集换式卡牌` 等功能。
 

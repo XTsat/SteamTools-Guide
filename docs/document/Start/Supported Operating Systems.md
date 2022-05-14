@@ -1,6 +1,6 @@
 # 🖥️ 系统要求
 
-### Windows
+## Windows
 
 OS                                    | Version                 | Architectures   | Lifecycle
 --------------------------------------|-------------------------|-----------------|----------
@@ -18,7 +18,7 @@ OS                                    | Version                 | Architectures 
 [Nano-Server]: https://docs.microsoft.com/windows-server/get-started/getting-started-with-nano-server
 [Windows-Server]: https://docs.microsoft.com/windows-server/
 
-### Linux
+## Linux
 
 OS                                    | Version               | Architectures     | Lifecycle
 --------------------------------------|-----------------------|-------------------|----------
@@ -65,7 +65,7 @@ OS                                    | Version               | Architectures   
 [Deepin-lifecycle]: https://www.deepin.org/release-notes
 [Arch]: https://archlinux.org/
 
-### macOS
+## macOS
 
 OS                            | Version                   | Architectures     |
 ------------------------------|---------------------------|-------------------|
@@ -73,7 +73,7 @@ OS                            | Version                   | Architectures     |
 
 [macOS]: https://support.apple.com/macos
 
-### Android
+## Android
 
 OS                            | Version                 | Architectures                                                      |
 ------------------------------|-------------------------|--------------------------------------------------------------------|
@@ -84,7 +84,7 @@ OS                            | Version                 | Architectures         
 [Android-Arm32]: https://developer.android.google.cn/ndk/guides/abis?hl=zh_cn#v7a
 [Android-Arm64]: https://developer.android.google.cn/ndk/guides/abis?hl=zh_cn#arm64-v8a
 
-### ~~iOS / iPadOS~~
+## ~~iOS / iPadOS~~
 
 OS                            | Version                 | Architectures     |
 ------------------------------|-------------------------|-------------------|
