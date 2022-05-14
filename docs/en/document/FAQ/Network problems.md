@@ -18,4 +18,4 @@
 >
 >If you encounter this problem, you can try to restore the hosts file, close the windows system agent, and reset the network service.
 
-! [Reset host file](... /Photo/Home/reset-host-dark.png)
+![Reset host file](../Photo/Home/reset-host-dark.png)

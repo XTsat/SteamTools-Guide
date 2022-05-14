@@ -28,8 +28,7 @@
     - If you are using a PC with an Intel, AMD x64 (x86-64) chip, download the file with **linux_x64** in the file name
     - If you use a PC with an ARM64 chip, such as **Raspberry Pi Model 3+**, download the file with **linux_arm64** in the file name
 
-<! --  
-
+<!--  
 - Mobile(Mobile)
   - Android
     - If you are using a device with an ARM64 chip (more common**) download the file with**android_arm64_v8a** in the file name
@@ -37,8 +36,7 @@
     - If you are using a device with an Intel, AMD x64 chip (more **rare**) download the file with **android_x64** in the file name
 -->
 
-<! --
-
+<!--
 - If you are using a PC with an ARM64 chip (extremely **rare**), e.g. **Surface Pro X**, then download the file with **win_x64** in the filename to run through Win11 x86 emulation
 - **[Not yet supported]** ~~ If you are using a PC with an ARM64 chip (extremely **rare**), such as **Surface Pro X**, download the file with **win_arm64** in the file name~~
 - **[Not supported yet]** ~~ If you are using a Mac with an ARM64 chip (rare**), such as**M1**, download the file with**macos_arm64** in the file name~~
@@ -46,8 +44,6 @@
   - Recommended [Installing .NET Runtime via Snap](https://docs.microsoft.com/zh-cn/dotnet/core/install/linux-snap)
   - ```sudo snap install dotnet-runtime-60 --classic``
 -->
-
-Translated with www.DeepL.com/Translator (free version)
 
 - Note: The following web streaming download may not be updated in a timely manner, if you want to view the latest version please go to [GitHub](https://github.com/BeyondDimension/SteamTools/releases) and [Gitte](https://gitee.com/rmbgame/SteamTools/releases) for the release
 
