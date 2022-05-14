@@ -42,7 +42,7 @@
 
 > Q: 账号切换之后还是需要输入密码和令牌？为什么有时候可以一键切换有时候不行？
 >
-> A: Steam++ 的账号切换功能并没有记录你的密码和令牌， 能实现快速切换账号是因为 Steam 本身的记住密码功能，如果你没有记住密码登陆过账号，或者你的记住登陆状态丢失，都会导致账号切换之后需要密码和令牌，解决方法是下线所有当前 Steam 登陆的设备，重新在你的 PC 记住密码登陆一次。
+> A: Watt Toolkit 的账号切换功能并没有记录你的密码和令牌， 能实现快速切换账号是因为 Steam 本身的记住密码功能，如果你没有记住密码登陆过账号，或者你的记住登陆状态丢失，都会导致账号切换之后需要密码和令牌，解决方法是下线所有当前 Steam 登陆的设备，重新在你的 PC 记住密码登陆一次。
 
 :::
 
@@ -60,7 +60,7 @@
 
   ![自动关机](../Photo/Home/Auto-shutdown-dark.png)
 
-- 还可以自定义启动 Steam++ 后挂游戏时长的功能
+- 还可以自定义启动 Watt Toolkit 后挂游戏时长的功能
 
   ![自动挂游戏时长](../Photo/Home/Auto-Gametime-dark.png)
 
@@ -86,7 +86,7 @@ Steam 游戏成就解锁使用开源项目 [SteamAchievementManager](https://git
 
 - 让您的手机令牌统一保存在电脑中，目前仅支持 Steam 令牌，后续会开发支持更多的令牌种类与云同步令牌。
 
-- 类似于 `WinAuth` (可以通过导出的方式将 `WinAuth 2步验证` 导入 `Steam++`，使用[开源项目Winauth](https://github.com/winauth/winauth))
+- 类似于 `WinAuth` (可以通过导出的方式将 `WinAuth 2步验证` 导入 `Watt Toolkit`，使用[开源项目Winauth](https://github.com/winauth/winauth))
 
   [如何导入steam令牌](../How-To-Import-Steam-Token.md)
   

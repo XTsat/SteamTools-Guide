@@ -4,7 +4,7 @@
 
 [网页地址 `https://xtsat.github.io/SteamTools-Guide`](https://xtsat.github.io/SteamTools-Guide)
 
-**注意**：Watt Toolkit 在不断地更新功能，所以教程具有一定的时效性，如果不符合教程请确认最后更新时间和 steam++ 版本是否更新
+**注意**：Watt Toolkit 在不断地更新功能，所以教程具有一定的时效性，如果不符合教程请确认最后更新时间和 Watt Toolkit 版本是否更新
 
 ## 什么是 Watt Toolkit？
 
