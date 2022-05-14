@@ -4,7 +4,7 @@ export const en: SidebarConfig = {
   '/en/': [
     {
       text: 'Start',
-      collapsible: false,
+      collapsible: true,
       children: [
         '/en/document/Start/Download channel.md',
         '/en/document/Start/Functions.md',
@@ -13,7 +13,7 @@ export const en: SidebarConfig = {
     },
     {
       text: 'Local Authentication',
-      collapsible: false,
+      collapsible: true,
       children: [
         '/en/document/Steam Guard/2FA to import Guard.md',
         '/en/document/Steam Guard/Android to import Guard.md',
@@ -25,14 +25,14 @@ export const en: SidebarConfig = {
     },
     {
       text: 'ArchiSteamFarm',
-      collapsible: false,
+      collapsible: true,
       children: [
         '/en/document/ASF/How to use ASF.md',
       ]
     },
     {
       text: 'FAQ',
-      collapsible: false,
+      collapsible: true,
       children: [
         '/en/document/FAQ/FAQ.md',
         '/en/document/FAQ/Network problems.md',
