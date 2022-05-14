@@ -72,6 +72,8 @@ UWP 版|下载链接
 
 macOS 版|下载链接
 :-:|:-
+Gitee 下载|<https://gitee.com/rmbgame/SteamTools/releases>
+Github 下载|<https://github.com/BeyondDimension/SteamTools/releases>
 蓝奏云网盘|<https://wwe.lanzouy.com/b01v4izaf> 提取码:1234
 百度网盘|<https://pan.baidu.com/s/1UaVrxC1F1GtkLTdC25yK-w?pwd=wg4x>
 阿里云盘|<https://www.aliyundrive.com/s/KDCFrongF7F>
@@ -82,6 +84,8 @@ Nas 分流|<https://pan.mossimo.net:5212/s/4yiQ>
 
 Linux 版|下载链接
 :-:|:-
+Gitee 下载|<https://gitee.com/rmbgame/SteamTools/releases>
+Github 下载|<https://github.com/BeyondDimension/SteamTools/releases>
 蓝奏云网盘|<https://wwe.lanzouy.com/b01v4iz7c> 提取码:1234
 阿里云盘|<https://www.aliyundrive.com/s/KDCFrongF7F>
 百度网盘|<https://pan.baidu.com/s/1WOQBEg7hl92Lq7mjONlFJg?pwd=7tbn>
@@ -94,6 +98,8 @@ Nas 分流|<https://pan.mossimo.net:5212/s/4yiQ>
 
 Android 版|下载链接
 :-:|:-
+Gitee 下载|<https://gitee.com/rmbgame/SteamTools/releases>
+Github 下载|<https://github.com/BeyondDimension/SteamTools/releases>
 蓝奏云网盘|<https://wwe.lanzouy.com/b01v4izfa> 提取码:1234
 阿里云盘|<https://www.aliyundrive.com/s/KDCFrongF7F>
 奶牛快传|<https://cowtransfer.com/s/94ce5dfa928f45>

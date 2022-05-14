@@ -42,9 +42,12 @@ Steam++ 更名为 Watt Toolkit
 
 上架微软商店不能使用未经授权的商标,即与 Steam 相近的名字，要有v社的授权证明才能上架
 [Microsoft Store 策略](https://docs.microsoft.com/zh-cn/windows/uwp/publish/store-policies#112-content-including-names-logos-original-and-third-party)
+[下架原文](Change-name/QQ图片20220512025429.png)
 
 现有的其他 Steam 应用可能是协议收紧前上架(不知道具体原因)
 
 Q:为什么改名瓦特工具箱?
 
 A:是因为1776年瓦特改良了蒸汽机，我们借用了这个历史典故，希望能够把Steam改良，更适合国区用户使用!
+
+![改名通知](/Change-name/QQ图片20220512025924.png)
