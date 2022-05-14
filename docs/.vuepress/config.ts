@@ -77,6 +77,9 @@ export default defineUserConfig({
       '/en/': {
         // navbar
         navbar: navbar.en,
+        selectLanguageName: 'English',
+        selectLanguageText: '选择语言',
+        selectLanguageAriaLabel: '选择语言',
   
         // sidebar
         sidebar: sidebar.en,

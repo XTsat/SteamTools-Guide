@@ -1,40 +1,40 @@
-# 安卓手机导入令牌
+# Android phone import token
 
-安卓手机根据不同情况不同厂商可分为三种情况：
-任意安卓手机，有root
-部分安卓手机厂商，有自家备份软件，且备份文件无加密/加密可破解
-手机无root，且无法备份对应数据/无法解密备份数据的，此方法由于是重新绑定，所以可能有暂挂
+Android phones can be divided into three cases depending on the situation different manufacturers.
+Any Android phone with root
+Some Android phone manufacturers, have their own backup software, and the backup file is not encrypted / encryption can be cracked
+The phone is not rooted, and can not backup the corresponding data / can not decrypt the backup data, this method is re-binding, so there may be temporary hanging
 
-## 有root
+## have root
 
 [steam++令牌导入教程-从Android App导入-须root的方式](https://www.bilibili.com/read/cv10142098?from=articleDetail) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
 
-- 一台绑定了目标账号令牌，并且已经被root的手机
+- A phone with the target account token tied to it and rooted
 
-## 无root
+## no root
 
->需要一台绑定了目标账号令牌的手机，根据手机品牌不同，还需要不同的软件，这一方案并非全品牌适用
+>A phone with a target account token is required, and depending on the phone brand, different software is also required, this solution is not available for all brands
 
 [steam++令牌导入教程-从Android App导入-无须root的方式](https://www.bilibili.com/read/cv10052462) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
 
-本方案涉及手机品牌较多，总结概述为：
+This solution involves a large number of cell phone brands and is summarized as follows
 
-1. 通过具备高权限的手机厂商自家备份软件对 SteamApp 进行备份
+1. backup SteamApp through the phone manufacturer's own backup software with high privileges
 
-2. 提取备份文件导入令牌
+2. extract the backup file and import the token
 
-已知的相关教程链接：
+Known links to related tutorials.
 
->[~~vivo~~](https://keylol.com/t684133-1-1)新版已加密
+>[~~vivo~~](https://keylol.com/t684133-1-1)The new version is encrypted
 >
->[小米](https://keylol.com/t524510-1-1)
+>[Xiaomi](https://keylol.com/t524510-1-1)
 >
->[LG](https://keylol.com/t582900-1-1)解密
+>[LG](https://keylol.com/t582900-1-1)Decryption
 >
->[~~华为~~](https://keylol.com/t666792-1-1)新版已修改加密
+>[~~HuaWei~~](https://keylol.com/t666792-1-1)The new version has modified encryption
 
-更多品牌手机可参考以上教程自行研究
+More brands of cell phones can refer to the above tutorials for their own research
 
-## 无root，可能有暂挂
+## No root, may have Trading Pending
 
 [安卓手机利用 ADB 免 root 导出令牌（避免暂挂）](https://keylol.com/t757408-1-1) [(其乐 Keylol)@sffxzzp](https://keylol.com/suid-218128)

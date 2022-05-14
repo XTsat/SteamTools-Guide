@@ -1,16 +1,16 @@
-# 苹果手机导入令牌
+# Apple phone import token
 
-## 已越狱
+## Jailbroken
 
-此方案引用并修改自[Steam++ issues #95](https://github.com/SteamTools-Team/SteamTools/issues/95)
+This program is quoted and modified from[Steam++ issues #95](https://github.com/SteamTools-Team/SteamTools/issues/95)
 
-用 **Filza** 打开`/var/mobile/Containers/Data/Application/{字符串}`，数字串位置为Steam 数据文件夹，可能不一样，Filza会显示为“Steam”
-用文本方式打开`/Documents/Steamguard-xxxxxxxxxxxxxxxx`，到最下面找到 otpauth 那一栏粘贴到 Steam++
-用文本方式打开`/Library/Preferences/com.valvesoftware.Steam`，并找到`<string>/var/mobile/Containers/Data/Application/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/Library/Caches</string>`，复制`XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX`并在最前面添加`android:`并粘贴到 Watt Toolkit
+Open `/var/mobile/Containers/Data/Application/{String}` with **Filza**, the number string location is Steam data folder, it may be different, Filza will show it as "Steam"
+Open `/Documents/Steamguard-xxxxxxxxxxxxxxxx` with text, go to the bottom and find the otpauth column and paste it into Steam++
+Open `/Library/Preferences/com.valvesoftware.Steam` with text and find `<string>/var/mobile/Containers/Data/Application/XXXXXXXX-XXXX-XXXX-XXXX- XXXXXXXXXXXXXX/Library/Caches</string>`, copy `XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXXXX` and add `android:` at the top and paste it into Watt Toolkit
 
-## 未越狱，可能有暂挂
+## Not jailbroken, may have temporary hang
 
-iOS的令牌导出可参考：
+The token export for iOS can be found at
 
 >[越狱IOS设备无损导入Steam令牌至Steam++](https://keylol.com/t728973-1-1)
 >
@@ -20,10 +20,10 @@ iOS的令牌导出可参考：
 >
 >[\[云挂卡\]未越狱iOS设备也可以使用ASF 2FA功能了](https://keylol.com/t245711-1-1)
 
-简单步骤：
+Simple steps.
 
-1. 解绑Steam令牌
-2. 卸载并安装`iTunes旧版`
-3. 使用 `iOS旧版应用下载` 下载`旧版本Steam`
-4. `提取ipa`并使用`爱思助手等工具`安装
-5. 绑定令牌并备份数据
+1. Uninstall the Steam token
+2. Uninstall and install `iTunes Old Version`.
+3. Use `iOS old app download` to download `old version of Steam`.
+4. `Extract ipa` and install it with `爱思助手` and other tools
+5. Bind the token and backup the data

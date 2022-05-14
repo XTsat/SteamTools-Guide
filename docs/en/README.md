@@ -3,7 +3,7 @@ title: HOME
 home: true
 heroImage: /logo/Steam++Logo_1024.png
 heroText: Watt Toolkit Guide
-tagline: 🛠️"Watt Toolkit" is an open source cross-platform multi-purpose game toolkit.
+tagline: 🛠️"Watt Toolkit" is an open source cross-platform multi-purpose Steam toolkit.
 actions:
   - text: Official WebSite
     link: https://steampp.net/

@@ -1,25 +1,25 @@
-# 旧版/新版Steam++导入
+# Older/newer Steam++ import
 
-- 由Steam++V1版本导出的 .dat 文件，通常默认命名为“Steam++ Authenticator 日期.dat”
+- .dat files exported from Steam++V1, usually named "Steam++ Authenticator date.dat" by default
 
-- 由Steam++V2版本导出的 .mpo 文件，通常默认命名为“Steam++  Authenticators 日期.mpo”
+- .mpo files exported from Steam++V2, usually named "Steam++ Authenticators date.mpo" by default
 
-Watt Toolkit 点击`令牌管理`-`新增`选择`Steam++ 导入`
+Watt Toolkit Click `Token Management`-`Add` and select `Steam++ Import`.
 
-![Steam++ 导入](../Photo/Steam-token/import-steam++-token-dark.png)
+![Steam++ Import](../Photo/Steam-token/import-steam++-token-dark.png)
 
-## 手机Steam++导入
+## Mobile Steam++ import
 
-> PC 端 `Steam++ v2.4.9` 或更高版本
+> PC side `Steam++ v2.4.9` or higher
 
-1. 通过 扫码 导入
+1. Import by code scanning
 
-    在PC端点击如图所示`导出为二维码`按钮，在手机端点击 `右上角加号`-->`新增` 进行扫码
+    Click the `Export as QR Code` button on the PC side as shown in the picture, and click the `Top Right Plus` -> `Add` on the mobile side to scan the code
 
-    ![扫码](../Photo/Steam-token/QR-Code-dark.png)
+    ![Scan Code](../Photo/Steam-token/QR-Code-dark.png)
 
-2. 通过 文件 导入
+2. Import via file
 
-    在PC端点击如图所示`导出`按钮并`确认导出`，将导出的文件发送至手机，在手机端点击 `右上角加号`-->`新增` 进行导入
+    Click the `Export` button and `Confirm Export` on the PC side, send the exported file to your cell phone, and click the `Top right plus sign` --> `Add` on the cell phone side to import
 
-    ![导出](../Photo/Steam-token/export-dark.png)
+    ![Export](../Photo/Steam-token/export-dark.png)

@@ -1,4 +1,4 @@
-# 🖥️ 系统要求
+# 🖥️ Supported Operating Systems
 
 ## Windows
 
@@ -92,11 +92,10 @@ OS                            | Version                 | Architectures     |
 
 [iOS]: https://support.apple.com/ios
 
-## ⛔ 不受支持的操作系统
-
+## ⛔ Unsupported Operating System
 - Windows 8
-  - [由于微软官方对该产品的支持已结束](https://docs.microsoft.com/zh-cn/lifecycle/products/windows-8)，故本程序无法在此操作系统上运行，[建议升级到 Windows 8.1](https://support.microsoft.com/zh-cn/windows/%E4%BB%8E-windows-8-%E6%9B%B4%E6%96%B0%E5%88%B0-windows-8-1-17fc54a7-a465-6b5a-c1a0-34140afd0669)
+	- [Due to Microsoft's official support for the product has ended](https://docs.microsoft.com/lifecycle/products/windows-8), so this program cannot run on this operating system, [It is recommended to upgrade to Windows 8.1](https://support.microsoft.com/windows/update-to-windows-8-1-from-windows-8-17fc54a7-a465-6b5a-c1a0-34140afd0669)
 - Windows Server 2008 R2 SP1
-  - 仅可使用 1.X 版本，2.X 开始不受支持，建议升级到更高版本
-- 无桌面 GUI 的 Windows Server / Linux 版本
+	- Only version 1.x is available, 2.x is not supported at first, and it is recommended to upgrade to a higher version
+- Windows Server / Linux version without desktop GUI
 - Xbox or Windows Mobile / Phone

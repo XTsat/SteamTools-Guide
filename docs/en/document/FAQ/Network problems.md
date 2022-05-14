@@ -1,21 +1,21 @@
-# 网络问题
+# Network issues
 
-## host 文件相关(只读，拒绝访问，没有权限)
+## Host file related (read-only, access denied, no privileges)
 
-- 请前往 `C:\Windows\System32\drivers\etc` ，右击`host`文件，打开 `属性` ，取消下面的 `只读` 选项。
+- Please go to `C:\Windows\System32\drivers\etc`, right-click on the `host` file, open `Properties` and uncheck the `Read-only` option below.
 
-- 只读也可能是被其他软件占用，或者因杀毒软件拦截导致的，如果 `hosts` 文件没有自定义的内容，可以先删除该文件后再启动，或者使用 系统代理模式，文件位于 `C:\Windows\System32\drivers\etc\hosts`
+- Read-only may also be occupied by other software or blocked by anti-virus software. If the `hosts` file has no custom content, you can delete the file before starting it, or use the system agent mode with the file located at `C:\Windows\System32\drivers\etc\hosts`
 
-- 或者通过断网一键修复程序自动重置 host 问题，如 `360断网急救箱` `火绒断网修复`
+- Or automatically reset the host problem with a disconnected one-click repair program, such as `360 Disconnect First Aid` `FireWire Disconnect Repair`
 
-## 程序崩溃后无法连接网络
+## Unable to connect to the network after a program crash
 
-- 程序加速过程中崩溃后，社区/游戏服务器无法连接是因为崩溃后写入 `host` 的 `127.0.0.1` 未被正常消除，可以取消加速后重新打开，也可以手动清理掉 `host` 文件
+- After the program crashes during acceleration, the community/game server cannot be connected because the `127.0.0.1` written to the `host` after the crash has not been eliminated properly, you can cancel the acceleration and reopen it, or you can clean up the `host` file manually
 
-- 或者通过断网一键修复程序自动重置 `host` 问题，如 `360断网急救箱` `火绒断网修复`
+- Or you can automatically reset the `host` problem with a one-click repair program, such as `360 Disconnect First Aid`, `FireWire Disconnect Repair`.
 
->崩溃后无网络的问题，是因为加速和停止加速本来有正常的逻辑要执行，因为在加速中将程序强退了，所以停止加速的逻辑没执行，也就没还原加速所修改的配置导致的。
+>The problem of no network after a crash is due to the normal logic of accelerating and stopping acceleration, because the program was forced to quit in acceleration, so the logic of stopping acceleration was not executed, and the configuration modified by acceleration was not restored.
 >
->遇到这个问题可以尝试还原hosts文件，关闭windows系统代理，重置网络服务
+>If you encounter this problem, you can try to restore the hosts file, close the windows system agent, and reset the network service.
 
-![重置 host 文件](../Photo/Home/reset-host-dark.png)
+! [Reset host file](... /Photo/Home/reset-host-dark.png)

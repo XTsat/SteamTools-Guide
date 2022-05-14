@@ -88,12 +88,6 @@ Steam 游戏成就解锁使用开源项目 [SteamAchievementManager](https://git
 
 - 类似于 `WinAuth` (可以通过导出的方式将 `WinAuth 2步验证` 导入 `Watt Toolkit`，使用[开源项目Winauth](https://github.com/winauth/winauth))
 
-  [如何导入steam令牌](../How-To-Import-Steam-Token.md)
-  
-  [steam++令牌导入教程](https://keylol.com/t710508-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278)
-  
-  [steam++令牌导入教程](https://www.bilibili.com/read/cv10145839) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
-
 ## 自动挂卡 <img src="../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/apple.svg" width="16" height="16" /> <img src="../../.vuepress/public/Brands/android.svg" width="16" height="16" />
 
 - 集成开源项目 [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) 在应用内提供挂机掉落 `Steam 集换式卡牌` 等功能。

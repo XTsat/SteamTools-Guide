@@ -1,107 +1,101 @@
-# ✨ 功能
+# ✨ Functions
 
-## 网络加速 <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/android.svg" width="16" height="16" />
+## Network Acceleration <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/android.svg" width="16" height="16" />
 
-- 实现对 `Steam` `Discord` `Twitch` `Origin` `Uplay` `GitHub` `Microsoft Store` `谷歌验证码` `Pixiv` 等国内难以访问的网页正常访问，防止网络被干扰
+- Implement normal access to `Steam` `Discord` `Twitch` `Origin` `Uplay` `GitHub` `Microsoft Store` `Google Captcha` `Pixiv` and other hard-to-access web pages in China to prevent network interference
 
-- 功能类似 [Steamcommunity 302](https://www.dogfight360.com/blog/686/) ，使用 [Titanium-Web-Proxy](https://github.com/justcoding121/Titanium-Web-Proxy) 开源项目进行本地反代。
+- Functions similar to [Steamcommunity 302](https://www.dogfight360.com/blog/686/), using [Titanium-Web-Proxy](https://github.com/justcoding121/Titanium- Web-Proxy) open source project for local anti-generation.
 
-- 有`Host代理模式`和`系统代理模式`两种方式可以选择，第一次使用前需要确认安装证书文件
+- There are two ways to choose `Host proxy mode` and `system proxy mode`, you need to confirm the installation of the certificate file before using it for the first time
 
-- 还能解除 **Steam 商店**的**访问限制**，包括但不限于：`您所在的地区目前不提供此物品` `此游戏标记为“仅限成人”。您看到此游戏是因为您   已将偏好设置为允许此类内容。`
+- You can also remove **Steam Store** access restrictions**, including but not limited to: ``This item is not currently available in your region`` `This game is marked as "adults only". You are seeing this game because you have set your preferences to allow such content. `
 
-::: details [点击展开]-常见问题
+::: details [Click to expand]-FAQ
 
-> Q: hosts 正在由另一进程使用，因此该进程无法访问此文件？
+> Q: hosts is being used by another process, so that process cannot access this file?
 >
-> A: hosts 文件被其它程序占用了导致本程序无法正常读写，使用 `资源监视器` 在 `关联的句柄` 中搜索 hosts 找到占用的进程，结束掉该进  程即可。
+> A: If the hosts file is occupied by other programs and this program cannot read or write normally, use `Resource Monitor` to search for hosts in the `Associated Handle` to find the occupied process and end it.
 >
-> Q: 社区加速里的脚本启用了无效，为什么脚本前面的勾选框不会被保存？
+> Q: Why the checkbox in front of the script is not saved when the script in Community Acceleration is enabled and invalid?
 >
-> A: 脚本需要对应的加速服务开启才能生效，同时也必须启用了加速功能后启用脚本才有效，例如 `Steam 商店史低查询` 脚本必须要启用   `Steam 商店加速服务` 才能生效。
+> A: The script requires the corresponding acceleration service to be enabled to take effect, and the script must also be enabled after the acceleration function is enabled to be effective, for example, the `Steam Store History Low Search` script must have the `Steam Store Acceleration Service` enabled to take effect.
 >
-> Q: 使用加速提示证书安装失败？
+> Q: Using acceleration prompts certificate installation failure?
 >
-> A: 一般是系统相关文件丢失导致，可以尝试手动安装程序目录 `AppData` 文件夹下的 `SteamTools.Certificate.pfx` 证书文件，安装到受  信任  的根证书区域，区域一定要选择正确，不然安装成功也无效，密码留空不填直接确定即可。
+> A: You can try to manually install the `SteamTools.Certificate.pfx` certificate file under the `AppData` folder in the program directory, install it to the trusted root certificate area, the area must be selected correctly, otherwise the installation will be invalid even if it succeeds.
 
 :::
 
-## 脚本配置 <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" />
+## Script Configuration <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" />
 
-- 通过加速服务拦截网络请求将一些 JS 脚本注入在网页中(Steam内置浏览器)，提供类似网页插件的功能。使 Steam 内置的浏览器可以使用部分脚本
+- Injects some JS scripts into web pages (Steam's built-in browser) through an acceleration service that intercepts network requests, providing web plug-in-like functionality. Enables Steam's built-in browser to use some of the scripts
 
-- 比如 `Steam历史最低价格查询` `Steam Economy Enhancer(Steam 市场增强)` `CSGO Market Tool(CSGO市场查询枪支磨损值)`
+- For example `Steam History Lowest Price Check `Steam Economy Enhancer(Steam Market Enhancement)``CSGO Market Tool(CSGO Market Check Gun Wear Value)`
 
-## 账号切换 <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" />
+## Account Switch <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" />
 
-- 通过 Steam **默认保存**的**凭证信息**一键切换已在当前 PC 上登录过的 Steam 账号，并且可以一键离线登录，还能管理家庭共享库排序等功能。
+- Switch between Steam accounts that are already logged in on the current PC with one click via Steam **save by default** credential information** and the ability to log in offline with one click, as well as manage features such as home shared library sorting.
 
-  ![账户切换](../Photo/Home/Account-switching-dark.png)
+  ![Account Switching](../Photo/Home/Account-switching-dark.png)
 
-::: details [点击展开]-常见问题
+::: details [Click to expand]-FAQ
 
-> Q: 账号切换之后还是需要输入密码和令牌？为什么有时候可以一键切换有时候不行？
+> Q: I still need to enter my password and token after switching accounts? Why can I sometimes switch with one click and sometimes not?
 >
-> A: Watt Toolkit 的账号切换功能并没有记录你的密码和令牌， 能实现快速切换账号是因为 Steam 本身的记住密码功能，如果你没有记住密码登陆过账号，或者你的记住登陆状态丢失，都会导致账号切换之后需要密码和令牌，解决方法是下线所有当前 Steam 登陆的设备，重新在你的 PC 记住密码登陆一次。
+> A: Watt Toolkit account switching feature doesn't record your password and token. The fast account switching is due to Steam's own remember password feature.
 
 :::
 
-[家庭库共享](https://help.steampowered.com/zh-cn/faqs/view/57A7-503C-991F-E9A8)(Steam 客服)
+[Family Library Sharing](https://help.steampowered.com/zh-cn/faqs/view/57A7-503C-991F-E9A8)(Steam Support)
 
-调整当前设备上共享的 Steam 账号优先级顺序，用于解决想玩账号B的共享却一直使用的是账号A的共享这种问题，从上到下的排序为共享库使用的优先级顺序，也可以选择暂时禁用或启用指定账号的共享。调整后保存重启 Steam 生效！
+Adjust the priority order of Steam accounts shared on the current device to solve the problem that you want to play with account B's shares but keep using account A's shares, sorted from top to bottom by the priority order of the shared library usage, or you can choose to temporarily disable or enable shares for a specific account. You can also choose to temporarily disable or enable shares for a specific account. Save and restart Steam after the adjustment takes effect!
 
-![家庭共享](../Photo/Home/Family-Library-Sharing-dark.png)
+![Family Library Sharing](../Photo/Home/Family-Library-Sharing-dark.png)
 
-## 库存管理 <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" />
+## Inventory Management <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" />
 
-- 让您直接管理到 Steam 游戏库存，不仅能够下载老版本的 Steam 游戏，也能够对 Steam 游戏成就进行直接管理，支持解锁成就以及反解锁成就。
+- Lets you manage your Steam game inventory directly, not only by downloading older Steam games, but also by managing Steam game achievements directly, supporting unlocked achievements and unlocked achievements.
 
-- 可以使用 Steam 下载完成定时关机使无人下载完成后能减少不必要的耗电(比如晚上睡觉自动下载完成后自动关机)
+- You can use Steam download completion timer shutdown so that no one can reduce unnecessary power consumption after the completion of the download (for example, sleep at night automatically after the completion of the download automatically shutdown)
 
-  ![自动关机](../Photo/Home/Auto-shutdown-dark.png)
+  ![Auto shutdown](../Photo/Home/Auto-shutdown-dark.png)
 
-- 还可以自定义启动 Watt Toolkit 后挂游戏时长的功能
+- It is also possible to customize the ability to increase the length of the game after starting Watt Toolkit
 
-  ![自动挂游戏时长](../Photo/Home/Auto-Gametime-dark.png)
+  ![Automatic game length](../Photo/Home/Auto-Gametime-dark.png)
 
-:::: details [点击展开]-Steam 游戏成就解锁：
+:::: details [Click to expand]-Steam Game achievements unlocked：
 
-Steam 游戏成就解锁使用开源项目 [SteamAchievementManager](https://github.com/gibbed/SteamAchievementManager)
+Steam game achievements unlocked using open source projects [SteamAchievementManager](https://github.com/gibbed/SteamAchievementManager)
 
 ::: warning
 
-该功能带有一定风险，理论上不会被 VAC，但如果滥用可能被游戏厂商拉黑，建议在不启动游戏的情况下使用，截至目前为止还未有影响。解锁成就功能并不是外挂程序，原理上仅与 Steam 进行通信，和游戏本身并无关系，像 VAC 之类的反作弊系统是在多人游戏中发挥作用。如果游戏与其他平台绑定，解锁成就不会同步到其他平台上，如果重新完成成就，其他平台上也可能不会更新，例如 Sea of Thieves 与 Xbox 绑定。
+This feature carries some risk, theoretically it will not be VAC, but if abused it may be pulled by the game manufacturer, it is recommended to use it without starting the game, so far it has no effect. The unlock achievements feature is not a plug-in, it only communicates with Steam in principle, and has nothing to do with the game itself, as anti-cheat systems like VAC work in multiplayer games. If the game is bound to another platform, unlocked achievements will not be synced to other platforms and may not be updated on other platforms if the achievements are re-completed, e.g. Sea of Thieves is bound to Xbox.
 
 ![Sam](../Photo/Home/Sam-dark.png)
 
 :::
 
-通过勾选成就并保存成就更改(**注意**：最好不要对有 `VAC` 的游戏进行成就更改，以免造成不必要的损失，下图就是一个有 `VAC` 的游戏)
+By checking the achievements and saving the achievement changes (**Note**: It is best not to change achievements for games with `VAC` to avoid unnecessary damage, the picture below is a game with `VAC`)
 
 ![Sam2](../Photo/Home/Sam2-dark.png)
 
 ::::
 
-## 本地令牌 <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/android.svg" width="16" height="16" />
+## Local Authentication <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/android.svg" width="16" height="16" />
 
-- 让您的手机令牌统一保存在电脑中，目前仅支持 Steam 令牌，后续会开发支持更多的令牌种类与云同步令牌。
+- Let your cell phone token unified save in the computer, currently only support Steam token, later will develop support more token types with cloud synchronization token.
 
-- 类似于 `WinAuth` (可以通过导出的方式将 `WinAuth 2步验证` 导入 `Watt Toolkit`，使用[开源项目Winauth](https://github.com/winauth/winauth))
-
-  [如何导入steam令牌](../How-To-Import-Steam-Token.md)
+- Similar to `WinAuth` (you can import `WinAuth 2-step verification` into `Watt Toolkit` by exporting it, using [open source project Winauth](https://github.com/winauth/winauth))
   
-  [steam++令牌导入教程](https://keylol.com/t710508-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278)
-  
-  [steam++令牌导入教程](https://www.bilibili.com/read/cv10145839) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
+## ArchiSteamFarm  <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/android.svg" width="16" height="16" />
 
-## 自动挂卡 <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/android.svg" width="16" height="16" />
+- Integrated with the open source project [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) in the application to provide hanging drops `Steam Collectible Deck` and other functions.
 
-- 集成开源项目 [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) 在应用内提供挂机掉落 `Steam 集换式卡牌` 等功能。
+- [The easiest ASF User Manual](https://keylol.com/t770760-1-1) [(Keylol)@cyb233](https://keylol.com/suid-988278)
 
-- [最简单的ASF食用手册](https://keylol.com/t770760-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278)
+## Game Tools <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" />
 
-## 游戏工具 <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" />
+- You can force the game window to use borderless windowing or full screen, or you can put the game screen on the desktop wallpaper (conflict with dynamic wallpaper software)
 
-- 可以强制游戏窗口使用无边框窗口化或是全屏，也可以将游戏画面置于桌面壁纸上(与动态壁纸软件冲突)
-
-  ![游戏工具](../Photo/Home/Game-Setting-dark.png)
+  ![Game Tools](../Photo/Home/Game-Setting-dark.png)

@@ -1,8 +1,8 @@
-# 通用解决办法
+# Universal solution
 
-遇到问题可以先尝试更新到最新版本，可能新版本已经修复了问题
+If you encounter a problem, you can try to update to the latest version first, maybe the new version has fixed the problem
 
-点 `关于` `检查更新` 即可
+Just click `About` `Check for updates`
 
-<!-- ![检查更新](../Photo/Home/Setting-Update.png#gh-light-mode-only) -->
-![检查更新](../Photo/Home/Setting-Update-dark.png#gh-dark-mode-only)
+<!-- ![Check for updates](../Photo/Home/Setting-Update.png#gh-light-mode-only) -->
+![Check for updates](../Photo/Home/Setting-Update-dark.png#gh-dark-mode-only)

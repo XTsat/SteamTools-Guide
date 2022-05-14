@@ -10,7 +10,7 @@ export const en: NavbarConfig = [
     link: '/en/document/',
   },
   {
-    text: 'download',
+    text: 'Download',
     children: [
       {
         text: 'Multi-platform download links',
@@ -122,7 +122,7 @@ export const en: NavbarConfig = [
     ],
   },
   {
-    text: 'official',
+    text: 'Official',
     children: [
       {
         text: 'Official link',
