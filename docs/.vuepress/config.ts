@@ -68,7 +68,8 @@ export default defineUserConfig({
     logo: '/logo/Steam++ico.svg',
     
     repo: 'XTsat/SteamTools-Guide',
-    
+
+    docsBranch: 'VuePress',
     docsDir: 'docs',
     
     // theme-level locales config
