@@ -1,6 +1,9 @@
 import { defineUserConfig } from 'vuepress'
-const { defaultTheme } = require('vuepress')
 import { navbar, sidebar } from './configs'
+
+const { defaultTheme } = require('@vuepress/theme-default')
+
+const { searchPlugin } = require('@vuepress/plugin-search')
 
 // const isProd = process.env.NODE_ENV === 'production'
 
@@ -63,9 +66,9 @@ export default defineUserConfig({
     },
   },
 
-  theme: '@vuepress/theme-default',
-  themeConfig: ({
-    logo: '/logo/Steam++ico.svg',
+  theme: defaultTheme({
+    // 在这里进行配置
+    // logo: '/logo/Steam++ico.svg',
     
     repo: 'XTsat/SteamTools-Guide',
 
@@ -125,9 +128,6 @@ export default defineUserConfig({
         openInNewWindow: '在新窗口打开',
         toggleDarkMode: '切换夜间模式',
         toggleSidebar: '切换侧边栏',
-
-
-
       },
     },
 
@@ -141,22 +141,38 @@ export default defineUserConfig({
   }),
 
   plugins: [
-    [
-      '@vuepress/plugin-search',
-      {
-        locales: {
-          '/en/': {
-            placeholder: 'Search',
-            hotKeys: ['/']
-          },
-          '/': {
-            placeholder: '搜索文档',
-            hotKeys: ['/']
-          }
+    searchPlugin({
+      // 配置项
+      locales: {
+        '/en/': {
+          placeholder: 'Search',
+          hotKeys: ['/']
         },
+        '/': {
+          placeholder: '搜索文档',
+          hotKeys: ['/']
+        }
+      },
+    }),
+  ],
 
-      }
-    ],
+  // 旧的插件配置方式暂时保留注释
+  
+  // plugins: [
+  //   [
+  //     searchPlugin({
+  //       locales: {
+  //         '/en/': {
+  //           placeholder: 'Search',
+  //           hotKeys: ['/']
+  //         },
+  //         '/': {
+  //           placeholder: '搜索文档',
+  //           hotKeys: ['/']
+  //         }
+  //       },
+  //     }),
+  //   ],
     // [
     //   "vuepress-plugin-auto-sidebar",
     //   {
@@ -170,6 +186,6 @@ export default defineUserConfig({
     // ],
 
     // ['vuepress-plugin-auto-sidebar', false] // disabled.
-  ],
+  // ],
 }
 )

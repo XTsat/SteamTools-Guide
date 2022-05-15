@@ -4,16 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-search": "^2.0.0-beta.38",
-    "vuepress": "^2.0.0-beta.38",
+    "@vuepress/plugin-search": "^2.0.0-beta.45",
+    "vuepress": "^2.0.0-beta.45",
     "vuepress-plugin-auto-sidebar": "^2.4.0-alpha.5"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
-  },
-  "dependencies": {
-    "vuepress-auto-sidebar-doumjun": "^1.0.1",
-    "vuepress-sidebar-atuo": "^1.0.4"
   }
 }
