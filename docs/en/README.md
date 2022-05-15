@@ -30,9 +30,13 @@ features:
     details: Let your cell phone token unified save in the computer, currently only support Steam token, later will develop support more token types with cloud synchronization token.
   - title: ArchiSteamFarm
     details: Integration with ArchiSteamFarm provides functions such as hanging and dropping Steam Collectible Cards within the app.
-footer: Made by XTsat <a href="https://github.com/XTsat/SteamTools-Guide">If you think this guide is useful,can you click a star?</a>
+footer: Made by XTsat <a href="https://github.com/XTsat/SteamTools-Guide">If you think this guide is useful, you can click this link to Github and order a Star</a>
 footerHtml: true
 ---
+
+### Translation error?
+
+The content is automatically translated using translation software. If you find any errors, you can click on `Edit this page on GitHub` to submit the correct content.
 
 ### Name change notice
 
