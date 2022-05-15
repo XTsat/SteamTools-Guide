@@ -15,7 +15,7 @@ Clone 本仓库
 
 在项目文件夹下运行：
 
-安装自动侧边栏插件
+<!-- 安装自动侧边栏插件
 [仓库](https://github.com/shanyuhai123/vuepress-plugin-auto-sidebar)
 [文档](https://shanyuhai123.github.io/vuepress-plugin-auto-sidebar/)
 
@@ -40,7 +40,7 @@ module.exports = {
 }
 ```
 
-</details>
+</details> -->
 
 ```yarn
 yarn install

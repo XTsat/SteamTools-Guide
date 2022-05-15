@@ -59,7 +59,7 @@ export default defineUserConfig({
     '/en/': {
       lang: 'English',
       title: 'Watt Toolkit Guide',
-      description: '"Watt Toolkit" is an open source cross-platform multi-purpose game toolkit',
+      description: 'Watt Toolkit" is an open source cross-platform multi-purpose game toolkit',
     },
   },
 
