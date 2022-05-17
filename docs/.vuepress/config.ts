@@ -26,7 +26,7 @@ export default defineUserConfig({
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: `/logo/favicon.ico`,
+        href: `/SteamTools-Guide/logo/favicon.ico`,
       },
     ],
     // ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
