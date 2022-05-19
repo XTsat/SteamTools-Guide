@@ -4,9 +4,9 @@
 
 - .mpo files exported from Steam++V2, usually named "Steam++ Authenticators date.mpo" by default
 
-Watt Toolkit Click `Token Management`-`Add` and select `Steam++ Import`.
+Steam++ Click `Steam Authenticator`-`New`- choose and select `Import from Steam++`.
 
-![Steam++ Import](../Photo/Steam-token/import-steam++-token-dark.png)
+![Steam++ Import](../Photo/Steam-Guard/dark/import-steam++-Guard.png)
 
 ## Mobile Steam++ import
 
@@ -16,10 +16,10 @@ Watt Toolkit Click `Token Management`-`Add` and select `Steam++ Import`.
 
     Click the `Export as QR Code` button on the PC side as shown in the picture, and click the `Top Right Plus` -> `Add` on the mobile side to scan the code
 
-    ![Scan Code](../Photo/Steam-token/QR-Code-dark.png)
+    ![Scan Code](../Photo/Steam-Guard/dark/QR-Code.png)
 
 2. Import via file
 
     Click the `Export` button and `Confirm Export` on the PC side, send the exported file to your cell phone, and click the `Top right plus sign` --> `Add` on the cell phone side to import
 
-    ![Export](../Photo/Steam-token/export-dark.png)
+    ![Export](../Photo/Steam-Guard/dark/export.png)

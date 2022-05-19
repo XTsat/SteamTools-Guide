@@ -36,7 +36,7 @@
 
 - Switch between Steam accounts that are already logged in on the current PC with one click via Steam **save by default** credential information** and the ability to log in offline with one click, as well as manage features such as home shared library sorting.
 
-  ![Account Switching](../Photo/Home/Account-switching-dark.png)
+  ![Account Switching](../Photo/Home/dark/Account-switching.png)
 
 ::: details [Click to expand]-FAQ
 
@@ -50,7 +50,7 @@
 
 Adjust the priority order of Steam accounts shared on the current device to solve the problem that you want to play with account B's shares but keep using account A's shares, sorted from top to bottom by the priority order of the shared library usage, or you can choose to temporarily disable or enable shares for a specific account. You can also choose to temporarily disable or enable shares for a specific account. Save and restart Steam after the adjustment takes effect!
 
-![Family Library Sharing](../Photo/Home/Family-Library-Sharing-dark.png)
+![Family Library Sharing](../Photo/Home/dark/Family-Library-Sharing.png)
 
 ## Inventory Management <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" />
 
@@ -58,11 +58,11 @@ Adjust the priority order of Steam accounts shared on the current device to solv
 
 - You can use Steam download completion timer shutdown so that no one can reduce unnecessary power consumption after the completion of the download (for example, sleep at night automatically after the completion of the download automatically shutdown)
 
-  ![Auto shutdown](../Photo/Home/Auto-shutdown-dark.png)
+  ![Auto shutdown](../Photo/Home/dark/Auto-shutdown.png)
 
 - It is also possible to customize the ability to increase the length of the game after starting Watt Toolkit
 
-  ![Automatic game length](../Photo/Home/Auto-Gametime-dark.png)
+  ![Automatic game length](../Photo/Home/dark/Auto-Gametime.png)
 
 :::: details [Click to expand]-Steam Game achievements unlocked：
 
@@ -72,13 +72,13 @@ Steam game achievements unlocked using open source projects [SteamAchievementMan
 
 This feature carries some risk, theoretically it will not be VAC, but if abused it may be pulled by the game manufacturer, it is recommended to use it without starting the game, so far it has no effect. The unlock achievements feature is not a plug-in, it only communicates with Steam in principle, and has nothing to do with the game itself, as anti-cheat systems like VAC work in multiplayer games. If the game is bound to another platform, unlocked achievements will not be synced to other platforms and may not be updated on other platforms if the achievements are re-completed, e.g. Sea of Thieves is bound to Xbox.
 
-![Sam](../Photo/Home/Sam-dark.png)
+![Sam](../Photo/Home/dark/Sam.png)
 
 :::
 
 By checking the achievements and saving the achievement changes (**Note**: It is best not to change achievements for games with `VAC` to avoid unnecessary damage, the picture below is a game with `VAC`)
 
-![Sam2](../Photo/Home/Sam2-dark.png)
+![Sam2](../Photo/Home/dark/Sam2.png)
 
 ::::
 
@@ -98,4 +98,4 @@ By checking the achievements and saving the achievement changes (**Note**: It is
 
 - You can force the game window to use borderless windowing or full screen, or you can put the game screen on the desktop wallpaper (conflict with dynamic wallpaper software)
 
-  ![Game Tools](../Photo/Home/Game-Setting-dark.png)
+  ![Game Tools](../Photo/Home/dark/Game-Setting.png)
