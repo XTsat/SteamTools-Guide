@@ -4,5 +4,4 @@
 
 点 `关于` `检查更新` 即可
 
-<!-- ![检查更新](../Photo/Home/Setting-Update.png#gh-light-mode-only) -->
-![检查更新](../Photo/Home/Setting-Update-dark.png#gh-dark-mode-only)
+![检查更新](../Photo/Home/dark/Setting-Update.png)

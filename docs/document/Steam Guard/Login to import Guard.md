@@ -8,6 +8,6 @@
 
 :::
 
-![Steam 账号登入](../Photo/Steam-token/Sign-token-dark.png)
+![Steam 账号登入](../Photo/Steam-Guard/dark/Sign-Guard.png)
 
 - 登录你的 Steam 账号和密码，此操作会解除原有令牌，导致账号进入暂挂状态（15天内无法市场交易）
