@@ -201,12 +201,16 @@ export const zh: NavbarConfig = [
         text: '指南',
         children: [
           {
-            text: '瓦特工具箱指南',
+            text: '瓦特工具箱',
             link: 'https://xtsat.github.io/SteamTools-Guide/'
           },
           {
-            text: '浏览器指南',
+            text: '浏览器',
             link: 'https://xtsat.github.io/Browser-Guide/'
+          },
+          {
+            text: 'Windows',
+            link: 'https://xtsat.github.io/Windows-Guide/'
           },
         ]
       },

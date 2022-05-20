@@ -201,12 +201,16 @@ export const en: NavbarConfig = [
         text: 'Guide',
         children: [
           {
-            text: 'Watt Toolkit Guide',
+            text: 'Watt Toolkit',
             link: 'https://xtsat.github.io/SteamTools-Guide/'
           },
           {
-            text: 'Browser Guide',
+            text: 'Browser',
             link: 'https://xtsat.github.io/Browser-Guide/'
+          },
+          {
+            text: 'Windows',
+            link: 'https://xtsat.github.io/Windows-Guide/'
           },
         ]
       },
