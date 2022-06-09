@@ -201,6 +201,10 @@ export const zh: NavbarConfig = [
         text: '指南',
         children: [
           {
+            text: 'Steam',
+            link: 'https://xtsat.github.io/SteamGuide/'
+          },
+          {
             text: '瓦特工具箱',
             link: 'https://xtsat.github.io/SteamTools-Guide/'
           },
@@ -211,6 +215,15 @@ export const zh: NavbarConfig = [
           {
             text: 'Windows',
             link: 'https://xtsat.github.io/Windows-Guide/'
+          },
+        ]
+      },
+      {
+        text: '脚本',
+        children: [
+          {
+            text: '秒传链接提取',
+            link: 'https://xtsat.github.io/rapid-upload-userscript-doc/'
           },
         ]
       },
