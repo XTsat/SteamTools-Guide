@@ -4,7 +4,7 @@ export const zh: SidebarConfig = {
   '/': [
     {
       text: '开始使用',
-      collapsible: true,
+      collapsible: false,
       children: [
         '/document/Start/Download channel.md',
         '/document/Start/Functions.md',
@@ -13,7 +13,7 @@ export const zh: SidebarConfig = {
     },
     {
       text: '本地令牌',
-      collapsible: true,
+      collapsible: false,
       children: [
         '/document/Steam Guard/2FA to import Guard.md',
         '/document/Steam Guard/Android to import Guard.md',
@@ -25,14 +25,14 @@ export const zh: SidebarConfig = {
     },
     {
       text: '自动挂卡',
-      collapsible: true,
+      collapsible: false,
       children: [
         '/document/ASF/How to use ASF.md',
       ]
     },
     {
       text: '常见问题',
-      collapsible: true,
+      collapsible: false,
       children: [
         '/document/FAQ/FAQ.md',
         '/document/FAQ/Network problems.md',
