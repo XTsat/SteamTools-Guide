@@ -10,6 +10,29 @@ export const zh: NavbarConfig = [
     link: '/document/',
   },
   {
+    text: '✨功能',
+    children: [
+      {
+        text: '本地令牌',
+        children: [
+          {
+            text: '导入令牌',
+            link: '/document/Steam Guard/import/2FA令牌.md'
+          },
+        ]
+      },
+      {
+        text: '自动挂卡',
+        children: [
+          {
+            text: 'ASF',
+            link: '/document/ASF/ASF.md'
+          },
+        ]
+      },
+    ]
+  },
+  {
     text: '下载',
     children: [
       {

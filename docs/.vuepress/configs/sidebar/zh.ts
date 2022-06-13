@@ -34,7 +34,8 @@ export const zh: SidebarConfig = {
       text: '自动挂卡',
       collapsible: false,
       children: [
-        '/document/ASF/How to use ASF.md',
+        '/document/ASF/ASF.md',
+        '/document/ASF/2FA.md',
       ]
     },
     {
@@ -42,7 +43,7 @@ export const zh: SidebarConfig = {
       collapsible: false,
       children: [
         '/document/FAQ/FAQ.md',
-        '/document/FAQ/Network problems.md',
+        '/document/FAQ/网络.md',
       ]
     }
   ]

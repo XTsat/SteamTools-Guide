@@ -2,7 +2,11 @@
 
 ASF (ArchiSteamFarm) 主要目的是同时从多个账户中自动获取 Steam 集换式卡牌的软件，不过除了本功能还有自动进行交易报价等操作
 
+::: tip
+
 官方WIKI：[中文](https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Home-zh-CN) , [English](https://github.com/JustArchiNET/ArchiSteamFarm/wiki)
+
+:::
 
 ASF 是一个控制台应用程序，这意味着，至少在一开始，它没有提供一个您熟悉的友好 GUI 界面。
 
