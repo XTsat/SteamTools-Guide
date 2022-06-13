@@ -13,11 +13,31 @@ export const zh: NavbarConfig = [
     text: '✨功能',
     children: [
       {
-        text: '本地令牌',
+        text: '获取令牌',
         children: [
           {
-            text: '导入令牌',
+            text: '2FA',
             link: '/document/Steam Guard/import/2FA令牌.md'
+          },
+          {
+            text: 'Android',
+            link: '/document/Steam Guard/import/android令牌.md'
+          },
+          {
+            text: 'Ios',
+            link: '/document/Steam Guard/import/ios令牌.md'
+          },
+          {
+            text: '登录令牌',
+            link: '/document/Steam Guard/import/登录令牌.md'
+          },
+          {
+            text: 'Steam++',
+            link: '/document/Steam Guard/import/Steam++令牌.md'
+          },
+          {
+            text: '参考',
+            link: '/document/Steam Guard/import/参考.md'
           },
         ]
       },
@@ -27,6 +47,18 @@ export const zh: NavbarConfig = [
           {
             text: 'ASF',
             link: '/document/ASF/ASF.md'
+          },
+          {
+            text: '使用ASF',
+            link: '/document/ASF/使用ASF.md'
+          },
+          {
+            text: '2FA',
+            link: '/document/ASF/2FA.md'
+          },
+          {
+            text: '常用指令',
+            link: '/document/ASF/常用指令.md'
           },
         ]
       },

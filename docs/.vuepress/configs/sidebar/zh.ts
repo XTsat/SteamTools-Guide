@@ -35,7 +35,9 @@ export const zh: SidebarConfig = {
       collapsible: false,
       children: [
         '/document/ASF/ASF.md',
+        '/document/ASF/使用ASF.md',
         '/document/ASF/2FA.md',
+        '/document/ASF/常用指令.md',
       ]
     },
     {

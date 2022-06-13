@@ -16,6 +16,12 @@ actions:
     type: primary
   - text: 下载
     link: /document/Start/Download channel.md
+    type: primary
+  - text: 本地令牌
+    link: /document/Steam Guard/import/2FA令牌.md
+    type: secondary
+  - text: 自动挂卡
+    link: /document/ASF/ASF.md
     type: secondary
 features:
   - title: 本地加速
