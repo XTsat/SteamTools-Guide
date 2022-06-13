@@ -15,12 +15,19 @@ export const zh: SidebarConfig = {
       text: '本地令牌',
       collapsible: false,
       children: [
-        '/document/Steam Guard/2FA to import Guard.md',
-        '/document/Steam Guard/Android to import Guard.md',
-        '/document/Steam Guard/Apple to import Guard.md',
-        '/document/Steam Guard/Login to import Guard.md',
-        '/document/Steam Guard/Steam++ to import Guard.md',
-        '/document/Steam Guard/Reference documents.md',
+        {
+          text: '如何获取令牌',
+          children: [
+            '/document/Steam Guard/import/2FA令牌',
+            '/document/Steam Guard/import/android令牌',
+            '/document/Steam Guard/import/ios令牌',
+            '/document/Steam Guard/import/登录令牌',
+            '/document/Steam Guard/import/Steam++令牌',
+            '/document/Steam Guard/import/参考',
+          ]
+
+        }
+
       ]
     },
     {

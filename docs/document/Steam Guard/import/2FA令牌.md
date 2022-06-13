@@ -1,4 +1,4 @@
-# 2FA应用导入令牌
+# 2FA应用
 
 ## WinAuth
 
@@ -14,7 +14,7 @@
 
 Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 
-![软件导入](../Photo/Steam-Guard/dark/import-other-Guard.png)
+![软件导入](../../Photo/Steam-Guard/dark/import-other-Guard.png)
 
 [steam++令牌导入教程-从Steam Desktop Authenticator导入](https://www.bilibili.com/read/cv10145788) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
 
@@ -22,4 +22,4 @@ Steam++ 点击`令牌管理`-`新增`-选择`Steam++ 导入`
 
 根据软件说明，复制/导出令牌，并找到以下所需内容并依照图片输入
 
-![其他导入](../Photo/Steam-Guard/dark/import-phone-Guard.png)
+![其他导入](../../Photo/Steam-Guard/dark/import-phone-Guard.png)
