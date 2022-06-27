@@ -87,7 +87,7 @@ export const zh: NavbarConfig = [
             link: 'https://pan.mossimo.net:5212/s/4yiQ'
           },
           {
-            text: '奶牛快传(链接异常)',
+            text: '奶牛快传(官方源已移除)',
             link: 'https://cowtransfer.com/s/94ce5dfa928f45'
           },
         ]
@@ -101,7 +101,7 @@ export const zh: NavbarConfig = [
         children: [
           {
             text: '蓝奏云网盘 提取码:1234',
-            link: 'https://cliencer.lanzoux.com/b01v4iz1g'
+            link: 'https://wwn.lanzouy.com/b01v4iz1g'
           },
           {
             text: '百度网盘',
