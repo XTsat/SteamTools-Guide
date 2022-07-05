@@ -177,7 +177,7 @@ export const zh: NavbarConfig = [
     ],
   },
   {
-    text: '官方',
+    text: '联系方式',
     children: [
       {
         text: '官方链接',
@@ -207,6 +207,11 @@ export const zh: NavbarConfig = [
             text: '软妹币玩家',
             link: 'https://space.bilibili.com/797215'
           },
+        ]
+      },
+      {
+        text: '视频推广',
+        children: [
           {
             text: 'Cliencer克总',
             link: 'https://space.bilibili.com/30031316'

@@ -122,7 +122,7 @@ export const en: NavbarConfig = [
     ],
   },
   {
-    text: 'Official',
+    text: 'Contact',
     children: [
       {
         text: 'Official link',
@@ -146,12 +146,17 @@ export const en: NavbarConfig = [
         ]
       },
       {
-        text: 'author',
+        text: 'Author',
         children: [
           {
             text: 'RMBGAME',
             link: 'https://space.bilibili.com/797215'
           },
+        ]
+      },
+      {
+        text: 'Video promotion',
+        children: [
           {
             text: 'Cliencer',
             link: 'https://space.bilibili.com/30031316'
@@ -159,7 +164,7 @@ export const en: NavbarConfig = [
         ]
       },
       {
-        text: 'communication',
+        text: 'Communication',
         children: [
           {
             text: 'Github issues',
