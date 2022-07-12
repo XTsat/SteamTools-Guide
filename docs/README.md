@@ -3,7 +3,7 @@ title: 首页
 home: true
 heroImage: /logo/Steam++Logo_1024.png
 heroText: Watt Toolkit 指南
-tagline: 🛠️「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。
+tagline: 🛠️「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。(原名 Steam++)
 actions:
   - text: 官网
     link: https://steampp.net/
@@ -17,12 +17,6 @@ actions:
   - text: 下载
     link: /document/Start/Download channel.md
     type: primary
-  - text: 本地令牌
-    link: /document/Steam Guard/import/2FA令牌.md
-    type: secondary
-  - text: 自动挂卡
-    link: /document/ASF/ASF.md
-    type: secondary
 features:
   - title: 本地加速
     details: 使 Steam 社区、 Github 、谷歌验证码等国内难以访问的网页正常访问。功能类似 steamcommunit302 ，使用 Titanium-Web-Proxy 开源项目进行本地反代。
@@ -44,16 +38,7 @@ footerHtml: true
 
 Steam++ 更名为 Watt Toolkit
 
-指南中可能继续使用原有名字`Steam++`作为教程
-
 上架微软商店不能使用未经授权的商标,即与 Steam 相近的名字，要有v社的授权证明才能上架
 [Microsoft Store 策略](https://docs.microsoft.com/zh-cn/windows/uwp/publish/store-policies#112-content-including-names-logos-original-and-third-party)
-[下架原文](Change-name/QQ图片20220512025429.png)
+[下架原因](https://raw.githubusercontent.com/XTsat/SteamTools-Guide/56b2364c72c7adb1f91f1582ea2fb0239ece11d4/docs/.vuepress/public/Change-name/QQ%E5%9B%BE%E7%89%8720220512025429.png)
 
-现有的其他 Steam 应用可能是协议收紧前上架(不知道具体原因)
-
-Q:为什么改名瓦特工具箱?
-
-A:是因为1776年瓦特改良了蒸汽机，我们借用了这个历史典故，希望能够把Steam改良，更适合国区用户使用!
-
-![改名通知](/Change-name/QQ图片20220512025924.png)
