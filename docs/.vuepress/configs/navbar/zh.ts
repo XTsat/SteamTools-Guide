@@ -204,17 +204,12 @@ export const zh: NavbarConfig = [
         text: '作者',
         children: [
           {
-            text: '软妹币玩家',
+            text: '软妹币玩家 @BiliBili',
             link: 'https://space.bilibili.com/797215'
           },
-        ]
-      },
-      {
-        text: '视频推广',
-        children: [
           {
-            text: 'Cliencer克总',
-            link: 'https://space.bilibili.com/30031316'
+            text: '软妹币玩家 @爱发电',
+            link: 'https://afdian.net/@rmbgame'
           },
         ]
       },
@@ -222,18 +217,9 @@ export const zh: NavbarConfig = [
         text: '交流',
         children: [
           {
-            text: 'Github反馈',
+            text: 'Github 反馈',
             link: 'https://github.com/BeyondDimension/SteamTools/issues'
           },
-          {
-            text: 'Steam 组',
-            link: 'https://steamcommunity.com/groups/steamtool'
-          },
-        ]
-      },
-      {
-        text: 'QQ群',
-        children: [
           {
             text: 'QQ 一群 (53617681)',
             link: 'https://qm.qq.com/cgi-bin/qm/qr?k=EvP8VZ-ByGjMlbLvrj4x4YJ8C_bhTisG&authKey=toKraTwFoTlJKXSuBv7A87W0qKb0vSRrozVLXW0dVcvOmEP98T/t+MZK9qFi26fb&noverify=0'

@@ -2,14 +2,17 @@
 
 ## Windows
 
-OS                                    | Version                 | Architectures   | Lifecycle
---------------------------------------|-------------------------|-----------------|----------
-[Windows Client][Windows-client]      | 7 SP1(**\***), 8.1      | x64        | [Windows][Windows-lifecycle]
-[Windows 10 Client][Windows-client]   | Version 1607+(**\***)   | x64        | [Windows][Windows-lifecycle]
-[Windows Server][Windows-Server]      | 2012+                   | x64        | [Windows Server][Windows-Server-lifecycle]
+OS                                    | Version                    | Architectures   | Lifecycle
+--------------------------------------|----------------------------|-----------------|----------
+[Windows Client][Windows-client]      | 7 SP1(**\***), 8.1(**\***) | x64             | [Windows][Windows-lifecycle]
+[Windows 10 Client][Windows-client]   | Version 1607+(**\***)      | x64             | [Windows][Windows-lifecycle]
+[Windows 11][Windows-client]          | Version 22000+             | x64,            | [Windows][Windows-lifecycle]
+[Windows Server][Windows-Server]      | 2008 R2 SP1(**\***), 2012+ | x64             | [Windows Server][Windows-Server-lifecycle]
 
-**\*** Windows 7 SP1 is supported with [Extended Security Updates](https://docs.microsoft.com/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq) installed.  
-**\*** Microsoft Store(Desktop Bridge) Version 1809+
+**\*** Windows 7 SP1 must have [Extended Security Update](https://docs.microsoft.com/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq) installed and will be released after November 2022 is no longer supported.  
+**\*** Windows 8.1 will no longer be supported in versions released after November 2022.  
+**\*** Windows Server 2008 R2 SP1 must have [Extended Security Update](https://docs.microsoft.com/en-us/lifecycle/faq/extended-security-updates) installed and will be released after November 2022 is no longer supported.  
+**\*** Microsoft Store(Desktop Bridge) Version 1809+  
 
 [Windows-client]: https://www.microsoft.com/windows/
 [Windows-lifecycle]: https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet
@@ -93,9 +96,8 @@ OS                            | Version                 | Architectures     |
 [iOS]: https://support.apple.com/ios
 
 ## ⛔ Unsupported Operating System
+
 - Windows 8
-	- [Due to Microsoft's official support for the product has ended](https://docs.microsoft.com/lifecycle/products/windows-8), so this program cannot run on this operating system, [It is recommended to upgrade to Windows 8.1](https://support.microsoft.com/windows/update-to-windows-8-1-from-windows-8-17fc54a7-a465-6b5a-c1a0-34140afd0669)
-- Windows Server 2008 R2 SP1
-	- Only version 1.x is available, 2.x is not supported at first, and it is recommended to upgrade to a higher version
+  - [Due to Microsoft's official support for the product has ended](https://docs.microsoft.com/lifecycle/products/windows-8), so this program cannot run on this operating system, [It is recommended to upgrade to Windows 8.1](https://support.microsoft.com/windows/update-to-windows-8-1-from-windows-8-17fc54a7-a465-6b5a-c1a0-34140afd0669)
 - Windows Server / Linux version without desktop GUI
 - Xbox or Windows Mobile / Phone

@@ -149,17 +149,12 @@ export const en: NavbarConfig = [
         text: 'Author',
         children: [
           {
-            text: 'RMBGAME',
+            text: 'RMBGAME @BiliBili',
             link: 'https://space.bilibili.com/797215'
           },
-        ]
-      },
-      {
-        text: 'Video promotion',
-        children: [
           {
-            text: 'Cliencer',
-            link: 'https://space.bilibili.com/30031316'
+            text: 'RMBGAME @afdian',
+            link: 'https://afdian.net/@rmbgame'
           },
         ]
       },
@@ -170,15 +165,6 @@ export const en: NavbarConfig = [
             text: 'Github issues',
             link: 'https://github.com/BeyondDimension/SteamTools/issues'
           },
-          {
-            text: 'Steam group',
-            link: 'https://steamcommunity.com/groups/steamtool'
-          },
-        ]
-      },
-      {
-        text: 'QQ group',
-        children: [
           {
             text: 'QQ group1 (53617681)',
             link: 'https://qm.qq.com/cgi-bin/qm/qr?k=EvP8VZ-ByGjMlbLvrj4x4YJ8C_bhTisG&authKey=toKraTwFoTlJKXSuBv7A87W0qKb0vSRrozVLXW0dVcvOmEP98T/t+MZK9qFi26fb&noverify=0'

@@ -4,7 +4,11 @@
 
 - 实现对 `Steam` `Discord` `Twitch` `Origin` `Uplay` `GitHub` `Microsoft Store` `谷歌验证码` `Pixiv` 等国内难以访问的网页正常访问，防止网络被干扰
 
-- 功能类似 [Steamcommunity 302](https://www.dogfight360.com/blog/686/) ，使用 [Titanium-Web-Proxy](https://github.com/justcoding121/Titanium-Web-Proxy) 开源项目进行本地反代。
+- 功能类似 [Steamcommunity 302](https://www.dogfight360.com/blog/686/) 
+
+  ~~使用 [Titanium-Web-Proxy](https://github.com/justcoding121/Titanium-Web-Proxy) 开源项目进行本地反代来支持更快的访问游戏网站。~~
+
+  新版使用 [YARP.ReverseProxy](https://github.com/microsoft/reverse-proxy) 开源项目进行本地反代来支持更快的访问游戏网站。
 
 - 有`Host代理模式`和`系统代理模式`两种方式可以选择，第一次使用前需要确认安装证书文件
 

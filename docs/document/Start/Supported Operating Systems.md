@@ -2,14 +2,17 @@
 
 ## Windows
 
-OS                                    | Version                 | Architectures   | Lifecycle
---------------------------------------|-------------------------|-----------------|----------
-[Windows Client][Windows-client]      | 7 SP1(**\***), 8.1      | x64        | [Windows][Windows-lifecycle]
-[Windows 10 Client][Windows-client]   | Version 1607+(**\***)   | x64        | [Windows][Windows-lifecycle]
-[Windows Server][Windows-Server]      | 2012+                   | x64        | [Windows Server][Windows-Server-lifecycle]
+OS                                    | Version                    | Architectures   | Lifecycle
+--------------------------------------|----------------------------|-----------------|----------
+[Windows Client][Windows-client]      | 7 SP1(**\***), 8.1(**\***) | x64             | [Windows][Windows-lifecycle]
+[Windows 10 Client][Windows-client]   | Version 1607+(**\***)      | x64             | [Windows][Windows-lifecycle]
+[Windows 11][Windows-client]          | Version 22000+             | x64,            | [Windows][Windows-lifecycle]
+[Windows Server][Windows-Server]      | 2008 R2 SP1(**\***), 2012+ | x64             | [Windows Server][Windows-Server-lifecycle]
 
-**\*** Windows 7 SP1 is supported with [Extended Security Updates](https://docs.microsoft.com/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq) installed.  
-**\*** Microsoft Store(Desktop Bridge) Version 1809+
+**\*** Windows 7 SP1 必须安装 [扩展安全更新 (ESU)](https://docs.microsoft.com/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq) 且将在不再支持 **2022/11** 后发布的版本。  
+**\*** Windows 8.1 将在不再支持 **2022/11** 后发布的版本。  
+**\*** Windows Server 2008 R2 SP1 必须安装 [扩展安全更新 (ESU)](https://docs.microsoft.com/zh-cn/lifecycle/faq/extended-security-updates) 且将在不再支持 **2022/11** 后发布的版本。  
+**\*** Microsoft Store(Desktop Bridge) Version 1809+  
 
 [Windows-client]: https://www.microsoft.com/windows/
 [Windows-lifecycle]: https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet
@@ -96,7 +99,5 @@ OS                            | Version                 | Architectures     |
 
 - Windows 8
   - [由于微软官方对该产品的支持已结束](https://docs.microsoft.com/zh-cn/lifecycle/products/windows-8)，故本程序无法在此操作系统上运行，[建议升级到 Windows 8.1](https://support.microsoft.com/zh-cn/windows/%E4%BB%8E-windows-8-%E6%9B%B4%E6%96%B0%E5%88%B0-windows-8-1-17fc54a7-a465-6b5a-c1a0-34140afd0669)
-- Windows Server 2008 R2 SP1
-  - 仅可使用 1.X 版本，2.X 开始不受支持，建议升级到更高版本
 - 无桌面 GUI 的 Windows Server / Linux 版本
 - Xbox or Windows Mobile / Phone
