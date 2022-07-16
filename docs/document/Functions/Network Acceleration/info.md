@@ -23,3 +23,54 @@
 > A: 一般是系统相关文件丢失导致，可以尝试手动安装程序目录 `AppData` 文件夹下的 `SteamTools.Certificate.pfx` 证书文件，安装到受  信任  的根证书区域，区域一定要选择正确，不然安装成功也无效，密码留空不填直接确定即可。
 
 :::
+
+## 加速方式
+
+- Dns 驱动拦截模式
+  - 未实装
+- Hosts 代理模式
+  - 效果不错，但有些人会遇到问题不便使用
+- PAC 代理模式
+  - 未实装
+- 系统代理模式
+  - 有时加速效果不佳，但基本都能使用
+
+## 加速类目
+
+简略展示常用的可加速站点
+
+- Steam 服务
+  - 常规社区加速
+  - 商店解锁访问限制
+  - 讨论组/聊天(仅ipv6)
+- Discord 语音聊天
+- Twitch 直播
+- Origin
+- Uplay
+- 公共 CDN
+- 国外验证码平台
+  - Arkoselabs
+  - hCaptcha
+  - Recaptcha(Goole)
+- Github
+- Microsoft Store
+- 网盘服务
+  - OneDrive
+  - MEGA
+  - DropBox
+- 其他网站
+  - Pinterest
+  - Artstation
+  - V2ex
+  - Imgur 图床
+  - Pixiv
+
+## 修复
+
+点击网络加速右上角的更多 `···`
+
+`移除证书` 并 `重置 Hosts 文件`
+
+- 参考：
+
+  - [常见问题 > 网络加速问题](../../FAQ/网络.md)

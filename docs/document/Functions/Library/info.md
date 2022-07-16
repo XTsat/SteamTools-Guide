@@ -1,14 +1,37 @@
 # 库存管理 <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" />
 
-- 让您直接管理到 Steam 游戏库存，不仅能够下载老版本的 Steam 游戏，也能够对 Steam 游戏成就进行直接管理，支持解锁成就以及反解锁成就。
+- 让您直接管理到 Steam 游戏库存，~~不仅能够下载老版本的 Steam 游戏，~~ 也能够对 Steam 游戏成就进行直接管理，支持解锁成就以及反解锁成就。
+
+## 其他功能
+
+### 游戏信息修改
+
+- 一键修改游戏的信息和图片等数据
+
+  ::: details 图例
+
+  ![信息](../Photo/Library/dark/info.png)
+  ![媒体](../Photo/Library/dark/photo.png)
+  
+  :::
+
+- 右键游戏 > 点击 编辑游戏信息
+
+目前有bug导致恢复原始数据不方便
+
+### 下载完自动关机
 
 - 可以使用 Steam 下载完成定时关机使无人下载完成后能减少不必要的耗电(比如晚上睡觉自动下载完成后自动关机)
 
   ![自动关机](../../Photo/Home/dark/Auto-shutdown.png)
 
-- 还可以自定义启动 Watt Toolkit 后挂游戏时长的功能
+### 挂时长
+
+- 让指定的游戏(最多32个)通过虚拟启动增加游戏时间，不用下载也能加长游戏时间
 
   ![自动挂游戏时长](../../Photo/Home/dark/Auto-Gametime.png)
+
+### 成就解锁
 
 :::: details [点击展开]-Steam 游戏成就解锁：
 
