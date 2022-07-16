@@ -28,6 +28,7 @@ export const zh: SidebarConfig = {
       children: [
         '/document/FAQ/FAQ',
         '/document/FAQ/网络',
+        '/document/FAQ/GPU',
       ]
     },
   ],
