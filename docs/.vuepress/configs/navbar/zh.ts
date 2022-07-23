@@ -10,6 +10,10 @@ export const zh: NavbarConfig = [
     link: '/document/',
   },
   {
+    text: '深入',
+    link: '/development/开发文档.md',
+  },
+  {
     text: '下载',
     children: [
       {

@@ -103,4 +103,25 @@ export const zh: SidebarConfig = {
     },
   ],
 
+  '/development/': [
+    {
+      text: '回到指南',
+      link: '/document/',
+    },
+    {
+      text: '开发日志',
+      collapsible: false,
+      children: [
+        '/development/更新日志',
+      ]
+    },
+    {
+      text: '参与开发',
+      collapsible: false,
+      children: [
+        '/development/开发文档',
+      ]
+    },
+  ],
+
 };
