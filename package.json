@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-search": "^2.0.0-beta.45",
-    "vuepress": "^2.0.0-beta.45",
+    "@vuepress/plugin-search": "^2.0.0-beta.49",
+    "vuepress": "^2.0.0-beta.49",
     "vuepress-plugin-auto-sidebar": "^2.4.0-alpha.5"
   },
   "scripts": {
