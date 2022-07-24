@@ -109,17 +109,20 @@ export const zh: SidebarConfig = {
       link: '/document/',
     },
     {
-      text: '开发日志',
-      collapsible: false,
-      children: [
-        '/development/更新日志',
-      ]
-    },
-    {
       text: '参与开发',
       collapsible: false,
       children: [
         '/development/开发文档',
+        '/development/项目结构',
+        '/development/开发环境',
+      ]
+    },
+    {
+      text: '开发日志',
+      collapsible: false,
+      children: [
+        '/development/更新日志',
+        '/development/文件校验',
       ]
     },
   ],
