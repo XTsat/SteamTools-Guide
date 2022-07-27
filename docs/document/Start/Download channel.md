@@ -1,3 +1,7 @@
+---
+pageClass: link-box
+---
+
 # 🚀 下载渠道
 
 [![GitHub Releases](https://img.shields.io/badge/Github-%E5%8F%91%E8%A1%8C%E7%89%88-fff)](https://github.com/BeyondDimension/SteamTools/releases)
@@ -5,65 +9,45 @@
 [![Official WebSite](https://img.shields.io/badge/Official-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-1890ff)](https://steampp.net)
 [![Microsoft Store](https://img.shields.io/badge/Micrsoft-store-0d63a6)](https://apps.microsoft.com/store/detail/watt-toolkit/9MTCFHS560NG)
 
-:::details 不知道该下载哪个文件?
+## 下载 Watt Toolkit
 
-- Desktop(桌面端)
-  - Windows
-    - 如果你使用 <span style="color: orange;">Intel、AMD 的 x64(x86-64/AMD64)</span> 芯片的 PC，则下载文件名中带有 <span style="color: red;">**win_x64**</span> 的文件
-    - **框架依赖版(framework-dependent executable / fde)**
-      - 需要 **《ASP.NET Core 运行时 6.0.x》** 与 **《.NET 运行时 6.0.x》**，如果你 **已安装** 了相关运行时，则下载文件名中带有 **fde** 的文件，可减少本应用占用的磁盘空间
-      - 如果你 **未安装相关运行时则应下载文件名中不包含 fde 的文件**，或在 [此下载](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0) 最新的 6.0.x 运行时
-      - 在网页上点击 安装程序 x64 的链接即可下载，通常下载的文件名如下，将其安装后即可，无安装顺序要求
-        - dotnet-runtime-6.0.x-win-x64.exe (.NET 运行时 6.0.x)
-        - aspnetcore-runtime-6.0.x-win-x64.exe (ASP.NET Core 运行时 6.0.x)
-      - 其他也包含了所需的运行时的下载项，但不推荐仅为运行本应用而安装
-        - Hosting Bundle 还包含了本应用不需要的 IIS 运行时支持 (ASP.NET Core Module v2) 与 x86 的多个运行库
-        - SDK 包含了较多不需要的内容
-  - macOS
-    - 如果你使用 <span style="color: orange;">Intel 的 x64(x86-64)</span> 芯片的 Mac，则下载文件名中带有 <span style="color: red;">**macos_x64**</span> 的文件
-    - 如果你使用 <span style="color: orange;">ARM64(Apple Silicon)</span> 芯片的 Mac，例如 <span style="color: green;">**Apple M1**</span>，则下载文件名中带有 <span style="color: red;">**macos_arm64**</span> 的文件
-  - Linux
-    - 如果你使用 <span style="color: orange;">Intel、AMD 的 x64(x86-64)</span> 芯片的 PC 则下载文件名中带有 <span style="color: red;">**linux_x64**</span> 的文件
-    - 如果你使用 <span style="color: orange;">ARM64</span> 芯片的 PC 例如 **Raspberry Pi Model 3+**，则下载文件名中带有 <span style="color: red;">**linux_arm64**</span> 的文件
-- Mobile(移动端)
-  - Android
-    - 如果你使用 <span style="color: orange;">ARM64</span> 芯片的设备（较为**普遍**）则下载文件名中带有 <span style="color: red;">**android**</span> 的文件
+- Watt Toolkit 的软件开源并发布于 [GitHub](https://github.com/BeyondDimension/SteamTools)
+  - 推荐无法正常连接 GitHub 网络连接问题的用户使用 **国内网盘** 下载，以获得最好的下载速度，不过第三方网盘内容更新可能较慢，如版本过旧推荐更换其他下载渠道。
 
-<!--		
-- Mobile(移动端)
-	- Android
-		- 如果你使用 ARM64 芯片的设备（较为**普遍**）则下载文件名中带有 **android_arm64_v8a** 的文件
-		- 如果你使用 ARM32 芯片的设备（较为**稀有**）通常为 **14** 年下半年之前生产的设备，则下载文件名中带有 **android_armeabi_v7a** 的文件
-		- 如果你使用 Intel、AMD 的 x64 芯片的设备（较为**稀有**）则下载文件名中带有 **android_x64** 的文件
--->
+- [<span style="color: red;">不知道该下载哪个文件?</span>](Download%20Guide.md)
 
-<!--
-- 如果你使用 ARM64 芯片的 PC（极为**稀有**），例如 **Surface Pro X**，则下载文件名中带有 **win_x64** 的文件可通过 Win11 x86 模拟运行
-- **[暂未支持]** ~~如果你使用 ARM64 芯片的 PC（极为**稀有**），例如 **Surface Pro X**，则下载文件名中带有 **win_arm64** 的文件~~
-- **[暂未支持]** ~~如果你使用 ARM64 芯片的 Mac（较为**稀有**），例如 **M1**，则下载文件名中带有 **macos_arm64** 的文件~~
-			- [在 Linux 上安装 .NET](https://docs.microsoft.com/en-us/dotnet/core/install/linux)
-				- 推荐 [通过 Snap 安装 .NET Runtime](https://docs.microsoft.com/zh-cn/dotnet/core/install/linux-snap)
-				- ```sudo snap install dotnet-runtime-60 --classic```
--->
+### 多平台下载链接
 
-:::
+1. [**Watt Toolkit 软件本体**从 Gitee 下载](https://gitee.com/rmbgame/SteamTools/releases)
+2. [**Watt Toolkit 软件本体**从 Github 下载](https://github.com/BeyondDimension/SteamTools/releases)
+3. [**Watt Toolkit 软件本体**从 阿里云盘 下载](https://www.aliyundrive.com/s/KDCFrongF7F)
+4. [**Watt Toolkit 软件本体**从 Nas分流 下载](https://pt.mossimo.net:5212/s/DMSO)
 
-- 注意：以下网盘分流下载可能更新不及时，如要查看最新版本请前往 [GitHub](https://github.com/BeyondDimension/SteamTools/releases) 和 [Gitte](https://gitee.com/rmbgame/SteamTools/releases) 的发行版
-
-## 多平台下载链接
-
+<!-- 
 下载渠道|下载链接
 :-:|:-
 Gitee 下载|<https://gitee.com/rmbgame/SteamTools/releases>
 Github 下载|<https://github.com/BeyondDimension/SteamTools/releases>
 阿里云盘|<https://www.aliyundrive.com/s/KDCFrongF7F>
 Nas 分流|<https://pan.mossimo.net:5212/s/4yiQ>
-~~奶牛快传~~|[官方源已移除(曾经出现链接异常)](<https://cowtransfer.com/s/94ce5dfa928f45>)
+-->
 
-## 单平台下载链接
+### 单平台下载链接
 
-### Desktop(桌面端)
+#### Desktop(桌面端)
 
+1. [**Watt Toolkit UWP 软件**从 微软商店 一键安装](ms-windows-store://pdp/?ProductId=9MTCFHS560NG)
+2. [**Watt Toolkit UWP 软件**从 微软商店 下载](https://apps.microsoft.com/store/detail/watt-toolkit/9MTCFHS560NG)
+3. [**Watt Toolkit Windows 软件 提取码:1234**从 蓝奏云网盘 下载](https://wwn.lanzouy.com/b01v4iz1g)
+4. [**Watt Toolkit Windows 软件**从 百度网盘 下载](https://pan.baidu.com/s/1xQ-RJEwd3y1nwUX7YZQ5nQ?pwd=ce4h)
+5.  
+6. [**Watt Toolkit MacOS 软件 提取码:1234**从 蓝奏云网盘 下载](https://wwe.lanzouy.com/b01v4izaf)
+7. [**Watt Toolkit MacOS 软件**从 百度网盘 下载](https://pan.baidu.com/s/1UaVrxC1F1GtkLTdC25yK-w?pwd=wg4x)
+8.  
+9. [**Watt Toolkit Linux 软件 提取码:1234**从 蓝奏云网盘 下载](https://wwe.lanzouy.com/b01v4iz7c)
+10. [**Watt Toolkit Linux 软件**从 百度网盘 下载](https://pan.baidu.com/s/1WOQBEg7hl92Lq7mjONlFJg?pwd=7tbn)
+
+<!-- 
 Windows 版|下载链接
 :-:|:-
 蓝奏云网盘|<https://wwn.lanzouy.com/b01v4iz1g> 提取码:1234
@@ -82,10 +66,15 @@ macOS 版|下载链接
 Linux 版|下载链接
 :-:|:-
 蓝奏云网盘|<https://wwe.lanzouy.com/b01v4iz7c> 提取码:1234
-百度网盘|<https://pan.baidu.com/s/1WOQBEg7hl92Lq7mjONlFJg?pwd=7tbn>
+百度网盘|<https://pan.baidu.com/s/1WOQBEg7hl92Lq7mjONlFJg?pwd=7tbn> 
+-->
 
-### Mobile(移动端)
+#### Mobile(移动端)
 
+1. [**Watt Toolkit Android 软件 提取码:1234**从 蓝奏云网盘 下载](https://wwe.lanzouy.com/b01v4izfa)
+2. [**Watt Toolkit Android 软件**从 百度网盘 下载](https://pan.baidu.com/s/1Tnu9s10n57i8Fd9EmgTZBw?pwd=hk5f)
+
+<!-- 
 Android 版|下载链接
 :-:|:-
 蓝奏云网盘|<https://wwe.lanzouy.com/b01v4izfa> 提取码:1234
@@ -93,4 +82,5 @@ Android 版|下载链接
 
 iOS 版|下载链接
 :-:|:-
-敬请期待|
+敬请期待| 
+-->
