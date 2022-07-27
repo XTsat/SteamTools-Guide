@@ -1,0 +1,1 @@
+const e={key:"v-5e3b9194",path:"/en/document/ASF/How%20to%20use%20ASF.html",title:"How to use ASF",lang:"English",frontmatter:{},excerpt:"",headers:[{level:2,title:"ASF-ui",slug:"asf-ui",children:[]}],git:{updatedTime:1652563337e3,contributors:[{name:"XTsat",email:"xiaotong1238@gmail.com",commits:2}]},filePathRelative:"en/document/ASF/How to use ASF.md"};export{e as data};

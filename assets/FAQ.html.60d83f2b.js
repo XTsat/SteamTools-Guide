@@ -1,0 +1,1 @@
+const t={key:"v-37067a23",path:"/en/document/FAQ/FAQ.html",title:"Universal solution",lang:"English",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1652969173e3,contributors:[{name:"XTsat",email:"xiaotong1238@gmail.com",commits:3}]},filePathRelative:"en/document/FAQ/FAQ.md"};export{t as data};

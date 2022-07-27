@@ -1,0 +1,1 @@
+const t={key:"v-38d56a07",path:"/en/document/",title:"\u{1F9F0} Watt Toolkit Guide",lang:"English",frontmatter:{},excerpt:"",headers:[{level:2,title:"What is Watt Toolkit\uFF1F",slug:"what-is-watt-toolkit",children:[]}],git:{updatedTime:1652559986e3,contributors:[{name:"XTsat",email:"xiaotong1238@gmail.com",commits:1}]},filePathRelative:"en/document/README.md"};export{t as data};

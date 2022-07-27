@@ -1,0 +1,1 @@
+const t={key:"v-de3c4682",path:"/document/Functions/Steam%20Guard/info.html",title:"\u672C\u5730\u4EE4\u724C",lang:"\u7B80\u4F53\u4E2D\u6587",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1657646989e3,contributors:[{name:"XTsat",email:"44708609+XTsat@users.noreply.github.com",commits:1}]},filePathRelative:"document/Functions/Steam Guard/info.md"};export{t as data};

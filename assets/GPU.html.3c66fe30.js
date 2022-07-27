@@ -1,0 +1,1 @@
+const t={key:"v-213dfc3e",path:"/document/FAQ/GPU.html",title:"\u8F6F\u4EF6\u4F7F\u7528GPU",lang:"\u7B80\u4F53\u4E2D\u6587",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1657982884e3,contributors:[{name:"XTsat",email:"44708609+XTsat@users.noreply.github.com",commits:1}]},filePathRelative:"document/FAQ/GPU.md"};export{t as data};
