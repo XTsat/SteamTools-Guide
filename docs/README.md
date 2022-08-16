@@ -34,7 +34,9 @@ footer: <div>© 2022,Built with VuePress By <a href="https://github.com/XTsat">�
 footerHtml: true
 ---
 
-### 更名通知
+### 公告
+
+#### 更名通知
 
 Steam++ 更名为 Watt Toolkit
 
@@ -42,3 +44,13 @@ Steam++ 更名为 Watt Toolkit
 [Microsoft Store 策略](https://docs.microsoft.com/zh-cn/windows/uwp/publish/store-policies#112-content-including-names-logos-original-and-third-party)
 [下架原因](https://raw.githubusercontent.com/XTsat/SteamTools-Guide/56b2364c72c7adb1f91f1582ea2fb0239ece11d4/docs/.vuepress/public/Change-name/QQ%E5%9B%BE%E7%89%8720220512025429.png)
 
+#### 2022-07-23
+
+1. 非简中语言将默认隐藏加速和脚本功能，仅能通过切换语言并重启程序的方式还原被隐藏的功能
+2. 因经济状况原因，现已停止短信服务节约开销，后续会推出邮箱注册登录，对于仅使用手机号登录的用户请绑定第三方快速登录，否则注销后将无法再次登录，需要等待至邮箱服务推出后支持会暂时在开放短信服务提供换绑邮箱。
+3. 自动更新目前仅 Windows 端可用，且由于下载渠道限速可能导致无法更新成功，推荐在官网链接的网盘或群文件中下载压缩包解压覆盖更新(应用商店版由商店更新不受此影响)
+4. 在 Android 上因系统限制，目前的加速功能无法正常使用，所以此功能已放弃继续开发，如仍想使用需要自行导入证书到系统目录，使用 adb 工具或 Magisk 之类的软件操作，未来会使用不需要证书的加速功能替换此功能
+5. fde 版本需要安装 [ASP.NET Core 运行时 6.0.8 (x64) 与 .NET Core 运行时 6.0.8 (x64)](https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0)
+6. Windows x86 与 x64 版本令牌本机加密互不兼容，使用两者版本时注意令牌加密后的文件不能共用。
+7. 由于新版本加速功能重构，调整了部分加速项目，这会影响旧版本程序使用加速功能
+8. 为了能继续维持开发，从此版本开始将会添加程序内广告，赞助用户可以在设置中关闭所有广告

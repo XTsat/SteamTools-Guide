@@ -112,7 +112,7 @@ export const zh: SidebarConfig = {
       text: '参与开发',
       collapsible: false,
       children: [
-        '/development/开发文档',
+        '/development/文档开发',
         '/development/项目结构',
         '/development/开发环境',
       ]
