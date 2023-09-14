@@ -54,7 +54,7 @@ export default defineUserConfig({
 
   // site-level locales config
   locales: {
-    '/': {
+    '/zh/': {
       lang: '简体中文',
       title: 'Watt Toolkit 指南',
       description: '「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。',
@@ -92,7 +92,7 @@ export default defineUserConfig({
         editLinkText: 'Edit this page on GitHub',
       },
       
-      '/': {
+      '/zh/': {
         // navbar
         navbar: navbar.zh,
         selectLanguageName: '简体中文',
@@ -148,7 +148,7 @@ export default defineUserConfig({
           placeholder: 'Search',
           hotKeys: ['/']
         },
-        '/': {
+        '/zh/': {
           placeholder: '搜索文档',
           hotKeys: ['/']
         }
@@ -156,36 +156,5 @@ export default defineUserConfig({
     }),
   ],
 
-  // 旧的插件配置方式暂时保留注释
-  
-  // plugins: [
-  //   [
-  //     searchPlugin({
-  //       locales: {
-  //         '/en/': {
-  //           placeholder: 'Search',
-  //           hotKeys: ['/']
-  //         },
-  //         '/': {
-  //           placeholder: '搜索文档',
-  //           hotKeys: ['/']
-  //         }
-  //       },
-  //     }),
-  //   ],
-    // [
-    //   "vuepress-plugin-auto-sidebar",
-    //   {
-    //     title: {
-    //       // 更多选项: 
-    //       // `default`、`lowercase`、`uppercase`、`capitalize`、`camelcase`、`kebabcase`、`titlecase`
-    //       mode: "titlecase"
-    //     },
-    //     removeEmptyGroup: true,
-    //   }
-    // ],
-
-    // ['vuepress-plugin-auto-sidebar', false] // disabled.
-  // ],
 }
 )

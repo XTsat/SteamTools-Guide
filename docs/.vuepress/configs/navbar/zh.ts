@@ -3,23 +3,23 @@ import type { NavbarConfig } from '@vuepress/theme-default'
 export const zh: NavbarConfig = [
   {
     text: '主页',
-    link: '/'
+    link: '/zh/'
   },
   {
     text: 'Watt Toolkit 指南',
-    link: '/document/',
+    link: '/zh/document/',
   },
   {
     text: '深入',
-    link: '/development/文档开发.md',
+    link: '/zh/development/文档开发.md',
   },
   {
     text: '下载',
-    link: '/document/Start/Download channel.md',
+    link: '/zh/document/Start/Download channel.md',
   },
   {
     text: '联系作者',
-    link: '/document/Start/communication',
+    link: '/zh/document/Start/communication',
   },
   {
     text: '关于我',

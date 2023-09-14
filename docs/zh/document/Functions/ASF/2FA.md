@@ -16,7 +16,7 @@
 
 ### Android/iOS
 
-参考 [steam++令牌导入教程](/document/Steam%20Guard/import/android令牌.md) 获取到 `steamguard-xxxxx` 文件，将文件后缀改为 `.mafile`
+参考 [steam++令牌导入教程](../document/Steam%20Guard/import/android令牌.md) 获取到 `steamguard-xxxxx` 文件，将文件后缀改为 `.mafile`
 
 ### SteamDesktopAuthenticator
 

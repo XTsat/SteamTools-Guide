@@ -6,16 +6,16 @@ export const zh: SidebarConfig = {
     //   text: '目录',
     //   collapsible: false,
     //   children: [
-    //     '/document/Start/Functions',
+    //     '/zh/document/Start/Functions',
     //   ]
     // },
     {
       text: '开始使用 🛠️',
       collapsible: false,
       children: [
-        '/document/Start/Download channel',
-        '/document/Start/Functions',
-        '/document/Start/Supported Operating Systems',
+        '/zh/document/Start/Download channel',
+        '/zh/document/Start/Functions',
+        '/zh/document/Start/Supported Operating Systems',
       ]
     },
     {
@@ -26,9 +26,9 @@ export const zh: SidebarConfig = {
       text: '常见问题 ❓',
       collapsible: false,
       children: [
-        '/document/FAQ/FAQ',
-        '/document/FAQ/网络',
-        '/document/FAQ/GPU',
+        '/zh/document/FAQ/FAQ',
+        '/zh/document/FAQ/网络',
+        '/zh/document/FAQ/GPU',
       ]
     },
   ],
@@ -42,44 +42,44 @@ export const zh: SidebarConfig = {
       text: '网络加速',
       collapsible: false,
       children: [
-        '/document/Functions/Network Acceleration/info',
+        '/zh/document/Functions/Network Acceleration/info',
       ]
     },
     {
       text: '脚本配置',
       collapsible: false,
       children: [
-        '/document/Functions/Userscript/info',
+        '/zh/document/Functions/Userscript/info',
       ]
     },
     {
       text: '账号切换',
       collapsible: false,
       children: [
-        '/document/Functions/Account Switch/info',
+        '/zh/document/Functions/Account Switch/info',
       ]
     },
     {
       text: '库存游戏',
       collapsible: false,
       children: [
-        '/document/Functions/Library/info',
+        '/zh/document/Functions/Library/info',
       ]
     },
     {
       text: '本地令牌',
       collapsible: false,
       children: [
-        '/document/Functions/Steam Guard/info',
+        '/zh/document/Functions/Steam Guard/info',
         {
           text: '导入令牌',
           children: [
-            '/document/Functions/Steam Guard/import/2FA令牌',
-            '/document/Functions/Steam Guard/import/android令牌',
-            '/document/Functions/Steam Guard/import/ios令牌',
-            '/document/Functions/Steam Guard/import/登录令牌',
-            '/document/Functions/Steam Guard/import/Steam++令牌',
-            '/document/Functions/Steam Guard/import/参考',
+            '/zh/document/Functions/Steam Guard/import/2FA令牌',
+            '/zh/document/Functions/Steam Guard/import/android令牌',
+            '/zh/document/Functions/Steam Guard/import/ios令牌',
+            '/zh/document/Functions/Steam Guard/import/登录令牌',
+            '/zh/document/Functions/Steam Guard/import/Steam++令牌',
+            '/zh/document/Functions/Steam Guard/import/参考',
           ]
         },
       ]
@@ -88,17 +88,17 @@ export const zh: SidebarConfig = {
       text: '自动挂卡',
       collapsible: false,
       children: [
-        '/document/Functions/ASF/ASF',
-        '/document/Functions/ASF/使用ASF',
-        '/document/Functions/ASF/2FA',
-        '/document/Functions/ASF/常用指令',
+        '/zh/document/Functions/ASF/ASF',
+        '/zh/document/Functions/ASF/使用ASF',
+        '/zh/document/Functions/ASF/2FA',
+        '/zh/document/Functions/ASF/常用指令',
       ]
     },
     {
       text: '游戏工具',
       collapsible: false,
       children: [
-        '/document/Functions/Game tools/info',
+        '/zh/document/Functions/Game tools/info',
       ]
     },
   ],

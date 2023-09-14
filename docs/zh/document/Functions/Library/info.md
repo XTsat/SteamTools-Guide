@@ -1,4 +1,4 @@
-# 库存管理 <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" />
+# 库存管理 <img src="/Brands/windows.svg" width="16" height="16" /> <img src="/Brands/linux.svg" width="16" height="16" /> <img src="/Brands/apple.svg" width="16" height="16" />
 
 - 让您直接管理到 Steam 游戏库存，~~不仅能够下载老版本的 Steam 游戏，~~ 也能够对 Steam 游戏成就进行直接管理，支持解锁成就以及反解锁成就。
 
