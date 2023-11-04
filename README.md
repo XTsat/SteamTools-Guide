@@ -2,7 +2,7 @@
 
 欢迎访问 Steam++ 指南，你可以在这里找到 Steam++ 工具箱的使用帮助
 
-文档还在制作过程中，你可以提出更多的文档内容
+文档正在制作3.0版本，以更新到来的watt toolkit 3.0版本
 
 详细指南请前往文档链接:<https://xtsat.github.io/SteamTools-Guide/>
 

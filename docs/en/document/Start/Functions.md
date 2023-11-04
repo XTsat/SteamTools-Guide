@@ -1,6 +1,6 @@
 # ✨ Functions
 
-## Network Acceleration <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/android.svg" width="16" height="16" />
+## Network Acceleration 
 
 - Implement normal access to `Steam` `Discord` `Twitch` `Origin` `Uplay` `GitHub` `Microsoft Store` `Google Captcha` `Pixiv` and other hard-to-access web pages in China to prevent network interference
 
@@ -26,13 +26,13 @@
 
 :::
 
-## Script Configuration <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" />
+## Script Configuration 
 
 - Injects some JS scripts into web pages (Steam's built-in browser) through an acceleration service that intercepts network requests, providing web plug-in-like functionality. Enables Steam's built-in browser to use some of the scripts
 
 - For example `Steam History Lowest Price Check `Steam Economy Enhancer(Steam Market Enhancement)``CSGO Market Tool(CSGO Market Check Gun Wear Value)`
 
-## Account Switch <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" />
+## Account Switch 
 
 - Switch between Steam accounts that are already logged in on the current PC with one click via Steam **save by default** credential information** and the ability to log in offline with one click, as well as manage features such as home shared library sorting.
 
@@ -52,7 +52,7 @@ Adjust the priority order of Steam accounts shared on the current device to solv
 
 ![Family Library Sharing](../Photo/Home/dark/Family-Library-Sharing.png)
 
-## Inventory Management <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" />
+## Inventory Management 
 
 - Lets you manage your Steam game inventory directly, not only by downloading older Steam games, but also by managing Steam game achievements directly, supporting unlocked achievements and unlocked achievements.
 
@@ -82,19 +82,19 @@ By checking the achievements and saving the achievement changes (**Note**: It is
 
 ::::
 
-## Local Authentication <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/android.svg" width="16" height="16" />
+## Local Authentication 
 
 - Let your cell phone token unified save in the computer, currently only support Steam token, later will develop support more token types with cloud synchronization token.
 
 - Similar to `WinAuth` (you can import `WinAuth 2-step verification` into `Watt Toolkit` by exporting it, using [open source project Winauth](https://github.com/winauth/winauth))
   
-## ArchiSteamFarm  <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/linux.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/apple.svg" width="16" height="16" /> <img src="../../../.vuepress/public/Brands/android.svg" width="16" height="16" />
+## ArchiSteamFarm  
 
 - Integrated with the open source project [ArchiSteamFarm](https://github.com/JustArchiNET/ArchiSteamFarm) in the application to provide hanging drops `Steam Collectible Deck` and other functions.
 
 - [The easiest ASF User Manual](https://keylol.com/t770760-1-1) [(Keylol)@cyb233](https://keylol.com/suid-988278)
 
-## Game Tools <img src="../../../.vuepress/public/Brands/windows.svg" width="16" height="16" />
+## Game Tools 
 
 - You can force the game window to use borderless windowing or full screen, or you can put the game screen on the desktop wallpaper (conflict with dynamic wallpaper software)
 

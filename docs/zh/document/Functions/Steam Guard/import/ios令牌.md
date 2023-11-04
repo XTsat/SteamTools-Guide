@@ -29,8 +29,6 @@
     ![image](https://user-images.githubusercontent.com/33802186/123431177-92b86e00-d5fb-11eb-92df-3dd8257d636f.png)
 5. 然后在Steam++中导入即可。`android`字样也要复制，下面的`{}`符号也要复制
 
-   <img alt="image" width="643" src="https://user-images.githubusercontent.com/33802186/123431117-7e747100-d5fb-11eb-99b4-eb538c91b19e.png">
-
 参考自：[CaitSith2/ios-steamguard-extractor#4 (comment)](https://github.com/CaitSith2/ios-steamguard-extractor/issues/4#issuecomment-817247572)
 
 简单步骤：

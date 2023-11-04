@@ -1,5 +1,5 @@
 ---
-title: 首页
+title: 主页
 home: true
 heroImage: /logo/Steam++Logo_1024.png
 heroText: Watt Toolkit 指南
@@ -12,10 +12,10 @@ actions:
     link: https://github.com/BeyondDimension/SteamTools/
     type: secondary
   - text: 指南
-    link: /document/
+    link: /zh/document/
     type: primary
   - text: 下载
-    link: /document/Start/Download channel.md
+    link: /zh/document/Start/Download channel.md
     type: primary
 features:
   - title: 本地加速
