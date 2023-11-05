@@ -82,6 +82,8 @@ export default hopeTheme({
       imgLazyload: true,
       include: true,
       tabs: true,
+      card: true,
+      footnote: true,
     },
 
   },
