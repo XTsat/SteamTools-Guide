@@ -21,33 +21,33 @@ export default hopeTheme({
   
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
-  // locales: {
-  //   "/en/": {
-  //     navbar: enNavbar,
-  //     sidebar: enSidebar,
+  locales: {
+    "/en/": {
+      navbar: enNavbar,
+      sidebar: enSidebar,
 
-  //     footer: '"Watt Toolkit" is an open source cross-platform multi-purpose game toolkit',
+      footer: '"Watt Toolkit" is an open source cross-platform multi-purpose game toolkit',
 
-  //     displayFooter: true,
+      displayFooter: true,
 
-  //     // metaLocales: {
-  //     //   editLink: "Edit this page on GitHub",
-  //     // },
-  //   },
+      // metaLocales: {
+      //   editLink: "Edit this page on GitHub",
+      // },
+    },
 
-  //   "/zh/": {
-  //     navbar: zhNavbar,
-  //     sidebar: zhSidebar,
+    "/zh/": {
+      navbar: zhNavbar,
+      sidebar: zhSidebar,
 
-  //     footer: "「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。",
+      footer: "「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。",
 
-  //     displayFooter: true,
+      displayFooter: true,
 
-  //     // metaLocales: {
-  //     //   editLink: "在 GitHub 上编辑此页",
-  //     // },
-  //   },
-  // },
+      // metaLocales: {
+      //   editLink: "在 GitHub 上编辑此页",
+      // },
+    },
+  },
 
   plugins: {
     comment: {
