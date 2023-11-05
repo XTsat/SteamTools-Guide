@@ -19,7 +19,7 @@ export default hopeTheme({
   docsBranch: 'vp-hope',
   docsDir: "docs",
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime","PageView"],
 
   locales: {
 
