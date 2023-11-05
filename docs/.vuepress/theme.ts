@@ -30,9 +30,9 @@ export default hopeTheme({
 
       displayFooter: true,
 
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
+      // metaLocales: {
+      //   editLink: "Edit this page on GitHub",
+      // },
     },
 
     "/zh/": {
@@ -43,9 +43,9 @@ export default hopeTheme({
 
       displayFooter: true,
 
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
+      // metaLocales: {
+      //   editLink: "在 GitHub 上编辑此页",
+      // },
     },
   },
 
