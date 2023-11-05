@@ -50,19 +50,19 @@ export default hopeTheme({
   },
 
   plugins: {
-    // comment: {
-    //   provider: "Waline",
-    //   serverURL: "",
-    //   emoji: [
-    //     "//unpkg.com/@waline/emojis@1.1.0/weibo",
-    //     "//unpkg.com/@waline/emojis@1.1.0/bilibili",
-    //     "//unpkg.com/@waline/emojis@1.1.0/bmoji",
-    //     "//unpkg.com/@waline/emojis@1.1.0/qq",
-    //     "//unpkg.com/@waline/emojis@1.1.0/tieba",
-    //   ],
-    //   requiredMeta: ["mail"],
-    //   reaction: false,
-    // },
+    comment: {
+      provider: "Waline",
+      serverURL: "https://document-waline.vercel.app/",
+      emoji: [
+        "//unpkg.com/@waline/emojis@1.1.0/weibo",
+        "//unpkg.com/@waline/emojis@1.1.0/bilibili",
+        "//unpkg.com/@waline/emojis@1.1.0/bmoji",
+        "//unpkg.com/@waline/emojis@1.1.0/qq",
+        "//unpkg.com/@waline/emojis@1.1.0/tieba",
+      ],
+      requiredMeta: ["mail"],
+      reaction: false,
+    },
 
     // components: {
     //   components: ["Badge", "BiliBili"],
