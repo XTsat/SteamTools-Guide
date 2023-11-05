@@ -13,7 +13,7 @@ ASF is primarily supposed to run on a server, so it is more like a service (daem
 The ASF is particularly versatile, but since this guide uses the ASF built into Watt Toolkit and is not mounted on the server
 
 However, the community has developed a WebUi GUI interface, and all distributions that download ASF now have a built-in WebUi GUI console
-located at ASF-win-x64/UI.html
+located at ASF-win-x64/UI
 
 <!-- ASF-ui Configuration
 Our ASF-ui IPC interface also supports configuring ASF and is particularly suitable for modifying configuration content after the first configuration, because unlike the online configuration file generator that always generates new files, ASF-ui can edit configuration files directly in-place.

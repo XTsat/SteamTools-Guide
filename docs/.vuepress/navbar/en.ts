@@ -8,11 +8,11 @@ export const enNavbar = navbar([
   },
   {
     text: 'development',
-    link: '/en/development/文档开发.html',
+    link: '/en/development/文档开发',
   },
   {
     text: 'Download',
-    link: '/en/document/Start/Download channel.html',
+    link: '/en/document/Start/Download channel',
   },
   {
     text: 'Contac Author',
@@ -20,7 +20,7 @@ export const enNavbar = navbar([
   },
   {
     text: 'About me',
-    link: '/en/关于我.html',
+    link: '/en/关于我',
   },
 ]
 );
