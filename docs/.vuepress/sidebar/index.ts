@@ -1,2 +1,2 @@
-export * from './zh'
-export * from './en'
+export * from './zh.js'
+export * from './en.js'
