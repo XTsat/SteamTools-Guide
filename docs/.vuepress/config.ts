@@ -85,8 +85,8 @@ export default defineUserConfig({
       autoLocale: true,
       switchLocale: "modal",
       localeConfig: {
-        "/en/": ["en-US", "en-UK", "en"],
         "/zh/": ["zh-CN", "zh-TW", "zh"],
+        "/en/": ["en-US", "en-UK", "en"],
       },
     }),
   ],

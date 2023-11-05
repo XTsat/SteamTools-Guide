@@ -13,27 +13,15 @@ export default hopeTheme({
   iconAssets: "iconfont",
 
   logo: '/logo/Steam++ico.svg',
-  
+
   repo: "XTsat/SteamTools-Guide",
   docsRepo: "XTsat/SteamTools-Guide",
   docsBranch: 'vp-hope',
   docsDir: "docs",
-  
+
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   locales: {
-    "/en/": {
-      navbar: enNavbar,
-      sidebar: enSidebar,
-
-      footer: '"Watt Toolkit" is an open source cross-platform multi-purpose game toolkit',
-
-      displayFooter: true,
-
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
-    },
 
     "/zh/": {
       navbar: zhNavbar,
@@ -45,6 +33,19 @@ export default hopeTheme({
 
       metaLocales: {
         editLink: "在 GitHub 上编辑此页",
+      },
+    },
+
+    "/en/": {
+      navbar: enNavbar,
+      sidebar: enSidebar,
+
+      footer: '"Watt Toolkit" is an open source cross-platform multi-purpose game toolkit',
+
+      displayFooter: true,
+
+      metaLocales: {
+        editLink: "Edit this page on GitHub",
       },
     },
   },
