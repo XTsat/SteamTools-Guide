@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/sitemap.xml

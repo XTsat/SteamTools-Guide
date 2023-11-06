@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/rss.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>Watt Toolkit Guide</title>
+    <link>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/</link>
+    <description>Watt Toolkit&amp;quot; is an open source cross-platform multi-purpose game toolkit</description>
+    <language>en</language>
+    <pubDate>Mon, 06 Nov 2023 09:19:11 GMT</pubDate>
+    <lastBuildDate>Mon, 06 Nov 2023 09:19:11 GMT</lastBuildDate>
+    <generator>vuepress-plugin-feed2</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <item>
+      <title>🧰 Watt Toolkit Guide</title>
+      <link>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/</link>
+      <guid>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/</guid>
+      <source url="https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/rss.xml">🧰 Watt Toolkit Guide</source>
+      <description>repositories link https://github.com/XTsat/SteamTools-Guide (https://github.com/XTsat/SteamTools-Guide) website link https://xtsat.github.io/SteamTools-Guide (https://xtsat.gith...</description>
+      <pubDate>Sat, 14 May 2022 20:26:26 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 🧰 Watt Toolkit Guide</h1>
+<p><a href="https://github.com/XTsat/SteamTools-Guide" target="_blank" rel="noopener noreferrer">repositories link <code>https://github.com/XTsat/SteamTools-Guide</code></a></p>
+<p><a href="https://xtsat.github.io/SteamTools-Guide" target="_blank" rel="noopener noreferrer">website link <code>https://xtsat.github.io/SteamTools-Guide</code></a></p>
+<p><strong>Note</strong>: Watt Toolkit is constantly updating its features, so the tutorials are time-sensitive, so please check the last update time and whether the Watt Toolkit version is updated if it does not match the tutorials.</p>
+<h2> What is Watt Toolkit？</h2>
+<p>🛠️"Watt Toolkit" is an open source cross-platform multi-purpose game toolkit.</p>
+<p>most of its features require you to download and install Steam to use it.</p>
+<p><a href="https://steampp.net/" target="_blank" rel="noopener noreferrer">Watt Toolkit Official WebSite</a></p>
+<p><a href="https://github.com/SteamTools-Team/SteamTools" target="_blank" rel="noopener noreferrer">GitHub repositories</a></p>
+<p><a href="https://keylol.com/t667906-1-1" target="_blank" rel="noopener noreferrer">[Original Release]Steam++ Toolkit</a> <a href="https://keylol.com/suid-269966" target="_blank" rel="noopener noreferrer">(Keylol)@RMBGAME</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>How to use ASF</title>
+      <link>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/ASF/How%20to%20use%20ASF.html</link>
+      <guid>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/ASF/How%20to%20use%20ASF.html</guid>
+      <source url="https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/rss.xml">How to use ASF</source>
+      <description>The main purpose of ASF (ArchiSteamFarm) is to automatically acquire Steam collectible cards from multiple accounts at the same time, but in addition to this function there is a...</description>
+      <pubDate>Sat, 14 May 2022 20:26:26 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> How to use ASF</h1>
+<p>The main purpose of ASF (ArchiSteamFarm) is to automatically acquire Steam collectible cards from multiple accounts at the same time, but in addition to this function there is also automatic trading quotes and other operations</p>
+<p>Official tutorials: <a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Home-zh-CN" target="_blank" rel="noopener noreferrer">Chinese</a> / <a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki" target="_blank" rel="noopener noreferrer">English</a></p>
+<p>ASF is a console application, which means that, at least at first, it does not provide a friendly GUI interface that you are familiar with.</p>
+<p>ASF is primarily supposed to run on a server, so it is more like a service (daemon) than a desktop application.</p>
+<p>The ASF is particularly versatile, but since this guide uses the ASF built into Watt Toolkit and is not mounted on the server</p>
+<p>However, the community has developed a WebUi GUI interface, and all distributions that download ASF now have a built-in WebUi GUI console<br>
+located at ASF-win-x64/UI.html</p>
+<!-- ASF-ui Configuration
+Our ASF-ui IPC interface also supports configuring ASF and is particularly suitable for modifying configuration content after the first configuration, because unlike the online configuration file generator that always generates new files, ASF-ui can edit configuration files directly in-place.
+
+To use ASF-ui, you first need to enable the IPC interface itself. Since ASF version V5.1.0.0, IPC is enabled by default, so you can start accessing it directly as long as you have not manually disabled it.
+
+After the program starts, the ASF's IPC address is accessed directly. If everything is working properly, you can also change the ASF configuration here. --> 
+<h2> ASF-ui</h2>
+<p>ASF-ui is a community project that provides a user-friendly GUI web interface mainly for end users. To accomplish this, it is designed as a front-end to the ASF API, allowing you to easily manipulate the ASF. This is the default UI that comes with the ASF.</p>
+<p>As mentioned above, ASF-ui is a community project and is not maintained by the core ASF developers. It follows its own development process, and all related questions, discussions, bug reports, and suggestions should be published in the <a href="https://github.com/JustArchiNET/ASF-ui" target="_blank" rel="noopener noreferrer">ASF-ui repository</a>.</p>
+<p>You can use ASF-ui for general administration of the ASF. For example, managing bots, modifying settings, sending commands, and various other functions provided by ASF.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Universal solution</title>
+      <link>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/FAQ/FAQ.html</link>
+      <guid>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/FAQ/FAQ.html</guid>
+      <source url="https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/rss.xml">Universal solution</source>
+      <description>If you encounter a problem, you can try to update to the latest version first, maybe the new version has fixed the problem Just click About `Check for updates` Check for updates</description>
+      <pubDate>Sat, 14 May 2022 20:26:26 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Universal solution</h1>
+<p>If you encounter a problem, you can try to update to the latest version first, maybe the new version has fixed the problem</p>
+<p>Just click <code>About</code> <code>Check for updates</code></p>
+<p></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Network issues</title>
+      <link>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/FAQ/Network%20problems.html</link>
+      <guid>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/FAQ/Network%20problems.html</guid>
+      <source url="https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/rss.xml">Network issues</source>
+      <description>Host file related (read-only, access denied, no privileges) Please go to C:\Windows\System32\drivers\etc, right-click on the host file, open Properties and uncheck the Read-only...</description>
+      <pubDate>Sat, 14 May 2022 20:26:26 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Network issues</h1>
+<h2> Host file related (read-only, access denied, no privileges)</h2>
+<ul>
+<li>
+<p>Please go to <code>C:\Windows\System32\drivers\etc</code>, right-click on the <code>host</code> file, open <code>Properties</code> and uncheck the <code>Read-only</code> option below.</p>
+</li>
+<li>
+<p>Read-only may also be occupied by other software or blocked by anti-virus software. If the <code>hosts</code> file has no custom content, you can delete the file before starting it, or use the system agent mode with the file located at <code>C:\Windows\System32\drivers\etc\hosts</code></p>
+</li>
+<li>
+<p>Or automatically reset the host problem with a disconnected one-click repair program, such as <code>360 Disconnect First Aid</code> <code>FireWire Disconnect Repair</code></p>
+</li>
+</ul>
+<h2> Unable to connect to the network after a program crash</h2>
+<ul>
+<li>
+<p>After the program crashes during acceleration, the community/game server cannot be connected because the <code>127.0.0.1</code> written to the <code>host</code> after the crash has not been eliminated properly, you can cancel the acceleration and reopen it, or you can clean up the <code>host</code> file manually</p>
+</li>
+<li>
+<p>Or you can automatically reset the <code>host</code> problem with a one-click repair program, such as <code>360 Disconnect First Aid</code>, <code>FireWire Disconnect Repair</code>.</p>
+</li>
+</ul>
+<blockquote>
+<p>The problem of no network after a crash is due to the normal logic of accelerating and stopping acceleration, because the program was forced to quit in acceleration, so the logic of stopping acceleration was not executed, and the configuration modified by acceleration was not restored.</p>
+<p>If you encounter this problem, you can try to restore the hosts file, close the windows system agent, and reset the network service.</p>
+</blockquote>
+<p></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>🚀 Download Channel</title>
+      <link>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Start/Download%20channel.html</link>
+      <guid>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Start/Download%20channel.html</guid>
+      <source url="https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/rss.xml">🚀 Download Channel</source>
+      <description>![GitHub Releases (https://img.shields.io/badge/Github-Releases-fff)](https://github.com/BeyondDimension/SteamTools/releases) ![Gitte Releases (https://img.shields.io/badge/Gite...</description>
+      <pubDate>Sat, 14 May 2022 20:26:26 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 🚀 Download Channel</h1>
+<p><a href="https://github.com/BeyondDimension/SteamTools/releases" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Github-Releases-fff" alt="GitHub Releases" loading="lazy"></a><br>
+<a href="https://gitee.com/rmbgame/SteamTools/releases" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Gitee-Releases-c71d23" alt="Gitte Releases" loading="lazy"></a><br>
+<a href="https://steampp.net" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Official-WebSite-1890ff" alt="Official WebSite" loading="lazy"></a><br>
+<a href="https://apps.microsoft.com/store/detail/watt-toolkit/9MTCFHS560NG" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Micrsoft-store-0d63a6" alt="Microsoft Store" loading="lazy"></a><br>
+<a href="https://aur.archlinux.org/packages/steam%2B%2B-bin" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Arch Linux Package-zhanghua000-1793d1" alt="Arch Linux Package" loading="lazy"></a></p>
+<h2> Don't know which file to download?</h2>
+<ul>
+<li>Desktop(Desktop side)
+<ul>
+<li>
+<p>Windows</p>
+<ul>
+<li>If you are using a PC with an x64 (x86-64/AMD64) chip from Intel or AMD, download the file with <strong>win_x64</strong> in the file name</li>
+<li><strong>framework-dependent executable (fde)</strong>
+<ul>
+<li>NET Core Runtime 6.0.x<strong>and</strong>.NET Runtime 6.0.x**, if you<strong>have</strong>the runtime installed, download the file with<strong>fde</strong> in the file name to reduce the disk space occupied by this application</li>
+<li>If you <strong>have not installed the runtime, download the file without</strong>fde** in the file name, or download the latest 6.0.x runtime from <a href="https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0" target="_blank" rel="noopener noreferrer">download here</a></li>
+<li>Click on the Installer x64 link on the web page to download it. Usually the downloaded file name is as follows, install it, no installation order is required
+<ul>
+<li>dotnet-runtime-6.0.x-win-x64.exe (.NET runtime 6.0.x)</li>
+<li>aspnetcore-runtime-6.0.x-win-x64.exe (<a href="http://ASP.NET" target="_blank" rel="noopener noreferrer">ASP.NET</a> Core Runtime 6.0.x)</li>
+</ul>
+</li>
+<li>Other downloads of the required runtime are included, but it is not recommended to install them just to run this application
+<ul>
+<li>The Hosting Bundle also contains the IIS runtime support (<a href="http://ASP.NET" target="_blank" rel="noopener noreferrer">ASP.NET</a> Core Module v2) and several runtime libraries for x86 that are not required for this application</li>
+<li>The SDK contains a lot of content that is not required</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>macOS</p>
+<ul>
+<li>If you are using a Mac with Intel's x64 (x86-64) chip, download the file with <strong>macos_x64</strong> in the filename</li>
+<li>If you are using a Mac with an ARM64 (Apple Silicon) chip, such as <strong>Apple M1</strong>, download the file with <strong>macos_arm64</strong> in the filename</li>
+</ul>
+</li>
+<li>
+<p>Linux</p>
+<ul>
+<li>If you are using a PC with an Intel, AMD x64 (x86-64) chip, download the file with <strong>linux_x64</strong> in the file name</li>
+<li>If you use a PC with an ARM64 chip, such as <strong>Raspberry Pi Model 3+</strong>, download the file with <strong>linux_arm64</strong> in the file name</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!--  
+- Mobile(Mobile)
+  - Android
+    - If you are using a device with an ARM64 chip (more common**) download the file with**android_arm64_v8a** in the file name
+    - If you are using a device with an ARM32 chip (more **rare**), usually produced before the second half of **14**, download the file with **android_armeabi_v7a** in the filename
+    - If you are using a device with an Intel, AMD x64 chip (more **rare**) download the file with **android_x64** in the file name
+-->
+<!--
+- If you are using a PC with an ARM64 chip (extremely **rare**), e.g. **Surface Pro X**, then download the file with **win_x64** in the filename to run through Win11 x86 emulation
+- **[Not yet supported]** ~~ If you are using a PC with an ARM64 chip (extremely **rare**), such as **Surface Pro X**, download the file with **win_arm64** in the file name~~
+- **[Not supported yet]** ~~ If you are using a Mac with an ARM64 chip (rare**), such as**M1**, download the file with**macos_arm64** in the file name~~
+  - NET on Linux](<https://docs.microsoft.com/en-us/dotnet/core/install/linux>)
+  - Recommended [Installing .NET Runtime via Snap](https://docs.microsoft.com/zh-cn/dotnet/core/install/linux-snap)
+  - ```sudo snap install dotnet-runtime-60 --classic``
+-->
+<ul>
+<li>Note: The following web streaming download may not be updated in a timely manner, if you want to view the latest version please go to <a href="https://github.com/BeyondDimension/SteamTools/releases" target="_blank" rel="noopener noreferrer">GitHub</a> and <a href="https://gitee.com/rmbgame/SteamTools/releases" target="_blank" rel="noopener noreferrer">Gitte</a> for the release</li>
+</ul>
+<h2> Multi-platform download links</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Download Channel</th>
+<th style="text-align:left">Download Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Gitee Download</td>
+<td style="text-align:left"><a href="https://gitee.com/rmbgame/SteamTools/releases" target="_blank" rel="noopener noreferrer">https://gitee.com/rmbgame/SteamTools/releases</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Github Download</td>
+<td style="text-align:left"><a href="https://github.com/BeyondDimension/SteamTools/releases" target="_blank" rel="noopener noreferrer">https://github.com/BeyondDimension/SteamTools/releases</a></td>
+</tr>
+<tr>
+<td style="text-align:center">aliyundrive</td>
+<td style="text-align:left"><a href="https://www.aliyundrive.com/s/KDCFrongF7F" target="_blank" rel="noopener noreferrer">https://www.aliyundrive.com/s/KDCFrongF7F</a></td>
+</tr>
+<tr>
+<td style="text-align:center">Nas Shunt</td>
+<td style="text-align:left"><a href="https://pan.mossimo.net:5212/s/4yiQ" target="_blank" rel="noopener noreferrer">https://pan.mossimo.net:5212/s/4yiQ</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><s>cowtransfer</s></td>
+<td style="text-align:left"><a href="https://cowtransfer.com/s/94ce5dfa928f45" target="_blank" rel="noopener noreferrer"><s>The transfer error</s></a></td>
+</tr>
+</tbody>
+</table>
+<h2> Single-platform download link</h2>
+<h3> Desktop</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Windows</th>
+<th style="text-align:left">Download Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">lanzou</td>
+<td style="text-align:left"><a href="https://cliencer.lanzoux.com/b01v4iz1g" target="_blank" rel="noopener noreferrer">https://cliencer.lanzoux.com/b01v4iz1g</a> password:1234</td>
+</tr>
+<tr>
+<td style="text-align:center">Baidu Netdisk</td>
+<td style="text-align:left"><a href="https://pan.baidu.com/s/1xQ-RJEwd3y1nwUX7YZQ5nQ?pwd=ce4h" target="_blank" rel="noopener noreferrer">https://pan.baidu.com/s/1xQ-RJEwd3y1nwUX7YZQ5nQ?pwd=ce4h</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">UWP</th>
+<th style="text-align:left">Download Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Quick Installation</td>
+<td style="text-align:left"><a href="ms-windows-store://pdp/?ProductId=9MTCFHS560NG">ms-windows-store://pdp/?ProductId=9MTCFHS560NG</a></td>
+</tr>
+<tr>
+<td style="text-align:center">microsoft store</td>
+<td style="text-align:left"><a href="https://apps.microsoft.com/store/detail/watt-toolkit/9MTCFHS560NG" target="_blank" rel="noopener noreferrer">https://apps.microsoft.com/store/detail/watt-toolkit/9MTCFHS560NG</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">macOS</th>
+<th style="text-align:left">Download Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">lanzou</td>
+<td style="text-align:left"><a href="https://wwe.lanzouy.com/b01v4izaf" target="_blank" rel="noopener noreferrer">https://wwe.lanzouy.com/b01v4izaf</a> password:1234</td>
+</tr>
+<tr>
+<td style="text-align:center">Baidu Netdisk</td>
+<td style="text-align:left"><a href="https://pan.baidu.com/s/1UaVrxC1F1GtkLTdC25yK-w?pwd=wg4x" target="_blank" rel="noopener noreferrer">https://pan.baidu.com/s/1UaVrxC1F1GtkLTdC25yK-w?pwd=wg4x</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Linux</th>
+<th style="text-align:left">Download Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">lanzou</td>
+<td style="text-align:left"><a href="https://wwe.lanzouy.com/b01v4iz7c" target="_blank" rel="noopener noreferrer">https://wwe.lanzouy.com/b01v4iz7c</a> password:1234</td>
+</tr>
+<tr>
+<td style="text-align:center">Baidu Netdisk</td>
+<td style="text-align:left"><a href="https://pan.baidu.com/s/1WOQBEg7hl92Lq7mjONlFJg?pwd=7tbn" target="_blank" rel="noopener noreferrer">https://pan.baidu.com/s/1WOQBEg7hl92Lq7mjONlFJg?pwd=7tbn</a></td>
+</tr>
+</tbody>
+</table>
+<h3> Mobile</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Android</th>
+<th style="text-align:left">Download Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">lanzou</td>
+<td style="text-align:left"><a href="https://wwe.lanzouy.com/b01v4izfa" target="_blank" rel="noopener noreferrer">https://wwe.lanzouy.com/b01v4izfa</a> password:1234</td>
+</tr>
+<tr>
+<td style="text-align:center">Baidu Netdisk</td>
+<td style="text-align:left"><a href="https://pan.baidu.com/s/1Tnu9s10n57i8Fd9EmgTZBw?pwd=hk5f" target="_blank" rel="noopener noreferrer">https://pan.baidu.com/s/1Tnu9s10n57i8Fd9EmgTZBw?pwd=hk5f</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">iOS</th>
+<th style="text-align:left">Download Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Coming soon</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+      <enclosure url="https://img.shields.io/badge/Github-Releases-fff" type="image/"/>
+    </item>
+    <item>
+      <title>✨ Functions</title>
+      <link>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Start/Functions.html</link>
+      <guid>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Start/Functions.html</guid>
+      <source url="https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/rss.xml">✨ Functions</source>
+      <description>Network Acceleration Implement normal access to Steam `Discord Twitch Origin Uplay GitHub Microsoft Store Google Captcha Pixiv and other hard-to-access web pages in China to pre...</description>
+      <pubDate>Sat, 14 May 2022 20:26:26 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> ✨ Functions</h1>
+<h2> Network Acceleration</h2>
+<ul>
+<li>
+<p>Implement normal access to <code>Steam</code> <code>Discord</code> <code>Twitch</code> <code>Origin</code> <code>Uplay</code> <code>GitHub</code> <code>Microsoft Store</code> <code>Google Captcha</code> <code>Pixiv</code> and other hard-to-access web pages in China to prevent network interference</p>
+</li>
+<li>
+<p>Functions similar to <a href="https://www.dogfight360.com/blog/686/" target="_blank" rel="noopener noreferrer">Steamcommunity 302</a>, using [Titanium-Web-Proxy](<a href="https://github.com/justcoding121/Titanium-" target="_blank" rel="noopener noreferrer">https://github.com/justcoding121/Titanium-</a> Web-Proxy) open source project for local anti-generation.</p>
+</li>
+<li>
+<p>There are two ways to choose <code>Host proxy mode</code> and <code>system proxy mode</code>, you need to confirm the installation of the certificate file before using it for the first time</p>
+</li>
+<li>
+<p>You can also remove <strong>Steam Store</strong> access restrictions**, including but not limited to: <code>This item is not currently available in your region</code> <code>This game is marked as "adults only". You are seeing this game because you have set your preferences to allow such content. </code></p>
+</li>
+</ul>
+<details class="hint-container details"><summary>[Click to expand]-FAQ</summary>
+<blockquote>
+<p>Q: hosts is being used by another process, so that process cannot access this file?</p>
+<p>A: If the hosts file is occupied by other programs and this program cannot read or write normally, use <code>Resource Monitor</code> to search for hosts in the <code>Associated Handle</code> to find the occupied process and end it.</p>
+<p>Q: Why the checkbox in front of the script is not saved when the script in Community Acceleration is enabled and invalid?</p>
+<p>A: The script requires the corresponding acceleration service to be enabled to take effect, and the script must also be enabled after the acceleration function is enabled to be effective, for example, the <code>Steam Store History Low Search</code> script must have the <code>Steam Store Acceleration Service</code> enabled to take effect.</p>
+<p>Q: Using acceleration prompts certificate installation failure?</p>
+<p>A: You can try to manually install the <code>SteamTools.Certificate.pfx</code> certificate file under the <code>AppData</code> folder in the program directory, install it to the trusted root certificate area, the area must be selected correctly, otherwise the installation will be invalid even if it succeeds.</p>
+</blockquote>
+</details>
+<h2> Script Configuration</h2>
+<ul>
+<li>
+<p>Injects some JS scripts into web pages (Steam's built-in browser) through an acceleration service that intercepts network requests, providing web plug-in-like functionality. Enables Steam's built-in browser to use some of the scripts</p>
+</li>
+<li>
+<p>For example <code>Steam History Lowest Price Check </code>Steam Economy Enhancer(Steam Market Enhancement)``CSGO Market Tool(CSGO Market Check Gun Wear Value)`</p>
+</li>
+</ul>
+<h2> Account Switch</h2>
+<ul>
+<li>
+<p>Switch between Steam accounts that are already logged in on the current PC with one click via Steam <strong>save by default</strong> credential information** and the ability to log in offline with one click, as well as manage features such as home shared library sorting.</p>
+<p></p>
+</li>
+</ul>
+<details class="hint-container details"><summary>[Click to expand]-FAQ</summary>
+<blockquote>
+<p>Q: I still need to enter my password and token after switching accounts? Why can I sometimes switch with one click and sometimes not?</p>
+<p>A: Watt Toolkit account switching feature doesn't record your password and token. The fast account switching is due to Steam's own remember password feature.</p>
+</blockquote>
+</details>
+<p><a href="https://help.steampowered.com/zh-cn/faqs/view/57A7-503C-991F-E9A8" target="_blank" rel="noopener noreferrer">Family Library Sharing</a>(Steam Support)</p>
+<p>Adjust the priority order of Steam accounts shared on the current device to solve the problem that you want to play with account B's shares but keep using account A's shares, sorted from top to bottom by the priority order of the shared library usage, or you can choose to temporarily disable or enable shares for a specific account. You can also choose to temporarily disable or enable shares for a specific account. Save and restart Steam after the adjustment takes effect!</p>
+<p></p>
+<h2> Inventory Management</h2>
+<ul>
+<li>
+<p>Lets you manage your Steam game inventory directly, not only by downloading older Steam games, but also by managing Steam game achievements directly, supporting unlocked achievements and unlocked achievements.</p>
+</li>
+<li>
+<p>You can use Steam download completion timer shutdown so that no one can reduce unnecessary power consumption after the completion of the download (for example, sleep at night automatically after the completion of the download automatically shutdown)</p>
+<p></p>
+</li>
+<li>
+<p>It is also possible to customize the ability to increase the length of the game after starting Watt Toolkit</p>
+<p></p>
+</li>
+</ul>
+<details class="hint-container details"><summary>[Click to expand]-Steam Game achievements unlocked：</summary>
+<p>Steam game achievements unlocked using open source projects <a href="https://github.com/gibbed/SteamAchievementManager" target="_blank" rel="noopener noreferrer">SteamAchievementManager</a></p>
+<div class="hint-container warning">
+<p class="hint-container-title">Note</p>
+<p>This feature carries some risk, theoretically it will not be VAC, but if abused it may be pulled by the game manufacturer, it is recommended to use it without starting the game, so far it has no effect. The unlock achievements feature is not a plug-in, it only communicates with Steam in principle, and has nothing to do with the game itself, as anti-cheat systems like VAC work in multiplayer games. If the game is bound to another platform, unlocked achievements will not be synced to other platforms and may not be updated on other platforms if the achievements are re-completed, e.g. Sea of Thieves is bound to Xbox.</p>
+<p></p>
+</div>
+<p>By checking the achievements and saving the achievement changes (<strong>Note</strong>: It is best not to change achievements for games with <code>VAC</code> to avoid unnecessary damage, the picture below is a game with <code>VAC</code>)</p>
+<p></p>
+</details>
+<h2> Local Authentication</h2>
+<ul>
+<li>
+<p>Let your cell phone token unified save in the computer, currently only support Steam token, later will develop support more token types with cloud synchronization token.</p>
+</li>
+<li>
+<p>Similar to <code>WinAuth</code> (you can import <code>WinAuth 2-step verification</code> into <code>Watt Toolkit</code> by exporting it, using <a href="https://github.com/winauth/winauth" target="_blank" rel="noopener noreferrer">open source project Winauth</a>)</p>
+</li>
+</ul>
+<h2> ArchiSteamFarm</h2>
+<ul>
+<li>
+<p>Integrated with the open source project <a href="https://github.com/JustArchiNET/ArchiSteamFarm" target="_blank" rel="noopener noreferrer">ArchiSteamFarm</a> in the application to provide hanging drops <code>Steam Collectible Deck</code> and other functions.</p>
+</li>
+<li>
+<p><a href="https://keylol.com/t770760-1-1" target="_blank" rel="noopener noreferrer">The easiest ASF User Manual</a> <a href="https://keylol.com/suid-988278" target="_blank" rel="noopener noreferrer">(Keylol)@cyb233</a></p>
+</li>
+</ul>
+<h2> Game Tools</h2>
+<ul>
+<li>
+<p>You can force the game window to use borderless windowing or full screen, or you can put the game screen on the desktop wallpaper (conflict with dynamic wallpaper software)</p>
+<p></p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>🖥️ Supported Operating Systems</title>
+      <link>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Start/Supported%20Operating%20Systems.html</link>
+      <guid>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Start/Supported%20Operating%20Systems.html</guid>
+      <source url="https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/rss.xml">🖥️ Supported Operating Systems</source>
+      <description>Windows OS Version Architectures | Lifecycle -----------------------------------------------------------------------------------|---------- [Windows Client][Windows-client] 7 SP...</description>
+      <pubDate>Sat, 14 May 2022 20:26:26 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 🖥️ Supported Operating Systems</h1>
+<h2> Windows</h2>
+<table>
+<thead>
+<tr>
+<th>OS</th>
+<th>Version</th>
+<th>Architectures</th>
+<th>Lifecycle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.microsoft.com/windows/" target="_blank" rel="noopener noreferrer">Windows Client</a></td>
+<td>7 SP1(<strong>*</strong>), 8.1(<strong>*</strong>)</td>
+<td>x64</td>
+<td><a href="https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet" target="_blank" rel="noopener noreferrer">Windows</a></td>
+</tr>
+<tr>
+<td><a href="https://www.microsoft.com/windows/" target="_blank" rel="noopener noreferrer">Windows 10 Client</a></td>
+<td>Version 1607+(<strong>*</strong>)</td>
+<td>x64</td>
+<td><a href="https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet" target="_blank" rel="noopener noreferrer">Windows</a></td>
+</tr>
+<tr>
+<td><a href="https://www.microsoft.com/windows/" target="_blank" rel="noopener noreferrer">Windows 11</a></td>
+<td>Version 22000+</td>
+<td>x64,</td>
+<td><a href="https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet" target="_blank" rel="noopener noreferrer">Windows</a></td>
+</tr>
+<tr>
+<td><a href="https://docs.microsoft.com/windows-server/" target="_blank" rel="noopener noreferrer">Windows Server</a></td>
+<td>2008 R2 SP1(<strong>*</strong>), 2012+</td>
+<td>x64</td>
+<td><a href="https://docs.microsoft.com/windows-server/get-started/windows-server-release-info" target="_blank" rel="noopener noreferrer">Windows Server</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>*</strong> Windows 7 SP1 must have <a href="https://docs.microsoft.com/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq" target="_blank" rel="noopener noreferrer">Extended Security Update</a> installed and will be released after November 2022 is no longer supported.<br>
+<strong>*</strong> Windows 8.1 will no longer be supported in versions released after November 2022.<br>
+<strong>*</strong> Windows Server 2008 R2 SP1 must have <a href="https://docs.microsoft.com/en-us/lifecycle/faq/extended-security-updates" target="_blank" rel="noopener noreferrer">Extended Security Update</a> installed and will be released after November 2022 is no longer supported.<br>
+<strong>*</strong> Microsoft Store(Desktop Bridge) Version 1809+</p>
+<h2> Linux</h2>
+<table>
+<thead>
+<tr>
+<th>OS</th>
+<th>Version</th>
+<th>Architectures</th>
+<th>Lifecycle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://alpinelinux.org/" target="_blank" rel="noopener noreferrer">Alpine Linux</a></td>
+<td>3.13+</td>
+<td>x64, Arm64</td>
+<td><a href="https://wiki.alpinelinux.org/wiki/Alpine_Linux:Releases" target="_blank" rel="noopener noreferrer">Alpine</a></td>
+</tr>
+<tr>
+<td><a href="https://www.centos.org/" target="_blank" rel="noopener noreferrer">CentOS</a></td>
+<td>7+</td>
+<td>x64</td>
+<td><a href="https://wiki.centos.org/FAQ/General" target="_blank" rel="noopener noreferrer">CentOS</a></td>
+</tr>
+<tr>
+<td><a href="https://www.debian.org/" target="_blank" rel="noopener noreferrer">Debian</a></td>
+<td>10+</td>
+<td>x64, Arm64</td>
+<td><a href="https://wiki.debian.org/DebianReleases" target="_blank" rel="noopener noreferrer">Debian</a></td>
+</tr>
+<tr>
+<td><a href="https://getfedora.org/" target="_blank" rel="noopener noreferrer">Fedora</a></td>
+<td>33+</td>
+<td>x64</td>
+<td><a href="https://fedoraproject.org/wiki/End_of_life" target="_blank" rel="noopener noreferrer">Fedora</a></td>
+</tr>
+<tr>
+<td><a href="https://opensuse.org/" target="_blank" rel="noopener noreferrer">openSUSE</a></td>
+<td>15+</td>
+<td>x64</td>
+<td><a href="https://en.opensuse.org/Lifetime" target="_blank" rel="noopener noreferrer">OpenSUSE</a></td>
+</tr>
+<tr>
+<td><a href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux" target="_blank" rel="noopener noreferrer">Red Hat Enterprise Linux</a></td>
+<td>7+</td>
+<td>x64, Arm64</td>
+<td><a href="https://access.redhat.com/support/policy/updates/errata/" target="_blank" rel="noopener noreferrer">Red Hat</a></td>
+</tr>
+<tr>
+<td><a href="https://www.suse.com/products/server/" target="_blank" rel="noopener noreferrer">SUSE Enterprise Linux (SLES)</a></td>
+<td>12 SP2+</td>
+<td>x64</td>
+<td><a href="https://www.suse.com/lifecycle/" target="_blank" rel="noopener noreferrer">SUSE</a></td>
+</tr>
+<tr>
+<td><a href="https://ubuntu.com/" target="_blank" rel="noopener noreferrer">Ubuntu</a></td>
+<td>16.04, 18.04, 20.04+</td>
+<td>x64, Arm64</td>
+<td><a href="https://wiki.ubuntu.com/Releases" target="_blank" rel="noopener noreferrer">Ubuntu</a></td>
+</tr>
+<tr>
+<td><a href="https://www.deepin.org/" target="_blank" rel="noopener noreferrer">Deepin / UOS</a></td>
+<td>20+</td>
+<td>x64</td>
+<td><a href="https://www.deepin.org/release-notes" target="_blank" rel="noopener noreferrer">Deepin</a></td>
+</tr>
+<tr>
+<td><a href="https://archlinux.org/" target="_blank" rel="noopener noreferrer">Arch Linux</a></td>
+<td></td>
+<td>x64</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2> macOS</h2>
+<table>
+<thead>
+<tr>
+<th>OS</th>
+<th>Version</th>
+<th>Architectures</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://support.apple.com/macos" target="_blank" rel="noopener noreferrer">macOS</a></td>
+<td>10.15+</td>
+<td>x64, Arm64</td>
+</tr>
+</tbody>
+</table>
+<h2> Android</h2>
+<table>
+<thead>
+<tr>
+<th>OS</th>
+<th>Version</th>
+<th>Architectures</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://support.google.com/android" target="_blank" rel="noopener noreferrer">Android</a></td>
+<td>5.0(API 21)+</td>
+<td><a href="https://developer.android.google.cn/ndk/guides/abis?hl=zh_cn#86-64" target="_blank" rel="noopener noreferrer">x64</a>, <a href="https://developer.android.google.cn/ndk/guides/abis?hl=zh_cn#arm64-v8a" target="_blank" rel="noopener noreferrer">Arm64</a>, <a href="https://developer.android.google.cn/ndk/guides/abis?hl=zh_cn#v7a" target="_blank" rel="noopener noreferrer">Arm32</a></td>
+</tr>
+</tbody>
+</table>
+<h2> <s>iOS / iPadOS</s></h2>
+<table>
+<thead>
+<tr>
+<th>OS</th>
+<th>Version</th>
+<th>Architectures</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://support.apple.com/ios" target="_blank" rel="noopener noreferrer">iOS</a></td>
+<td>10.0+</td>
+<td>x64, Arm32, Arm64</td>
+</tr>
+</tbody>
+</table>
+<h2> ⛔ Unsupported Operating System</h2>
+<ul>
+<li>Windows 8
+<ul>
+<li><a href="https://docs.microsoft.com/lifecycle/products/windows-8" target="_blank" rel="noopener noreferrer">Due to Microsoft's official support for the product has ended</a>, so this program cannot run on this operating system, <a href="https://support.microsoft.com/windows/update-to-windows-8-1-from-windows-8-17fc54a7-a465-6b5a-c1a0-34140afd0669" target="_blank" rel="noopener noreferrer">It is recommended to upgrade to Windows 8.1</a></li>
+</ul>
+</li>
+<li>Windows Server / Linux version without desktop GUI</li>
+<li>Xbox or Windows Mobile / Phone</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>2FA application import Guard</title>
+      <link>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Steam%20Guard/2FA%20to%20import%20Guard.html</link>
+      <guid>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Steam%20Guard/2FA%20to%20import%20Guard.html</guid>
+      <source url="https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/rss.xml">2FA application import Guard</source>
+      <description>WinAuth Exported .txt file, usually named &amp;quot;winauth-date.txt&amp;quot; by default steam++令牌导入教程-从WinAuth导入 (https://www.bilibili.com/read/cv10145591) (BiliBili)@牛奶君 (https://space.bilibil...</description>
+      <pubDate>Sat, 14 May 2022 20:26:26 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 2FA application import Guard</h1>
+<h2> WinAuth</h2>
+<p>Exported .txt file, usually named "winauth-date.txt" by default</p>
+<p><a href="https://www.bilibili.com/read/cv10145591" target="_blank" rel="noopener noreferrer">steam++令牌导入教程-从WinAuth导入</a> <a href="https://space.bilibili.com/484296" target="_blank" rel="noopener noreferrer">(BiliBili)@牛奶君</a></p>
+<h2> Steam Desktop Auth(SDA)</h2>
+<p>The exported .maFile file is usually named "a string of numbers .maFile" by default</p>
+<ul>
+<li>SDA will automatically generate the account's .maFile file in the maFile folder in the application directory</li>
+</ul>
+<p>Steam++ Click <code>Steam Authenticator</code>-<code>New</code>- choose <code>Import from other apps</code>.</p>
+<p></p>
+<p><a href="https://www.bilibili.com/read/cv10145788" target="_blank" rel="noopener noreferrer">steam++令牌导入教程-从Steam Desktop Authenticator导入</a> <a href="https://space.bilibili.com/484296" target="_blank" rel="noopener noreferrer">(BiliBili)@牛奶君</a></p>
+<h2> Other 2FA applications</h2>
+<p>According to the software instructions, copy/export the Guard and find the following required content and enter it according to the image</p>
+<p></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Android phone import token</title>
+      <link>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Steam%20Guard/Android%20to%20import%20Guard.html</link>
+      <guid>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Steam%20Guard/Android%20to%20import%20Guard.html</guid>
+      <source url="https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/rss.xml">Android phone import token</source>
+      <description>Android phones can be divided into three cases depending on the situation different manufacturers. Any Android phone with root Some Android phone manufacturers, have their own b...</description>
+      <pubDate>Sat, 14 May 2022 20:26:26 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Android phone import token</h1>
+<p>Android phones can be divided into three cases depending on the situation different manufacturers.<br>
+Any Android phone with root<br>
+Some Android phone manufacturers, have their own backup software, and the backup file is not encrypted / encryption can be cracked<br>
+The phone is not rooted, and can not backup the corresponding data / can not decrypt the backup data, this method is re-binding, so there may be temporary hanging</p>
+<h2> have root</h2>
+<p><a href="https://www.bilibili.com/read/cv10142098?from=articleDetail" target="_blank" rel="noopener noreferrer">steam++令牌导入教程-从Android App导入-须root的方式</a> <a href="https://space.bilibili.com/484296" target="_blank" rel="noopener noreferrer">(BiliBili)@牛奶君</a></p>
+<ul>
+<li>A phone with the target account token tied to it and rooted</li>
+</ul>
+<h2> no root</h2>
+<blockquote>
+<p>A phone with a target account token is required, and depending on the phone brand, different software is also required, this solution is not available for all brands</p>
+</blockquote>
+<p><a href="https://www.bilibili.com/read/cv10052462" target="_blank" rel="noopener noreferrer">steam++令牌导入教程-从Android App导入-无须root的方式</a> <a href="https://space.bilibili.com/484296" target="_blank" rel="noopener noreferrer">(BiliBili)@牛奶君</a></p>
+<p>This solution involves a large number of cell phone brands and is summarized as follows</p>
+<ol>
+<li>
+<p>backup SteamApp through the phone manufacturer's own backup software with high privileges</p>
+</li>
+<li>
+<p>extract the backup file and import the token</p>
+</li>
+</ol>
+<p>Known links to related tutorials.</p>
+<blockquote>
+<p><a href="https://keylol.com/t684133-1-1" target="_blank" rel="noopener noreferrer"><s>vivo</s></a>The new version is encrypted</p>
+<p><a href="https://keylol.com/t524510-1-1" target="_blank" rel="noopener noreferrer">Xiaomi</a></p>
+<p><a href="https://keylol.com/t582900-1-1" target="_blank" rel="noopener noreferrer">LG</a>Decryption</p>
+<p><a href="https://keylol.com/t666792-1-1" target="_blank" rel="noopener noreferrer"><s>HuaWei</s></a>The new version has modified encryption</p>
+</blockquote>
+<p>More brands of cell phones can refer to the above tutorials for their own research</p>
+<h2> No root, may have Trading Pending</h2>
+<p><a href="https://keylol.com/t757408-1-1" target="_blank" rel="noopener noreferrer">安卓手机利用 ADB 免 root 导出令牌（避免暂挂）</a> <a href="https://keylol.com/suid-218128" target="_blank" rel="noopener noreferrer">(其乐 Keylol)@sffxzzp</a></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Apple phone import token</title>
+      <link>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Steam%20Guard/Apple%20to%20import%20Guard.html</link>
+      <guid>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Steam%20Guard/Apple%20to%20import%20Guard.html</guid>
+      <source url="https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/rss.xml">Apple phone import token</source>
+      <description>Jailbroken This program is quoted and modified fromSteam++ issues #95 (https://github.com/SteamTools-Team/SteamTools/issues/95) Open /var/mobile/Containers/Data/Application/{Str...</description>
+      <pubDate>Sat, 14 May 2022 20:26:26 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Apple phone import token</h1>
+<h2> Jailbroken</h2>
+<p>This program is quoted and modified from<a href="https://github.com/SteamTools-Team/SteamTools/issues/95" target="_blank" rel="noopener noreferrer">Steam++ issues #95</a></p>
+<p>Open <code>/var/mobile/Containers/Data/Application/{String}</code> with <strong>Filza</strong>, the number string location is Steam data folder, it may be different, Filza will show it as "Steam"<br>
+Open <code>/Documents/Steamguard-xxxxxxxxxxxxxxxx</code> with text, go to the bottom and find the otpauth column and paste it into Steam++<br>
+Open <code>/Library/Preferences/com.valvesoftware.Steam</code> with text and find <code>&lt;string&gt;/var/mobile/Containers/Data/Application/XXXXXXXX-XXXX-XXXX-XXXX- XXXXXXXXXXXXXX/Library/Caches&lt;/string&gt;</code>, copy <code>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXXXX</code> and add <code>android:</code> at the top and paste it into Watt Toolkit</p>
+<h2> Not jailbroken, may have temporary hang</h2>
+<p>The token export for iOS can be found at</p>
+<blockquote>
+<p><a href="https://keylol.com/t728973-1-1" target="_blank" rel="noopener noreferrer">越狱IOS设备无损导入Steam令牌至Steam++</a></p>
+<p><a href="https://keylol.com/t696543-1-1" target="_blank" rel="noopener noreferrer">高版本的iOS导出Steam手机令牌教程</a></p>
+<p><a href="https://keylol.com/t703874-1-1" target="_blank" rel="noopener noreferrer">2021未越狱iOS设备提取Steam令牌导入ASF的方法</a></p>
+<p><a href="https://keylol.com/t245711-1-1" target="_blank" rel="noopener noreferrer">[云挂卡]未越狱iOS设备也可以使用ASF 2FA功能了</a></p>
+</blockquote>
+<p>Simple steps.</p>
+<ol>
+<li>Uninstall the Steam token</li>
+<li>Uninstall and install <code>iTunes Old Version</code>.</li>
+<li>Use <code>iOS old app download</code> to download <code>old version of Steam</code>.</li>
+<li><code>Extract ipa</code> and install it with <code>爱思助手</code> and other tools</li>
+<li>Bind the token and backup the data</li>
+</ol>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Login to Steam directly and import the Guard</title>
+      <link>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Steam%20Guard/Login%20to%20import%20Guard.html</link>
+      <guid>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Steam%20Guard/Login%20to%20import%20Guard.html</guid>
+      <source url="https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/rss.xml">Login to Steam directly and import the Guard</source>
+      <description>This is the easiest solution, just log in directly through your Steam account as shown below This solution will unlock the mobile Guard and cause a 15-day temporary suspension o...</description>
+      <pubDate>Sat, 14 May 2022 20:26:26 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Login to Steam directly and import the Guard</h1>
+<p>This is the easiest solution, just log in directly through your Steam account as shown below</p>
+<div class="hint-container danger">
+<p class="hint-container-title">Warning</p>
+<p>This solution will unlock the mobile Guard and cause a 15-day temporary suspension of marketplace transactions</p>
+</div>
+<p></p>
+<ul>
+<li>Login to your Steam account and password, this action will release the original Guard and cause the account to go into a suspended state (no marketplace trading for 15 days)</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Reference Documents</title>
+      <link>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Steam%20Guard/Reference%20documents.html</link>
+      <guid>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Steam%20Guard/Reference%20documents.html</guid>
+      <source url="https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/rss.xml">Reference Documents</source>
+      <description>steam++令牌导入教程 (https://keylol.com/t710508-1-1) (Keylol)@cyb233 (https://keylol.com/suid-988278)This post currently corresponds to Steam ++ version: 2.4.11 has been reprinted and...</description>
+      <pubDate>Sat, 14 May 2022 20:26:26 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Reference Documents</h1>
+<ul>
+<li>
+<p><a href="https://keylol.com/t710508-1-1" target="_blank" rel="noopener noreferrer">steam++令牌导入教程</a> <a href="https://keylol.com/suid-988278" target="_blank" rel="noopener noreferrer">(Keylol)@cyb233</a><code>This post currently corresponds to Steam ++ version: 2.4.11</code> has been reprinted and modified with permission, this article is optimized based on the original</p>
+</li>
+<li>
+<p><a href="https://www.bilibili.com/read/cv10145839" target="_blank" rel="noopener noreferrer">steam++令牌导入教程</a> <a href="https://space.bilibili.com/484296" target="_blank" rel="noopener noreferrer">(BiliBili)@牛奶君</a></p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Older/newer Steam++ import</title>
+      <link>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Steam%20Guard/Steam__%20to%20import%20Guard.html</link>
+      <guid>https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/document/Steam%20Guard/Steam__%20to%20import%20Guard.html</guid>
+      <source url="https://xtsat.github.io/SteamTools-Guide/SteamTools-Guide/en/rss.xml">Older/newer Steam++ import</source>
+      <description>.dat files exported from Steam++V1, usually named &amp;quot;Steam++ Authenticator date.dat&amp;quot; by default; .mpo files exported from Steam++V2, usually named &amp;quot;Steam++ Authenticators date.mpo...</description>
+      <pubDate>Sat, 14 May 2022 20:26:26 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Older/newer Steam++ import</h1>
+<ul>
+<li>
+<p>.dat files exported from Steam++V1, usually named "Steam++ Authenticator date.dat" by default</p>
+</li>
+<li>
+<p>.mpo files exported from Steam++V2, usually named "Steam++ Authenticators date.mpo" by default</p>
+</li>
+</ul>
+<p>Steam++ Click <code>Steam Authenticator</code>-<code>New</code>- choose and select <code>Import from Steam++</code>.</p>
+<p></p>
+<h2> Mobile Steam++ import</h2>
+<blockquote>
+<p>PC side <code>Steam++ v2.4.9</code> or higher</p>
+</blockquote>
+<ol>
+<li>
+<p>Import by code scanning</p>
+<p>Click the <code>Export as QR Code</code> button on the PC side as shown in the picture, and click the <code>Top Right Plus</code> -&gt; <code>Add</code> on the mobile side to scan the code</p>
+<p></p>
+</li>
+<li>
+<p>Import via file</p>
+<p>Click the <code>Export</code> button and <code>Confirm Export</code> on the PC side, send the exported file to your cell phone, and click the <code>Top right plus sign</code> --&gt; <code>Add</code> on the cell phone side to import</p>
+<p></p>
+</li>
+</ol>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
