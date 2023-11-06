@@ -19,7 +19,7 @@ export default hopeTheme({
   docsBranch: 'vp-hope',
   docsDir: "docs",
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime","PageView"],
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime", "PageView"],
 
   locales: {
 
@@ -67,7 +67,19 @@ export default hopeTheme({
 
     components: {
       components: ["Badge", "BiliBili"],
+      rootComponents: {
+        notice: [
+          {
+            path: "/zh/",
+            title: "通知",
+            content: " Watt Toolkit 3.0 版本指南火热制作中ing ",
+            fullscreen: false,
+            showOnce: false,
+          },
+        ],
+      },
     },
+
 
     feed: {
       rss: true,
@@ -84,7 +96,10 @@ export default hopeTheme({
       tabs: true,
       card: true,
       footnote: true,
+      align: true,
+      tasklist: true,
     },
-
   },
-});
+
+},
+);
