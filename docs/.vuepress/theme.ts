@@ -1,3 +1,4 @@
+import { defineUserConfig } from "vuepress";
 import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
@@ -77,6 +78,8 @@ export default hopeTheme({
       },
     },
 
+
+
     components: {
       components: ["Badge", "BiliBili"],
       rootComponents: {
@@ -106,6 +109,7 @@ export default hopeTheme({
     gfm: true,
     imgLazyload: true,
     include: true,
+    component: true,
     tabs: true,
     footnote: true,
     align: true,

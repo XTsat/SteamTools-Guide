@@ -14,6 +14,7 @@
     "@vuepress/bundler-vite": "2.0.0-rc.30",
     "@vuepress/plugin-feed": "2.0.0-rc.131",
     "@waline/client": "3.15.2",
+    "sass-embedded": "^1.100.0",
     "vue": "^3.5.39",
     "vuepress": "2.0.0-rc.30",
     "vuepress-theme-hope": "2.0.0-rc.107"
