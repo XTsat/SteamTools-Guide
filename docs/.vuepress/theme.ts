@@ -53,7 +53,7 @@ export default hopeTheme({
   plugins: {
     comment: {
       provider: "Waline",
-      serverURL: "https://document-waline.vercel.app/",
+      serverURL: "https://waline.xtsat.cc.cd/",
       emoji: [
         "//unpkg.com/@waline/emojis@1.1.0/weibo",
         "//unpkg.com/@waline/emojis@1.1.0/bilibili",
