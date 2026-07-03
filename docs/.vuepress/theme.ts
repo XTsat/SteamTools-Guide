@@ -10,8 +10,6 @@ export default hopeTheme({
     url: "https://github.com/SteamTools-Guide",
   },
 
-  iconAssets: "iconfont",
-
   logo: '/logo/Steam++ico.svg',
 
   repo: "XTsat/SteamTools-Guide",
@@ -65,18 +63,32 @@ export default hopeTheme({
       reaction: false,
     },
 
+    icon: {
+      assets: "iconfont",
+    },
+
+    redirect: {
+      defaultLocale: "/zh/",
+      autoLocale: true,
+      switchLocale: "modal",
+      localeConfig: {
+        "/zh/": ["zh-CN", "zh-TW", "zh"],
+        "/en/": ["en-US", "en-UK", "en"],
+      },
+    },
+
     components: {
       components: ["Badge", "BiliBili"],
       rootComponents: {
-        notice: [
-          {
-            path: "/zh/",
-            title: "通知",
-            content: " Watt Toolkit 3.0 版本指南火热制作中ing ",
-            fullscreen: false,
-            showOnce: false,
-          },
-        ],
+        // notice: [
+        //   {
+        //     path: "/zh/",
+        //     title: "通知",
+        //     content: " Watt Toolkit 3.0 版本指南火热制作中ing ",
+        //     fullscreen: false,
+        //     showOnce: false,
+        //   },
+        // ],
       },
     },
 
@@ -88,17 +100,16 @@ export default hopeTheme({
     sitemap: {
       changefreq: "weekly",
     },
+  },
 
-    mdEnhance: {
-      gfm: true,
-      imgLazyload: true,
-      include: true,
-      tabs: true,
-      card: true,
-      footnote: true,
-      align: true,
-      tasklist: true,
-    },
+  markdown: {
+    gfm: true,
+    imgLazyload: true,
+    include: true,
+    tabs: true,
+    footnote: true,
+    align: true,
+    tasklist: true,
   },
 
 },

@@ -1,12 +1,12 @@
 import { defineUserConfig } from 'vuepress'
-
-import { redirectPlugin } from "vuepress-plugin-redirect";
+import { viteBundler } from '@vuepress/bundler-vite'
 
 import theme from "./theme.ts";
 
 // const { searchPlugin } = require('@vuepress/plugin-search')
 
 export default defineUserConfig({
+  bundler: viteBundler(),
   base: '/SteamTools-Guide/',
 
   head: [
@@ -80,15 +80,6 @@ export default defineUserConfig({
     //     }
     //   },
     // }),
-    redirectPlugin({
-      defaultLocale: "/zh/",
-      autoLocale: true,
-      switchLocale: "modal",
-      localeConfig: {
-        "/zh/": ["zh-CN", "zh-TW", "zh"],
-        "/en/": ["en-US", "en-UK", "en"],
-      },
-    }),
   ],
 }
 )

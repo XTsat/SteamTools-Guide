@@ -11,11 +11,11 @@
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.67",
-    "@waline/client": "2.15.8",
-    "vue": "^3.3.7",
-    "vuepress": "2.0.0-beta.67",
-    "vuepress-plugin-redirect": "2.0.0-beta.245",
-    "vuepress-theme-hope": "2.0.0-beta.245"
+    "@vuepress/bundler-vite": "2.0.0-rc.30",
+    "@vuepress/plugin-feed": "2.0.0-rc.131",
+    "@waline/client": "3.15.2",
+    "vue": "^3.5.39",
+    "vuepress": "2.0.0-rc.30",
+    "vuepress-theme-hope": "2.0.0-rc.107"
   }
 }
