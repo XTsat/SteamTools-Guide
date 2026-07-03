@@ -3,8 +3,14 @@ import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
+// 用于 sitemap、RSS feed 等 SEO 资源
+// Vercel 构建时自动注入 VERCEL=1，GitHub Actions 不会
+const hostname = process.env.VERCEL === '1'
+  ? "https://steamtools-guide.xtsat.cc.cd/"
+  : "https://xtsat.github.io/SteamTools-Guide/";
+
 export default hopeTheme({
-  hostname: "https://xtsat.github.io/SteamTools-Guide/",
+  hostname,
 
   // author: {
   //   name: "Watt Toolkit",

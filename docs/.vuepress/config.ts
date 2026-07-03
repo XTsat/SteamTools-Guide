@@ -4,9 +4,12 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 import theme from "./theme.ts";
 
+const isVercel = process.env.VERCEL === '1'
+const base = isVercel ? '/' : '/SteamTools-Guide/'
+
 export default defineUserConfig({
   bundler: viteBundler(),
-  base: '/SteamTools-Guide/',
+  base,
 
   head: [
     [
@@ -15,7 +18,7 @@ export default defineUserConfig({
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: `/SteamTools-Guide/logo/favicon.ico`,
+        href: `/logo/favicon.ico`,
       },
     ],
   ],
