@@ -72,15 +72,14 @@ export default hopeTheme({
     //   assets: "iconfont",
     // },
 
-    // redirect: {
-    //   defaultLocale: "/",
-    //   autoLocale: true,
-    //   switchLocale: "modal",
-    //   localeConfig: {
-    //     "/": ["zh-CN", "zh-TW"],
-    //     "/en/": ["en-US", "en-UK"],
-    //   },
-    // },
+    redirect: {
+      defaultLocale: "/",
+      switchLocale: "modal",
+      localeConfig: {
+        "/": ["zh-CN", "zh-TW"],
+        "/en/": ["en-US", "en-UK"],
+      },
+    },
 
     // components: {
     //   components: ["Badge", "BiliBili"],

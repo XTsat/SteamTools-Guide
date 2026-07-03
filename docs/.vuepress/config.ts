@@ -25,12 +25,12 @@ export default defineUserConfig({
 
   locales: {
     '/': {
-      lang: 'zh',
+      lang: 'zh-CN',
       title: 'Watt Toolkit 指南',
       description: '「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。',
     },
     '/en/': {
-      lang: 'en',
+      lang: 'en-US',
       title: 'Watt Toolkit Guide',
       description: 'Watt Toolkit" is an open source cross-platform multi-purpose game toolkit',
     },
