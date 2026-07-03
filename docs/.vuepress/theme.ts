@@ -6,23 +6,21 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 export default hopeTheme({
   hostname: "https://xtsat.github.io/SteamTools-Guide/",
 
-  author: {
-    name: "SteamTools Guide",
-    url: "https://github.com/SteamTools-Guide",
-  },
+  // author: {
+  //   name: "Watt Toolkit",
+  //   url: "https://github.com/XTsat/SteamTools-Guide",
+  // },
 
-  logo: '/logo/Steam++ico.svg',
+  logo: "/logo/v3/Icon.ico",
 
   repo: "XTsat/SteamTools-Guide",
   docsRepo: "XTsat/SteamTools-Guide",
-  docsBranch: 'vp-hope',
+  docsBranch: "vp-hope-dev",
   docsDir: "docs",
-
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime", "PageView"],
 
   locales: {
 
-    "/zh/": {
+    "/": {
       navbar: zhNavbar,
       sidebar: zhSidebar,
 
@@ -31,7 +29,7 @@ export default hopeTheme({
       displayFooter: true,
 
       metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
+        editLink: "编辑此页",
       },
     },
 
@@ -44,7 +42,7 @@ export default hopeTheme({
       displayFooter: true,
 
       metaLocales: {
-        editLink: "Edit this page on GitHub",
+        editLink: "Edit this page",
       },
     },
   },
@@ -53,6 +51,7 @@ export default hopeTheme({
     comment: {
       provider: "Waline",
       serverURL: "https://waline.xtsat.cc.cd/",
+      dark: "auto",
       emoji: [
         "//unpkg.com/@waline/emojis@1.1.0/weibo",
         "//unpkg.com/@waline/emojis@1.1.0/bilibili",
@@ -60,41 +59,37 @@ export default hopeTheme({
         "//unpkg.com/@waline/emojis@1.1.0/qq",
         "//unpkg.com/@waline/emojis@1.1.0/tieba",
       ],
-      requiredMeta: ["mail"],
-      reaction: false,
+      requiredMeta: ["nick", "mail"],
     },
 
-    icon: {
-      assets: "iconfont",
-    },
+    // icon: {
+    //   assets: "iconfont",
+    // },
 
-    redirect: {
-      defaultLocale: "/zh/",
-      autoLocale: true,
-      switchLocale: "modal",
-      localeConfig: {
-        "/zh/": ["zh-CN", "zh-TW", "zh"],
-        "/en/": ["en-US", "en-UK", "en"],
-      },
-    },
+    // redirect: {
+    //   defaultLocale: "/",
+    //   autoLocale: true,
+    //   switchLocale: "modal",
+    //   localeConfig: {
+    //     "/": ["zh-CN", "zh-TW"],
+    //     "/en/": ["en-US", "en-UK"],
+    //   },
+    // },
 
-
-
-    components: {
-      components: ["Badge", "BiliBili"],
-      rootComponents: {
-        // notice: [
-        //   {
-        //     path: "/zh/",
-        //     title: "通知",
-        //     content: " Watt Toolkit 3.0 版本指南火热制作中ing ",
-        //     fullscreen: false,
-        //     showOnce: false,
-        //   },
-        // ],
-      },
-    },
-
+    // components: {
+    //   components: ["Badge", "BiliBili"],
+    //   rootComponents: {
+    //     notice: [
+    //       {
+    //         path: "/",
+    //         title: "版本说明",
+    //         content: " 本指南目前基于 Watt Toolkit 3.1.0 版本制作 ",
+    //         fullscreen: false,
+    //         showOnce: true,
+    //       },
+    //     ],
+    //   },
+    // },
 
     feed: {
       rss: true,
@@ -108,12 +103,16 @@ export default hopeTheme({
   markdown: {
     gfm: true,
     imgLazyload: true,
-    include: true,
+
     component: true,
-    tabs: true,
     footnote: true,
-    align: true,
+    imgMark: true,
+    imgSize: true,
+    include: true,
+    tabs: true,
     tasklist: true,
+
+    align: true,
   },
 
 },

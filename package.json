@@ -1,7 +1,7 @@
 {
-  "name": "steamtools-guide",
-  "version": "3.0.0",
-  "description": "steamtools 工具箱指南",
+  "name": "SteamTools-guide",
+  "description": "Watt Toolkit 🧰 (原名 Steam++) 使用指南",
+  "version": "3.1.0",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -13,6 +13,7 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.30",
     "@vuepress/plugin-feed": "2.0.0-rc.131",
+    "@vuepress/theme-default": "2.0.0-rc.131",
     "@waline/client": "3.15.2",
     "sass-embedded": "^1.100.0",
     "vue": "^3.5.39",

@@ -1,22 +1,20 @@
 ---
 title: HOME
 home: true
-heroImage: /logo/Steam++Logo_1024.png
+heroFullScreen: true
+heroImage: /logo/v3/Logo_512.png
 heroText: Watt Toolkit Guide
 tagline: 🛠️"Watt Toolkit" is an open source cross-platform multi-purpose Steam toolkit. (formerly steam++)
 actions:
+  - text: Guide
+    link: /en/document/
+    type: primary
   - text: Official WebSite
     link: https://steampp.net/
     type: secondary
   - text: GitHub
     link: https://github.com/BeyondDimension/SteamTools/
     type: secondary
-  - text: Guide
-    link: /en/document/
-    type: primary
-  - text: Download
-    link: /en/document/Start/Download channel.md
-    type: primary
 features:
   - title: Network Acceleration 
     details: Make the Steam community, Github, Google reCAPTCHA, Pixiv, Discord, Twitch and other domestic hard-to-access pages accessible properly. Functions similar to Steamcommunity 302, using Titanium-Web-Proxy open source project for local anti-generation.

@@ -7,20 +7,16 @@ export const enNavbar = navbar([
     link: '/en/document/',
   },
   {
-    text: 'development',
-    link: '/en/development/文档开发.html',
-  },
-  {
     text: 'Download',
-    link: '/en/document/Start/Download channel.html',
+    link: 'https://steampp.net/download',
   },
   {
     text: 'Contac Author',
-    link: '/en/document/Start/communication',
+    link: 'https://steampp.net/contact',
   },
   {
-    text: 'About me',
-    link: '/en/关于我.html',
+    text: 'Guide Author',
+    link: 'https://xtsat.github.io/',
   },
 ]
 );

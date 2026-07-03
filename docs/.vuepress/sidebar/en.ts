@@ -4,39 +4,23 @@ export const enSidebar = sidebar({
   "/en/": [
     {
       text: 'Start',
-      collapsible: true,
-      children: [
-        '/en/document/Start/Download channel.html',
-        '/en/document/Start/Functions.html',
-        '/en/document/Start/Supported Operating Systems.html',
-      ]
+      prefix: 'document/Start/',
+      children: "structure",
     },
     {
-      text: 'Local Authentication',
-      collapsible: true,
-      children: [
-        '/en/document/Steam Guard/2FA to import Guard.html',
-        '/en/document/Steam Guard/Android to import Guard.html',
-        '/en/document/Steam Guard/Apple to import Guard.html',
-        '/en/document/Steam Guard/Login to import Guard.html',
-        '/en/document/Steam Guard/Steam++ to import Guard.html',
-        '/en/document/Steam Guard/Reference documents.html',
-      ]
+      text: 'Steam Guard',
+      prefix: 'document/Steam Guard/',
+      children: "structure",
     },
     {
       text: 'ArchiSteamFarm',
-      collapsible: true,
-      children: [
-        '/en/document/ASF/How to use ASF.html',
-      ]
+      prefix: 'document/ASF/',
+      children: "structure",
     },
     {
       text: 'FAQ',
-      collapsible: true,
-      children: [
-        '/en/document/FAQ/FAQ.html',
-        '/en/document/FAQ/Network problems.html',
-      ]
-    }
-  ]
+      prefix: 'document/FAQ/',
+      children: "structure",
+    },
+  ],
 });
